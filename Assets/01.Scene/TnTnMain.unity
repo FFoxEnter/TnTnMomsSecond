@@ -349,7 +349,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -359,7 +359,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: 972bf7754c99a04459998d0fe7fb3cd4, type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a5f0add42acdebb4ba92c5a7941c065b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b76744a796c77448b48f39ae24c1a48, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100898294}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01df5e9993321ce45a47cb4962057a75, type: 3}
   m_Name: 
@@ -467,81 +467,6 @@ Transform:
   - {fileID: 1022084492}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &338209228
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 338209229}
-  - component: {fileID: 338209231}
-  - component: {fileID: 338209230}
-  m_Layer: 0
-  m_Name: BorderImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &338209229
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338209228}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1213394661}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 400}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &338209230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338209228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.36078432}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3280478645256b9449aefabd620aff24, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &338209231
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338209228}
-  m_CullTransparentMesh: 1
 --- !u!1 &354975141
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,7 +1251,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &934929932
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1424,7 +1349,7 @@ MonoBehaviour:
         position: {x: 669, y: 1478}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -1591165549
+        hash: -221117858
         hashDataTree: "\u2014\u2014\u2014\u2014Frame 34652/Frame 34626/Group 1000001057/btn
           - PC\r\n    isVisible | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle
           | 0\r\n    StrokeWeight | 3\r\n    StrokeAlign | INSIDE\r\n    BlendMode
@@ -1473,7 +1398,7 @@ MonoBehaviour:
           | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign | OUTSIDE\r\n       
           BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
           | NONE\r\n        CounterAxisAlignItems | NONE\r\n        \u2014\u2014\u2014\u2014TextStyle\r\n           
-          FontFamily | Arita-dotum(OTF)\r\n            FontWeight | 500\r\n           
+          FontFamily | Arita-dotum4.0(OTF)\r\n            FontWeight | 400\r\n           
           FontSize | 60\r\n            TextAlignHorizontal | LEFT\r\n           
           TextAlignVertical | TOP\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
@@ -1586,7 +1511,7 @@ MonoBehaviour:
         formattedName: btn - cart
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 440000004600000047000000
+        childIndexes: 47000000490000004a000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -1603,7 +1528,7 @@ MonoBehaviour:
         position: {x: 1266, y: 3972}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -749008926
+        hash: 526705409
         hashDataTree: "\u2014\u2014\u2014\u2014Map/support zone/Frame 34599/btn -
           cart\r\n    isVisible | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle
           | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
@@ -1680,7 +1605,7 @@ MonoBehaviour:
           | 1\r\n            StrokeAlign | OUTSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
           LayoutMode | NONE\r\n            PrimaryAxisAlignItems | NONE\r\n           
           CounterAxisAlignItems | NONE\r\n            \u2014\u2014\u2014\u2014TextStyle\r\n               
-          FontFamily | Arita-dotum(OTF)\r\n                FontWeight | 500\r\n               
+          FontFamily | Arita-dotum4.0(OTF)\r\n                FontWeight | 400\r\n               
           FontSize | 11\r\n                TextAlignHorizontal | LEFT\r\n               
           TextAlignVertical | TOP\r\n            \u2014\u2014\u2014\u2014Fills\r\n               
           IsVisible | True\r\n                Type | SOLID\r\n                Color
@@ -1698,7 +1623,7 @@ MonoBehaviour:
           LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (44.00, 36.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 66
+        parentIndex: 69
         hierarchy: Map/support zone/Frame 34599/btn - cart
         spritePath: 
         link: 
@@ -1722,7 +1647,7 @@ MonoBehaviour:
         formattedName: btn - cart
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 490000004b0000004c000000
+        childIndexes: 4c0000004e0000004f000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -1739,7 +1664,7 @@ MonoBehaviour:
         position: {x: 1266, y: 3972}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 926653986
+        hash: -883140227
         hashDataTree: "\u2014\u2014\u2014\u2014Map/support zone/Frame 34599/btn -
           cart\r\n    isVisible | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle
           | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
@@ -1816,7 +1741,7 @@ MonoBehaviour:
           | 1\r\n            StrokeAlign | OUTSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
           LayoutMode | NONE\r\n            PrimaryAxisAlignItems | NONE\r\n           
           CounterAxisAlignItems | NONE\r\n            \u2014\u2014\u2014\u2014TextStyle\r\n               
-          FontFamily | Arita-dotum(OTF)\r\n                FontWeight | 500\r\n               
+          FontFamily | Arita-dotum4.0(OTF)\r\n                FontWeight | 400\r\n               
           FontSize | 11\r\n                TextAlignHorizontal | LEFT\r\n               
           TextAlignVertical | TOP\r\n            \u2014\u2014\u2014\u2014Fills\r\n               
           IsVisible | True\r\n                Type | SOLID\r\n                Color
@@ -1834,7 +1759,7 @@ MonoBehaviour:
           LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (44.00, 36.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 66
+        parentIndex: 69
         hierarchy: Map/support zone/Frame 34599/btn - cart
         spritePath: 
         link: 
@@ -1858,7 +1783,7 @@ MonoBehaviour:
         formattedName: btn - sound-filled
         spriteName: 
         tags: 2c010000c900000001000000
-        childIndexes: 4e000000
+        childIndexes: 51000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -1954,7 +1879,7 @@ MonoBehaviour:
           IsVisible | False\r\n        Type | SOLID\r\n        Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 66
+        parentIndex: 69
         hierarchy: Map/support zone/Frame 34599/btn - sound-filled
         spritePath: 
         link: 
@@ -1978,7 +1903,7 @@ MonoBehaviour:
         formattedName: btn - sound-filled
         spriteName: 
         tags: 2c010000c900000001000000
-        childIndexes: 52000000
+        childIndexes: 55000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -2074,7 +1999,7 @@ MonoBehaviour:
           IsVisible | False\r\n        Type | SOLID\r\n        Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 66
+        parentIndex: 69
         hierarchy: Map/support zone/Frame 34599/btn - sound-filled
         spritePath: 
         link: 
@@ -2098,7 +2023,7 @@ MonoBehaviour:
         formattedName: btn - youtube icon
         spriteName: 
         tags: 2c010000f401000001000000
-        childIndexes: 56000000
+        childIndexes: 59000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -2199,7 +2124,7 @@ MonoBehaviour:
           Radius | 1\r\n        Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n       
           BlendMode | NORMAL\r\n        Offset | (-1.00, 0.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 66
+        parentIndex: 69
         hierarchy: Map/support zone/Frame 34599/btn - youtube icon
         spritePath: 
         link: 
@@ -2223,7 +2148,7 @@ MonoBehaviour:
         formattedName: btn - sound-filled
         spriteName: 
         tags: 2c010000c9000000f401000001000000
-        childIndexes: 58000000
+        childIndexes: 5b000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -2298,7 +2223,7 @@ MonoBehaviour:
           Radius | 2\r\n        Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n       
           BlendMode | NORMAL\r\n        Offset | (-1.00, 0.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 66
+        parentIndex: 69
         hierarchy: Map/support zone/Frame 34599/btn - sound-filled
         spritePath: 
         link: 
@@ -2322,7 +2247,7 @@ MonoBehaviour:
         formattedName: btn - inquire
         spriteName: 
         tags: 2c010000f401000001000000
-        childIndexes: 5a000000
+        childIndexes: 5d000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -2422,7 +2347,7 @@ MonoBehaviour:
           Radius | 1\r\n        Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n       
           BlendMode | NORMAL\r\n        Offset | (-1.00, 0.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 66
+        parentIndex: 69
         hierarchy: Map/support zone/Frame 34599/btn - inquire
         spritePath: 
         link: 
@@ -2446,7 +2371,7 @@ MonoBehaviour:
         formattedName: btn - cart
         spriteName: 
         tags: 2c010000c9000000f401000001000000
-        childIndexes: 5c000000
+        childIndexes: 5f000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -2521,7 +2446,7 @@ MonoBehaviour:
           Radius | 1\r\n        Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n       
           BlendMode | NORMAL\r\n        Offset | (-1.00, 0.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 66
+        parentIndex: 69
         hierarchy: Map/support zone/Frame 34599/btn - cart
         spritePath: 
         link: 
@@ -2545,7 +2470,7 @@ MonoBehaviour:
         formattedName: btn - youtube icon
         spriteName: 
         tags: 2c010000f401000001000000
-        childIndexes: 5e000000
+        childIndexes: 61000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -2646,7 +2571,7 @@ MonoBehaviour:
           Radius | 1\r\n        Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n       
           BlendMode | NORMAL\r\n        Offset | (-1.00, 0.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 66
+        parentIndex: 69
         hierarchy: Map/support zone/Frame 34599/btn - youtube icon
         spritePath: 
         link: 
@@ -2670,7 +2595,7 @@ MonoBehaviour:
         formattedName: btn - sound-filled
         spriteName: 
         tags: 2c010000c9000000f401000001000000
-        childIndexes: 60000000
+        childIndexes: 63000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -2745,7 +2670,7 @@ MonoBehaviour:
           Radius | 2\r\n        Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n       
           BlendMode | NORMAL\r\n        Offset | (-1.00, 0.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 66
+        parentIndex: 69
         hierarchy: Map/support zone/Frame 34599/btn - sound-filled
         spritePath: 
         link: 
@@ -2769,7 +2694,7 @@ MonoBehaviour:
         formattedName: btn - inquire
         spriteName: 
         tags: 2c010000f401000001000000
-        childIndexes: 62000000
+        childIndexes: 65000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -2869,7 +2794,7 @@ MonoBehaviour:
           Radius | 1\r\n        Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n       
           BlendMode | NORMAL\r\n        Offset | (-1.00, 0.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 66
+        parentIndex: 69
         hierarchy: Map/support zone/Frame 34599/btn - inquire
         spritePath: 
         link: 
@@ -2893,7 +2818,7 @@ MonoBehaviour:
         formattedName: btn - cart
         spriteName: 
         tags: 2c010000c9000000f401000001000000
-        childIndexes: 64000000
+        childIndexes: 67000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -2968,7 +2893,7 @@ MonoBehaviour:
           Radius | 1\r\n        Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n       
           BlendMode | NORMAL\r\n        Offset | (-1.00, 0.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 66
+        parentIndex: 69
         hierarchy: Map/support zone/Frame 34599/btn - cart
         spritePath: 
         link: 
@@ -2992,7 +2917,7 @@ MonoBehaviour:
         formattedName: btn - food
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 670000006800000069000000
+        childIndexes: 6a0000006b0000006c000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -3009,7 +2934,7 @@ MonoBehaviour:
         position: {x: 987, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -1529700451
+        hash: 1067708938
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - food\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -3043,8 +2968,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 20\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 20\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -3230,7 +3155,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - food
         spritePath: 
         link: 
@@ -3254,7 +3179,7 @@ MonoBehaviour:
         formattedName: btn - fabric
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 730000007400000075000000
+        childIndexes: 760000007700000078000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -3271,7 +3196,7 @@ MonoBehaviour:
         position: {x: 823, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -1971297848
+        hash: -351736597
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - fabric\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -3305,8 +3230,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 20\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 20\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -3892,7 +3817,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - fabric
         spritePath: 
         link: 
@@ -3916,7 +3841,7 @@ MonoBehaviour:
         formattedName: btn - bath
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 8b0000008c0000008d000000
+        childIndexes: 8e0000008f00000090000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -3933,7 +3858,7 @@ MonoBehaviour:
         position: {x: 659, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -2067626153
+        hash: -1661492568
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - bath\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -3967,8 +3892,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 20\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 20\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -4361,7 +4286,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - bath
         spritePath: 
         link: 
@@ -4385,7 +4310,7 @@ MonoBehaviour:
         formattedName: btn - oral care
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 9d0000009e0000009f000000
+        childIndexes: a0000000a1000000a2000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -4402,7 +4327,7 @@ MonoBehaviour:
         position: {x: 495, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 1619486708
+        hash: -147775131
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - oral care\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -4436,8 +4361,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 20\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 20\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -4511,7 +4436,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - oral care
         spritePath: 
         link: 
@@ -4535,7 +4460,7 @@ MonoBehaviour:
         formattedName: btn - skin care
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: a3000000a4000000a5000000
+        childIndexes: a6000000a7000000a8000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -4552,7 +4477,7 @@ MonoBehaviour:
         position: {x: 331, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 521844909
+        hash: 1355758620
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - skin care\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -4586,8 +4511,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 20\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 20\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -4776,7 +4701,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - skin care
         spritePath: 
         link: 
@@ -4800,7 +4725,7 @@ MonoBehaviour:
         formattedName: btn - breast
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: af000000b0000000bc000000
+        childIndexes: b2000000b3000000bf000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -4817,7 +4742,7 @@ MonoBehaviour:
         position: {x: 167, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 378663559
+        hash: 131826954
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - breast\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -4929,8 +4854,8 @@ MonoBehaviour:
           StrokeWeight | 0.3\r\n            StrokeAlign | OUTSIDE\r\n           
           BlendMode | PASS_THROUGH\r\n            LayoutMode | NONE\r\n           
           PrimaryAxisAlignItems | NONE\r\n            CounterAxisAlignItems | NONE\r\n           
-          \u2014\u2014\u2014\u2014TextStyle\r\n                FontFamily | Arita-dotum(OTF)\r\n               
-          FontWeight | 500\r\n                FontSize | 20\r\n                TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n                FontFamily | Arita-dotum4.0(OTF)\r\n               
+          FontWeight | 400\r\n                FontSize | 20\r\n                TextAlignHorizontal
           | CENTER\r\n                TextAlignVertical | CENTER\r\n            \u2014\u2014\u2014\u2014Fills\r\n               
           IsVisible | True\r\n                Type | SOLID\r\n                Color
           | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                BlendMode | NORMAL\r\n           
@@ -5100,7 +5025,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - breast
         spritePath: 
         link: 
@@ -5124,7 +5049,7 @@ MonoBehaviour:
         formattedName: btn - belly
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: be000000bf000000c0000000
+        childIndexes: c1000000c2000000c3000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -5141,7 +5066,7 @@ MonoBehaviour:
         position: {x: 3, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -1981530470
+        hash: -1041593129
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - belly\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -5175,8 +5100,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 20\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 20\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -5318,7 +5243,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - belly
         spritePath: 
         link: 
@@ -5342,7 +5267,7 @@ MonoBehaviour:
         formattedName: btn - new item
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: c7000000c8000000c9000000
+        childIndexes: ca000000cb000000cc000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -5359,7 +5284,7 @@ MonoBehaviour:
         position: {x: -161, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 1836176099
+        hash: -1677600608
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - new item\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -5393,8 +5318,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 20\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 20\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -5454,7 +5379,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - new item
         spritePath: 
         link: 
@@ -5478,7 +5403,7 @@ MonoBehaviour:
         formattedName: btn - main
         spriteName: 
         tags: 2c010000f601000001000000
-        childIndexes: cc000000cd000000ce000000
+        childIndexes: cf000000d0000000d1000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -5495,7 +5420,7 @@ MonoBehaviour:
         position: {x: -325, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 1963049782
+        hash: 2106957783
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - main\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
           | -176561048\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
@@ -5530,7 +5455,7 @@ MonoBehaviour:
           | 0\r\n        StrokeWeight | 0.3\r\n        StrokeAlign | OUTSIDE\r\n       
           BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
           | NONE\r\n        CounterAxisAlignItems | NONE\r\n        \u2014\u2014\u2014\u2014TextStyle\r\n           
-          FontFamily | Arita-dotum(OTF)\r\n            FontWeight | 500\r\n           
+          FontFamily | Arita-dotum4.0(OTF)\r\n            FontWeight | 400\r\n           
           FontSize | 20\r\n            TextAlignHorizontal | CENTER\r\n           
           TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
@@ -5840,7 +5765,7 @@ MonoBehaviour:
           | True\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
           CounterAxisAlignItems | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - main
         spritePath: 
         link: 
@@ -5864,7 +5789,7 @@ MonoBehaviour:
         formattedName: btn - food
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: d9000000da000000db000000
+        childIndexes: dc000000dd000000de000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -5881,7 +5806,7 @@ MonoBehaviour:
         position: {x: 987, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 181210870
+        hash: 413100887
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - food\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -5917,8 +5842,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 22\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 22\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -6104,7 +6029,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - food
         spritePath: 
         link: 
@@ -6128,7 +6053,7 @@ MonoBehaviour:
         formattedName: btn - fabric
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: e5000000e6000000e7000000
+        childIndexes: e8000000e9000000ea000000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -6145,7 +6070,7 @@ MonoBehaviour:
         position: {x: 823, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 717819381
+        hash: 376432226
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - fabric\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -6181,8 +6106,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 22\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 22\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -6768,7 +6693,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - fabric
         spritePath: 
         link: 
@@ -6792,7 +6717,7 @@ MonoBehaviour:
         formattedName: btn - bath
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: fd000000fe000000ff000000
+        childIndexes: 000100000101000002010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -6809,7 +6734,7 @@ MonoBehaviour:
         position: {x: 659, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 2067651893
+        hash: -2005200908
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - bath\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -6845,8 +6770,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 22\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 22\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -7239,7 +7164,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - bath
         spritePath: 
         link: 
@@ -7263,7 +7188,7 @@ MonoBehaviour:
         formattedName: btn - oral care
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 0f0100001001000011010000
+        childIndexes: 120100001301000014010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -7280,7 +7205,7 @@ MonoBehaviour:
         position: {x: 495, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 1572312912
+        hash: -1312054919
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - oral care\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -7317,8 +7242,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 22\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 22\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -7392,7 +7317,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - oral care
         spritePath: 
         link: 
@@ -7416,7 +7341,7 @@ MonoBehaviour:
         formattedName: btn - skin care
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 150100001601000017010000
+        childIndexes: 18010000190100001a010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -7433,7 +7358,7 @@ MonoBehaviour:
         position: {x: 331, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 1024197843
+        hash: -709037058
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - skin care\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -7470,8 +7395,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 22\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 22\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -7660,7 +7585,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - skin care
         spritePath: 
         link: 
@@ -7684,7 +7609,7 @@ MonoBehaviour:
         formattedName: btn - breast
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 210100002201000023010000
+        childIndexes: 240100002501000026010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -7701,7 +7626,7 @@ MonoBehaviour:
         position: {x: 167, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -1578691707
+        hash: 422794500
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - breast\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -7738,8 +7663,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 22\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 22\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -8001,7 +7926,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - breast
         spritePath: 
         link: 
@@ -8025,7 +7950,7 @@ MonoBehaviour:
         formattedName: btn - belly
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 300100003101000032010000
+        childIndexes: 330100003401000035010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -8042,7 +7967,7 @@ MonoBehaviour:
         position: {x: 3, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 238504269
+        hash: -85504128
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - belly\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -8078,8 +8003,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 22\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 22\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -8221,7 +8146,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - belly
         spritePath: 
         link: 
@@ -8245,7 +8170,7 @@ MonoBehaviour:
         formattedName: btn - new item
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 390100003a0100003b010000
+        childIndexes: 3c0100003d0100003e010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -8262,7 +8187,7 @@ MonoBehaviour:
         position: {x: -161, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -1281210202
+        hash: -2107309221
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - new item\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -8298,8 +8223,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n        StrokeWeight | 0.3\r\n        StrokeAlign |
           OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
           PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum(OTF)\r\n           
-          FontWeight | 500\r\n            FontSize | 22\r\n            TextAlignHorizontal
+          \u2014\u2014\u2014\u2014TextStyle\r\n            FontFamily | Arita-dotum4.0(OTF)\r\n           
+          FontWeight | 400\r\n            FontSize | 22\r\n            TextAlignHorizontal
           | CENTER\r\n            TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
           1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
@@ -8373,7 +8298,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - new item
         spritePath: 
         link: 
@@ -8397,7 +8322,7 @@ MonoBehaviour:
         formattedName: btn - main
         spriteName: 
         tags: 2c010000f601000001000000
-        childIndexes: 3f0100004001000041010000
+        childIndexes: 420100004301000044010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -8414,7 +8339,7 @@ MonoBehaviour:
         position: {x: -325, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -159139276
+        hash: 89367097
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - main\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
           | -176561048\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
@@ -8453,7 +8378,7 @@ MonoBehaviour:
           | 0\r\n        StrokeWeight | 0.3\r\n        StrokeAlign | OUTSIDE\r\n       
           BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
           | NONE\r\n        CounterAxisAlignItems | NONE\r\n        \u2014\u2014\u2014\u2014TextStyle\r\n           
-          FontFamily | Arita-dotum(OTF)\r\n            FontWeight | 500\r\n           
+          FontFamily | Arita-dotum4.0(OTF)\r\n            FontWeight | 400\r\n           
           FontSize | 22\r\n            TextAlignHorizontal | CENTER\r\n           
           TextAlignVertical | CENTER\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
           IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
@@ -8763,7 +8688,7 @@ MonoBehaviour:
           | True\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
           CounterAxisAlignItems | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - main
         spritePath: 
         link: 
@@ -8787,7 +8712,7 @@ MonoBehaviour:
         formattedName: btn - food
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 4c0100004d010000
+        childIndexes: 4f01000050010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -8804,7 +8729,7 @@ MonoBehaviour:
         position: {x: 987, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -1779027257
+        hash: -1585096714
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - food\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -8824,7 +8749,7 @@ MonoBehaviour:
           | 0.3\r\n    StrokeAlign | OUTSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
           LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    \u2014\u2014\u2014\u2014TextStyle\r\n        FontFamily |
-          Arita-dotum(OTF)\r\n        FontWeight | 500\r\n        FontSize | 20\r\n       
+          Arita-dotum4.0(OTF)\r\n        FontWeight | 400\r\n        FontSize | 20\r\n       
           TextAlignHorizontal | CENTER\r\n        TextAlignVertical | CENTER\r\n   
           \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type
           | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n       
@@ -8998,7 +8923,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - food
         spritePath: 
         link: 
@@ -9022,7 +8947,7 @@ MonoBehaviour:
         formattedName: btn - fabric
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 5701000058010000
+        childIndexes: 5a0100005b010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -9039,7 +8964,7 @@ MonoBehaviour:
         position: {x: 823, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -233323180
+        hash: -2108973779
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - fabric\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -9059,8 +8984,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n    StrokeWeight | 0.3\r\n    StrokeAlign | OUTSIDE\r\n   
           BlendMode | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
           | NONE\r\n    CounterAxisAlignItems | NONE\r\n    \u2014\u2014\u2014\u2014TextStyle\r\n       
-          FontFamily | Arita-dotum(OTF)\r\n        FontWeight | 500\r\n        FontSize
-          | 20\r\n        TextAlignHorizontal | CENTER\r\n        TextAlignVertical
+          FontFamily | Arita-dotum4.0(OTF)\r\n        FontWeight | 400\r\n       
+          FontSize | 20\r\n        TextAlignHorizontal | CENTER\r\n        TextAlignVertical
           | CENTER\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n       
           Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n       
           BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014Effects\r\n        IsVisible
@@ -9619,7 +9544,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - fabric
         spritePath: 
         link: 
@@ -9643,7 +9568,7 @@ MonoBehaviour:
         formattedName: btn - bath
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 6e0100006f010000
+        childIndexes: 7101000072010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -9660,7 +9585,7 @@ MonoBehaviour:
         position: {x: 659, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -401553691
+        hash: -644124468
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - bath\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -9680,7 +9605,7 @@ MonoBehaviour:
           | 0.3\r\n    StrokeAlign | OUTSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
           LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    \u2014\u2014\u2014\u2014TextStyle\r\n        FontFamily |
-          Arita-dotum(OTF)\r\n        FontWeight | 500\r\n        FontSize | 20\r\n       
+          Arita-dotum4.0(OTF)\r\n        FontWeight | 400\r\n        FontSize | 20\r\n       
           TextAlignHorizontal | CENTER\r\n        TextAlignVertical | CENTER\r\n   
           \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type
           | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n       
@@ -10045,7 +9970,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - bath
         spritePath: 
         link: 
@@ -10069,7 +9994,7 @@ MonoBehaviour:
         formattedName: btn - oral care
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 7f01000080010000
+        childIndexes: 8201000083010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -10086,7 +10011,7 @@ MonoBehaviour:
         position: {x: 495, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 813323220
+        hash: -46488045
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - oral care\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -10106,8 +10031,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n    StrokeWeight | 0.3\r\n    StrokeAlign | OUTSIDE\r\n   
           BlendMode | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
           | NONE\r\n    CounterAxisAlignItems | NONE\r\n    \u2014\u2014\u2014\u2014TextStyle\r\n       
-          FontFamily | Arita-dotum(OTF)\r\n        FontWeight | 500\r\n        FontSize
-          | 20\r\n        TextAlignHorizontal | CENTER\r\n        TextAlignVertical
+          FontFamily | Arita-dotum4.0(OTF)\r\n        FontWeight | 400\r\n       
+          FontSize | 20\r\n        TextAlignHorizontal | CENTER\r\n        TextAlignVertical
           | CENTER\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n       
           Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n       
           BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014Effects\r\n        IsVisible
@@ -10174,7 +10099,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - oral care
         spritePath: 
         link: 
@@ -10198,7 +10123,7 @@ MonoBehaviour:
         formattedName: btn - skin care
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 8401000085010000
+        childIndexes: 8701000088010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -10215,7 +10140,7 @@ MonoBehaviour:
         position: {x: 331, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -1052223977
+        hash: -1329153188
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - skin care\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -10235,8 +10160,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n    StrokeWeight | 0.3\r\n    StrokeAlign | OUTSIDE\r\n   
           BlendMode | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
           | NONE\r\n    CounterAxisAlignItems | NONE\r\n    \u2014\u2014\u2014\u2014TextStyle\r\n       
-          FontFamily | Arita-dotum(OTF)\r\n        FontWeight | 500\r\n        FontSize
-          | 20\r\n        TextAlignHorizontal | CENTER\r\n        TextAlignVertical
+          FontFamily | Arita-dotum4.0(OTF)\r\n        FontWeight | 400\r\n       
+          FontSize | 20\r\n        TextAlignHorizontal | CENTER\r\n        TextAlignVertical
           | CENTER\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n       
           Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n       
           BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014Effects\r\n        IsVisible
@@ -10412,7 +10337,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - skin care
         spritePath: 
         link: 
@@ -10436,7 +10361,7 @@ MonoBehaviour:
         formattedName: btn - breast
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 8f01000090010000
+        childIndexes: 9201000093010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -10453,7 +10378,7 @@ MonoBehaviour:
         position: {x: 167, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 1877051109
+        hash: -1338453470
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - breast\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -10473,8 +10398,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n    StrokeWeight | 0.3\r\n    StrokeAlign | OUTSIDE\r\n   
           BlendMode | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
           | NONE\r\n    CounterAxisAlignItems | NONE\r\n    \u2014\u2014\u2014\u2014TextStyle\r\n       
-          FontFamily | Arita-dotum(OTF)\r\n        FontWeight | 500\r\n        FontSize
-          | 20\r\n        TextAlignHorizontal | CENTER\r\n        TextAlignVertical
+          FontFamily | Arita-dotum4.0(OTF)\r\n        FontWeight | 400\r\n       
+          FontSize | 20\r\n        TextAlignHorizontal | CENTER\r\n        TextAlignVertical
           | CENTER\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n       
           Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n       
           BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014Effects\r\n        IsVisible
@@ -10716,7 +10641,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - breast
         spritePath: 
         link: 
@@ -10740,7 +10665,7 @@ MonoBehaviour:
         formattedName: btn - belly
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: 9d0100009e010000
+        childIndexes: a0010000a1010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -10757,7 +10682,7 @@ MonoBehaviour:
         position: {x: 3, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 1819574046
+        hash: -465530443
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - belly\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -10777,7 +10702,7 @@ MonoBehaviour:
           | 0.3\r\n    StrokeAlign | OUTSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
           LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    \u2014\u2014\u2014\u2014TextStyle\r\n        FontFamily |
-          Arita-dotum(OTF)\r\n        FontWeight | 500\r\n        FontSize | 20\r\n       
+          Arita-dotum4.0(OTF)\r\n        FontWeight | 400\r\n        FontSize | 20\r\n       
           TextAlignHorizontal | CENTER\r\n        TextAlignVertical | CENTER\r\n   
           \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type
           | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n       
@@ -10908,7 +10833,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - belly
         spritePath: 
         link: 
@@ -10932,7 +10857,7 @@ MonoBehaviour:
         formattedName: btn - new item
         spriteName: 
         tags: 2c01000001000000
-        childIndexes: a5010000a6010000
+        childIndexes: a8010000a9010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -10949,7 +10874,7 @@ MonoBehaviour:
         position: {x: -161, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: 1235448011
+        hash: -1249747334
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - new item\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 9.213866E-15\r\n   
           StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
@@ -10969,8 +10894,8 @@ MonoBehaviour:
           | -9.213866E-15\r\n    StrokeWeight | 0.3\r\n    StrokeAlign | OUTSIDE\r\n   
           BlendMode | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
           | NONE\r\n    CounterAxisAlignItems | NONE\r\n    \u2014\u2014\u2014\u2014TextStyle\r\n       
-          FontFamily | Arita-dotum(OTF)\r\n        FontWeight | 500\r\n        FontSize
-          | 20\r\n        TextAlignHorizontal | CENTER\r\n        TextAlignVertical
+          FontFamily | Arita-dotum4.0(OTF)\r\n        FontWeight | 400\r\n       
+          FontSize | 20\r\n        TextAlignHorizontal | CENTER\r\n        TextAlignVertical
           | CENTER\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n       
           Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n       
           BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014Effects\r\n        IsVisible
@@ -11037,7 +10962,7 @@ MonoBehaviour:
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - new item
         spritePath: 
         link: 
@@ -11061,7 +10986,7 @@ MonoBehaviour:
         formattedName: btn - main
         spriteName: 
         tags: 2c010000f601000001000000
-        childIndexes: aa010000ab010000
+        childIndexes: ad010000ae010000
         fcuInstance: {fileID: 934929935}
         gameObject: {fileID: 0}
         rootFrameGO: {fileID: 0}
@@ -11078,7 +11003,7 @@ MonoBehaviour:
         position: {x: -325, y: 4028}
         fcuImageType: 0
         buttonComponent: 0
-        hash: -934363184
+        hash: 177717683
         hashDataTree: "\u2014\u2014\u2014\u2014Map/zone/btn - main\r\n    isVisible
           | True\r\n    Type | INSTANCE\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
           | -176561048\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
@@ -11099,7 +11024,7 @@ MonoBehaviour:
           StrokeAlign | OUTSIDE\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode
           | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
           | NONE\r\n    \u2014\u2014\u2014\u2014TextStyle\r\n        FontFamily |
-          Arita-dotum(OTF)\r\n        FontWeight | 500\r\n        FontSize | 20\r\n       
+          Arita-dotum4.0(OTF)\r\n        FontWeight | 400\r\n        FontSize | 20\r\n       
           TextAlignHorizontal | CENTER\r\n        TextAlignVertical | CENTER\r\n   
           \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type
           | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n       
@@ -11389,7 +11314,7 @@ MonoBehaviour:
           | True\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
           CounterAxisAlignItems | NONE\r\n    Size | (164.00, 150.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
           StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 101
+        parentIndex: 104
         hierarchy: Map/zone/btn - main
         spritePath: 
         link: 
@@ -11422,6 +11347,8 @@ MonoBehaviour:
     - I3177:13415;2974:8883
     - I3177:13415;2974:8849
     - I3177:13416;2974:8808
+    - 3177:13654
+    - 3216:11309
     - 3168:15294
     - 3168:15295
     - 3168:14236
@@ -11638,7 +11565,7 @@ MonoBehaviour:
         _value: 1
         _temp: 1
       guiContent:
-        m_Text: FRAMES TO IMPORT (507/507)
+        m_Text: FRAMES TO IMPORT (517/517)
         m_Image: {fileID: 0}
         m_Tooltip: 
       buttonGuiContent:
@@ -12240,38 +12167,6 @@ MonoBehaviour:
           childs: []
         - selected: 1
           childs: []
-      - selected: 1
-        childs:
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
         - selected: 1
           childs: []
         - selected: 1
@@ -12290,6 +12185,58 @@ MonoBehaviour:
           childs: []
       - selected: 1
         childs:
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+      - selected: 1
+        childs:
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
         - selected: 1
           childs: []
         - selected: 1
@@ -12991,7 +12938,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: f0656547e67365d4dacd19bca8ab5a15, type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -13026,7 +12973,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a5f0add42acdebb4ba92c5a7941c065b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b76744a796c77448b48f39ae24c1a48, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13051,7 +12998,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055862344}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01df5e9993321ce45a47cb4962057a75, type: 3}
   m_Name: 
@@ -13356,90 +13303,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1586100917}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1213394660
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1213394661}
-  - component: {fileID: 1213394662}
-  m_Layer: 0
-  m_Name: PCBtn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1213394661
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1213394660}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1973405080}
-  - {fileID: 338209229}
-  - {fileID: 1756971586}
-  - {fileID: 2115534102}
-  m_Father: {fileID: 1348279890}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1105, y: -421}
-  m_SizeDelta: {x: 400, y: 400}
-  m_Pivot: {x: 0, y: 1}
---- !u!114 &1213394662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1213394660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 0
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1973405081}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1348279889
 GameObject:
   m_ObjectHideFlags: 0
@@ -13450,7 +13313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1348279890}
   m_Layer: 0
-  m_Name: Loading
+  m_Name: Select
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13472,7 +13335,6 @@ RectTransform:
   - {fileID: 1492842868}
   - {fileID: 100898295}
   - {fileID: 1055862345}
-  - {fileID: 1213394661}
   m_Father: {fileID: 1022084492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -13530,7 +13392,7 @@ GameObject:
   - component: {fileID: 1492842870}
   - component: {fileID: 1492842869}
   m_Layer: 0
-  m_Name: LoadingText
+  m_Name: SelectText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14207,81 +14069,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!1 &1756971585
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1756971586}
-  - component: {fileID: 1756971588}
-  - component: {fileID: 1756971587}
-  m_Layer: 0
-  m_Name: PCImage (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1756971586
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756971585}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1213394661}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -90.21}
-  m_SizeDelta: {x: 139.57, y: 139.57}
-  m_Pivot: {x: 0.5, y: 1}
---- !u!114 &1756971587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756971585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5bb4015faf16c5441ae941be8670eced, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1756971588
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756971585}
-  m_CullTransparentMesh: 1
 --- !u!1 &1771796463
 GameObject:
   m_ObjectHideFlags: 0
@@ -14537,7 +14324,7 @@ GameObject:
   - component: {fileID: 1915162389}
   - component: {fileID: 1915162388}
   m_Layer: 0
-  m_Name: LodaingBGImage
+  m_Name: LoadingBGImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14746,81 +14533,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1096154634}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1973405079
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1973405080}
-  - component: {fileID: 1973405082}
-  - component: {fileID: 1973405081}
-  m_Layer: 0
-  m_Name: PCBGImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1973405080
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973405079}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1213394661}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1973405081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973405079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.2509804}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4478467173b3f234ea97d83e30c47e94, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1973405082
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973405079}
-  m_CullTransparentMesh: 1
 --- !u!1 &2075107303
 GameObject:
   m_ObjectHideFlags: 0
@@ -14854,140 +14566,6 @@ Transform:
   - {fileID: 1096154634}
   m_Father: {fileID: 1586100917}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2115534101
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2115534102}
-  - component: {fileID: 2115534104}
-  - component: {fileID: 2115534103}
-  m_Layer: 0
-  m_Name: PCText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2115534102
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2115534101}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1213394661}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -276}
-  m_SizeDelta: {x: 74, y: 60}
-  m_Pivot: {x: 0.5, y: 1}
---- !u!114 &2115534103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2115534101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: PC
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3c22ff3a4d7eca540baed8741125baf0, type: 2}
-  m_sharedMaterial: {fileID: 8102001136167571514, guid: 3c22ff3a4d7eca540baed8741125baf0, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &2115534104
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2115534101}
-  m_CullTransparentMesh: 1
 --- !u!1001 &3309109423989200682
 PrefabInstance:
   m_ObjectHideFlags: 0
