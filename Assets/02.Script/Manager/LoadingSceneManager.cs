@@ -18,6 +18,7 @@ public class LoadingSceneManager : MonoBehaviour
         {
             loadingText = GameObject.Find("LoadingText").GetComponent<TextMeshProUGUI>();
         }
+        loadingSlider.value = 0;
         StartCoroutine(LoadSceneAsync());
     }
 
