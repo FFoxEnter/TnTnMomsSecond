@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 9b4ca46f0ba602a47b47d86a9b8e6a88
+=======
+guid: 58a23f06844013f499edad0e107a7fa4
+>>>>>>> caef115 (- 내비 UI 관련 작업)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
