@@ -81,7 +81,6 @@ public class NavigationButton : MonoBehaviour
     // Hover To Default.
     public void ActivateDefaultImageSet()
     {
-        Debug.Log(this.name + " STATE: " + UISTATE);
         if (UISTATE != (int)STATE.Selected)
         {
             Activate(Default, Hover, Selected);
@@ -97,7 +96,6 @@ public class NavigationButton : MonoBehaviour
     // Default to Hover.
     public void ActivateHoverImageSet()
     {
-        Debug.Log(this.name + " STATE: " + UISTATE);
         if (UISTATE != (int)STATE.Selected)
         {
             Activate(Hover, Default, Selected);
@@ -108,7 +106,6 @@ public class NavigationButton : MonoBehaviour
     // Hover To Selected.
     public void ActivateSelectedImageSet()
     {
-        Debug.Log(this.name + " STATE: " + UISTATE);
         if (navigationManager != null)
         {
             navigationManager.DeselectAllButtonsExcept(this);
