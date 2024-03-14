@@ -17,6 +17,18 @@ public class NavigationButton : MonoBehaviour
         FOOD
     }
 
+    /// <summary>
+    /// 0: Default, 1: Hover, 2: Selected.
+    /// </summary>
+    int UISTATE = 0;
+    public enum STATE
+    {
+        Default,
+        Hover,
+        Selected,
+    }
+
+
     string DefaultTag = "Default";
     string HoverTag = "Hover";
     string SelectedTag = "Selected";
@@ -26,11 +38,22 @@ public class NavigationButton : MonoBehaviour
     public GameObject Hover;
     public GameObject Selected;
 
+    private NavigationManager navigationManager;
+
     private void Awake()
     {
         SetButton();
-    }
+        navigationManager = FindObjectOfType<NavigationManager>();
 
+        if (navigationManager != null)
+        {
+            navigationManager.AddButton(this);
+        }
+        else
+        {
+            Debug.LogError("NavigationManager not found.");
+        }
+    }
 
     private void SetButton()
     {
@@ -55,19 +78,49 @@ public class NavigationButton : MonoBehaviour
         return child;
     }
 
+    // Hover To Default.
     public void ActivateDefaultImageSet()
     {
-        Activate(Default, Hover, Selected);
+        Debug.Log(this.name + " STATE: " + UISTATE);
+        if (UISTATE != (int)STATE.Selected)
+        {
+            Activate(Default, Hover, Selected);
+            UISTATE = (int)STATE.Default;
+        }
     }
 
+    public void SetToDefault()
+    {
+        UISTATE = (int)STATE.Default;
+    }
+
+    // Default to Hover.
     public void ActivateHoverImageSet()
     {
-        Activate(Hover, Default, Selected);
+        Debug.Log(this.name + " STATE: " + UISTATE);
+        if (UISTATE != (int)STATE.Selected)
+        {
+            Activate(Hover, Default, Selected);
+            UISTATE = (int)STATE.Hover;
+        }
     }
 
+    // Hover To Selected.
     public void ActivateSelectedImageSet()
     {
+        Debug.Log(this.name + " STATE: " + UISTATE);
+        if (navigationManager != null)
+        {
+            navigationManager.DeselectAllButtonsExcept(this);
+        }
         Activate(Selected, Default, Hover);
+        UISTATE = (int)STATE.Selected;
+    }
+
+    public void Deselect()
+    {
+        SetToDefault();
+        ActivateDefaultImageSet();
     }
 
     private void Activate(GameObject activate, GameObject inactivate1, GameObject inactivate2)
@@ -76,12 +129,4 @@ public class NavigationButton : MonoBehaviour
         inactivate1.gameObject.SetActive(false);
         inactivate2.gameObject.SetActive(false);
     }
-
-
-    public void MovingLine()
-    {
-
-    }
-
-
 }
