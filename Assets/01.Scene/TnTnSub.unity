@@ -3494,6 +3494,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cinematic
       objectReference: {fileID: 0}
+    - target: {fileID: 1439880840557417950, guid: d33798d549bde9741a83b67687b8640c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624393377945197123, guid: d33798d549bde9741a83b67687b8640c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2166432469788465142, guid: d33798d549bde9741a83b67687b8640c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3533,6 +3541,18 @@ PrefabInstance:
     - target: {fileID: 2166432469788465142, guid: d33798d549bde9741a83b67687b8640c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3463148924307918943, guid: d33798d549bde9741a83b67687b8640c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6282106823745231480, guid: d33798d549bde9741a83b67687b8640c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169354303226236028, guid: d33798d549bde9741a83b67687b8640c, type: 3}
+      propertyPath: _generateOnPlay
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11792,7 +11812,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1619760371
 Transform:
   m_ObjectHideFlags: 0
