@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
@@ -32,8 +33,7 @@ public class UIRoot : MonoBehaviour
     Coroutine curCoroutine;
 
     [Header("-----Video-----")]
-    public GameObject IntroVideoPanel;
-    public VideoPlayer IntroVideoPlayer;
+    public GameObject IntroVideo;
     public bool isIntroVideoPlay = false;
 
     [Header("-----Temp-----")]
@@ -50,8 +50,7 @@ public class UIRoot : MonoBehaviour
     {
         SelectPanel.SetActive(true);
         MobileRotatePanel.SetActive(false);
-        IntroVideoPanel.SetActive(false);
-
+        IntroVideo.SetActive(false);
         isIntroVideoPlay = false;
     }
 
@@ -109,15 +108,15 @@ public class UIRoot : MonoBehaviour
     IEnumerator StartIntroVideo()
     {
         isIntroVideoPlay = true;
-        string introVideoURL = System.IO.Path.Combine(Application.streamingAssetsPath, "IntroVideo.mp4");
-        IntroVideoPlayer.url = introVideoURL;        
-        IntroVideoPanel.SetActive(true);
+
+        IntroVideo.SetActive(true);
         MobileRotatePanel.SetActive(false);
 
-        yield return new WaitUntil(() => IntroVideoPlayer.isPlaying == false);
+        PlayableDirector playableDirector = IntroVideo.GetComponent<PlayableDirector>();
+        yield return new WaitUntil(() => playableDirector.state == PlayState.Paused);
 
-        IntroVideoPanel.SetActive(false);
+        IntroVideo.SetActive(false);
         NewItemZonePanel.SetActive(true);
         curCoroutine = null;
-    }    
+    }
 }
