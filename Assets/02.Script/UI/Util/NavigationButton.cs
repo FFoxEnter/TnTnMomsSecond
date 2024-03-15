@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NavigationButton : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class NavigationButton : MonoBehaviour
         BATH,
         FABRIC,
         FOOD
-    }
+    }public Zone zone;
 
     /// <summary>
     /// 0: Default, 1: Hover, 2: Selected.
@@ -33,26 +34,15 @@ public class NavigationButton : MonoBehaviour
     string HoverTag = "Hover";
     string SelectedTag = "Selected";
 
-
     public GameObject Default;
     public GameObject Hover;
     public GameObject Selected;
 
-    private NavigationManager navigationManager;
-
-    private void Awake()
+    private void Start()
     {
         SetButton();
-        navigationManager = FindObjectOfType<NavigationManager>();
-
-        if (navigationManager != null)
-        {
-            navigationManager.AddButton(this);
-        }
-        else
-        {
-            Debug.LogError("NavigationManager not found.");
-        }
+        SetNavigationManager();
+        SetButtonFunction();
     }
 
     private void SetButton()
@@ -61,6 +51,24 @@ public class NavigationButton : MonoBehaviour
         Hover = FindChildWithTag(this.gameObject, HoverTag);
         Selected = FindChildWithTag(this.gameObject, SelectedTag);
     }
+    
+    private void SetNavigationManager()
+    {
+        if (NavigationManager.Instance != null)
+        {
+            NavigationManager.instance.AddButton(this);
+        }
+        else
+        {
+            Debug.Log("NavigationManager not found.");
+        }
+    }
+
+    private void SetButtonFunction()
+    {
+        GetComponent<Button>().onClick.AddListener(ButtonFunction);
+    }
+
 
     private GameObject FindChildWithTag(GameObject parent, string tag)
     {
@@ -106,9 +114,9 @@ public class NavigationButton : MonoBehaviour
     // Hover To Selected.
     public void ActivateSelectedImageSet()
     {
-        if (navigationManager != null)
+        if (NavigationManager.Instance != null)
         {
-            navigationManager.DeselectAllButtonsExcept(this);
+            NavigationManager.instance.DeselectAllButtonsExcept(this);
         }
         Activate(Selected, Default, Hover);
         UISTATE = (int)STATE.Selected;
@@ -125,5 +133,10 @@ public class NavigationButton : MonoBehaviour
         activate.gameObject.SetActive(true);
         inactivate1.gameObject.SetActive(false);
         inactivate2.gameObject.SetActive(false);
+    }
+
+    private void ButtonFunction()
+    {
+        MovingLineManager.instance.SetActiveMovingLine((int)zone-1);
     }
 }

@@ -8,7 +8,7 @@ public class NavigationManager : Singleton<NavigationManager>
 
     private List<NavigationButton> navigationButtons = new List<NavigationButton>();
 
-    private void Awake()
+    public void InnerAwake()
     {
         Instance = this;
     }
