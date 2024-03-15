@@ -2097,6 +2097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c8c69d8adcfcd4ea6b3c3316a421f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zone: 9
   Default: {fileID: 0}
   Hover: {fileID: 0}
   Selected: {fileID: 0}
@@ -3162,6 +3163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c8c69d8adcfcd4ea6b3c3316a421f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zone: 7
   Default: {fileID: 0}
   Hover: {fileID: 0}
   Selected: {fileID: 0}
@@ -3473,6 +3475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c8c69d8adcfcd4ea6b3c3316a421f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zone: 2
   Default: {fileID: 0}
   Hover: {fileID: 0}
   Selected: {fileID: 0}
@@ -4194,6 +4197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c8c69d8adcfcd4ea6b3c3316a421f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zone: 1
   Default: {fileID: 0}
   Hover: {fileID: 0}
   Selected: {fileID: 0}
@@ -6869,6 +6873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c8c69d8adcfcd4ea6b3c3316a421f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zone: 8
   Default: {fileID: 0}
   Hover: {fileID: 0}
   Selected: {fileID: 0}
@@ -10184,6 +10189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c8c69d8adcfcd4ea6b3c3316a421f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zone: 6
   Default: {fileID: 0}
   Hover: {fileID: 0}
   Selected: {fileID: 0}
@@ -13500,6 +13506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c8c69d8adcfcd4ea6b3c3316a421f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zone: 5
   Default: {fileID: 0}
   Hover: {fileID: 0}
   Selected: {fileID: 0}
@@ -13972,6 +13979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c8c69d8adcfcd4ea6b3c3316a421f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zone: 4
   Default: {fileID: 0}
   Hover: {fileID: 0}
   Selected: {fileID: 0}
@@ -14926,6 +14934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c8c69d8adcfcd4ea6b3c3316a421f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zone: 3
   Default: {fileID: 0}
   Hover: {fileID: 0}
   Selected: {fileID: 0}
