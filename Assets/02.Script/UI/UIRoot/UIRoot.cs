@@ -116,7 +116,7 @@ public class UIRoot : MonoBehaviour
         yield return new WaitUntil(() => playableDirector.state == PlayState.Paused);
 
         IntroVideo.SetActive(false);
-        NewItemZonePanel.SetActive(true);
+        //NewItemZonePanel.SetActive(true);
         curCoroutine = null;
     }
 }
