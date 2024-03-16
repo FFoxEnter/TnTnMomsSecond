@@ -6,7 +6,7 @@ public class NavigationManager : Singleton<NavigationManager>
 {
     public static NavigationManager Instance;
 
-    private List<NavigationButton> navigationButtons = new List<NavigationButton>();
+    [SerializeField] List<NavigationButton> navigationButtons = new List<NavigationButton>();
 
     public void InnerAwake()
     {
