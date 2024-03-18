@@ -7,15 +7,15 @@ public class NavigationButton : MonoBehaviour
 {
     public enum Zone
     {
-        MAIN = 1,
-        NEWITEM,
-        BELLY,
-        BREAST,
-        SKINCARE,
-        ORALCARE,
-        BATH,
-        FABRIC,
-        FOOD
+        Main = 1,
+        NewItem,
+        Belly,
+        Breast,
+        SkinCare,
+        OralCare,
+        Bath,
+        Fabric,
+        Food
     }public Zone zone;
 
     /// <summary>
@@ -135,8 +135,21 @@ public class NavigationButton : MonoBehaviour
         inactivate2.gameObject.SetActive(false);
     }
 
+    // 수정 필요
+    void ZoneUIActivate()
+    {
+        foreach (GameObject go in NavigationManager.instance.zoneObj)
+        {
+            if (go.name.Contains(zone.ToString()))
+                go.SetActive(true);
+            else
+                go.SetActive(false);
+        }
+    }
+
     private void ButtonFunction()
     {
         MovingLineManager.instance.SetActiveMovingLine((int)zone-1);
+        ZoneUIActivate();
     }
 }

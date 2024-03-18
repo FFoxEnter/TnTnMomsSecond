@@ -6,11 +6,23 @@ public class NavigationManager : Singleton<NavigationManager>
 {
     public static NavigationManager Instance;
 
+    [SerializeField] Transform parentTransform;
+
     [SerializeField] List<NavigationButton> navigationButtons = new List<NavigationButton>();
+    public List<GameObject> zoneObj = new List<GameObject>();
 
     public void InnerAwake()
     {
         Instance = this;
+    }
+
+    public void InnerStart()
+    {
+        parentTransform = GameObject.Find("UIZone").transform;
+        foreach (Transform tr in parentTransform)
+        {
+            zoneObj.Add(tr.gameObject);
+        }
     }
 
     public void AddButton(NavigationButton button)

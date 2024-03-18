@@ -19,8 +19,8 @@ public class ProductDetail : MonoBehaviour
     public Button OverseaDeliveryCloseButton;
     public Button ProductDetailCloseButton;
 
-    [Header("-----Video-----")]
-    public VideoPlayer videoPlayer;
+    [Header("-----3DRenderObject-----")]
+    public GameObject RenderObject;
 
     [Header("-----HoverChange-----")]    
     public TextMeshProUGUI ProductAddText;
