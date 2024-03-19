@@ -22,8 +22,6 @@ public class UIManager : Singleton<UIManager>
     public void InnerStart()
     {
         /// abcdRoot.InnerStart();
-        NavigationManager.InnerStart();
-
     }
 
     public void InnerUpdate()
