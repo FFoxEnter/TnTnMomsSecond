@@ -124,7 +124,7 @@ public class UIRoot : MonoBehaviour
         // 내비 UI 애니 시작.
         NavigationUIAni.PlayUp();
     }
-
+     
     public void SetNavigationAni()
     {
         NavigationUIAni = FindObjectOfType<NavigationUIAni>();
