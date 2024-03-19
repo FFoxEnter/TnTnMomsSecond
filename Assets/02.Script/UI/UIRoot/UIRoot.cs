@@ -38,6 +38,8 @@ public class UIRoot : MonoBehaviour
 
     [Header("-----Temp-----")]
     public GameObject NewItemZonePanel;
+    public NavigationUIAni NavigationUIAni;
+
 
     private void Awake()
     {
@@ -52,6 +54,7 @@ public class UIRoot : MonoBehaviour
         MobileRotatePanel.SetActive(false);
         IntroVideo.SetActive(false);
         isIntroVideoPlay = false;
+        SetNavigationAni();
     }
 
     void ButtonClickEvent()
@@ -116,7 +119,16 @@ public class UIRoot : MonoBehaviour
         yield return new WaitUntil(() => playableDirector.state == PlayState.Paused);
 
         IntroVideo.SetActive(false);
-        //NewItemZonePanel.SetActive(true);
         curCoroutine = null;
+
+        // 내비 UI 애니 시작.
+        NavigationUIAni.PlayUp();
     }
+
+    public void SetNavigationAni()
+    {
+        NavigationUIAni = FindObjectOfType<NavigationUIAni>();
+        NavigationUIAni.InnerAwake();
+    }
+
 }
