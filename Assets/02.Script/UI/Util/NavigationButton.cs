@@ -137,11 +137,12 @@ public class NavigationButton : MonoBehaviour
 
     private void ButtonFunction()
     {
-        MovingLineManager.instance.SetActiveMovingLine((int)zone-1);
-        ZoneUIActivate();
+        //MovingLineManager.instance.SetActiveMovingLine((int)zone-1);
+        MovingLineManager.instance.SetZonePosition(this);
+        UIZoneActivate();
     }
 
-    void ZoneUIActivate()
+    void UIZoneActivate()
     {
         NavigationManager.instance.InActivateZone();
         NavigationManager.instance.ActiviateZoneObj(this);
