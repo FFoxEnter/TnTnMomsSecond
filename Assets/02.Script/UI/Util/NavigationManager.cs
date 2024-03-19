@@ -8,7 +8,7 @@ public class NavigationManager : Singleton<NavigationManager>
 {
     public static NavigationManager Instance;
 
-    [SerializeField] Transform parentTransform;
+    [SerializeField] Transform UIZoneparentTransform;
 
     [SerializeField] List<NavigationButton> navigationButtons = new List<NavigationButton>();
     public SerializedDictionary<string, GameObject> zoneDic = new SerializedDictionary<string, GameObject>();
@@ -22,13 +22,12 @@ public class NavigationManager : Singleton<NavigationManager>
     {
         navigationButtons.Add(button);
 
-        if (parentTransform == null)
-            parentTransform = GameObject.Find("UIZone").transform;
+        if (UIZoneparentTransform == null)
+            UIZoneparentTransform = GameObject.Find("UIZone").transform;
 
-        foreach (Transform tr in parentTransform)
+        foreach (Transform tr in UIZoneparentTransform)
         {
-            if (tr.gameObject.name.Contains(button.zone.ToString()))
-                zoneDic.Add(button.name, tr.gameObject);
+            AddZoneDic(tr, button);
         }
     }
 
@@ -44,9 +43,16 @@ public class NavigationManager : Singleton<NavigationManager>
         }
     }
 
+    void AddZoneDic(Transform tr, NavigationButton button)
+    {
+        string[] strings = tr.gameObject.name.Split('_');
+        if (strings[0].Equals(button.zone.ToString()))
+            zoneDic.Add(button.name, tr.gameObject);
+    }
+
     public void InActivateZone()
     {
-        foreach (Transform tr in parentTransform)
+        foreach (Transform tr in UIZoneparentTransform)
         {
             if (tr.gameObject.activeSelf == true)
                 tr.gameObject.SetActive(false);
