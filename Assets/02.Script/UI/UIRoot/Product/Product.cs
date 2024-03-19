@@ -17,15 +17,7 @@ public class Product : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         ProductExplainText.text = ProductExplainTextString;
         ProductExplain.SetActive(false);
-        NameSetting();
     }
-
-    void NameSetting()
-    {
-        string[] strings = ProductExplainText.text.Split(' ');
-        gameObject.name = $"Product_{strings[0]}";
-    }
-
     public void OnPointerEnter(PointerEventData eventData)
     {
         ProductExplain.SetActive(true);
