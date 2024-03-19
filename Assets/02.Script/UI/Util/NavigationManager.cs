@@ -61,4 +61,5 @@ public class NavigationManager : Singleton<NavigationManager>
             panel.SetActive(true);
         }
     }
+
 }
