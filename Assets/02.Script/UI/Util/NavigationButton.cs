@@ -133,23 +133,17 @@ public class NavigationButton : MonoBehaviour
         activate.gameObject.SetActive(true);
         inactivate1.gameObject.SetActive(false);
         inactivate2.gameObject.SetActive(false);
-    }
-
-    // 수정 필요
-    void ZoneUIActivate()
-    {
-        foreach (GameObject go in NavigationManager.instance.zoneObj)
-        {
-            if (go.name.Contains(zone.ToString()))
-                go.SetActive(true);
-            else
-                go.SetActive(false);
-        }
-    }
+    }           
 
     private void ButtonFunction()
     {
         MovingLineManager.instance.SetActiveMovingLine((int)zone-1);
         ZoneUIActivate();
+    }
+
+    void ZoneUIActivate()
+    {
+        NavigationManager.instance.InActivateZone();
+        NavigationManager.instance.ActiviateZoneObj(this);
     }
 }
