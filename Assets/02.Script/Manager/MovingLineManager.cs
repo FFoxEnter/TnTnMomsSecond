@@ -14,7 +14,9 @@ public class MovingLineManager : Singleton<MovingLineManager>
     [SerializeField] Image uiZoneBGImage;
     private bool isFading = false; // fade 중 여부
     float fadeDuration = 1f;
+    public bool isMoving = false;
 
+    [Header("-----ETC-----")]
     Camera mainCam;
 
     public void InnerAwake()
@@ -35,8 +37,8 @@ public class MovingLineManager : Singleton<MovingLineManager>
             posionTransforms.Add(tr);
         }
 
-
-        uiZoneBGImage = GameObject.Find("UIZoneBG").GetComponent<Image>();
+        if (uiZoneBGImage == null)
+            uiZoneBGImage = UIRoot.Instance.FadeInOutBg;
 
         SetImageAlpha(0.0f);
 
@@ -52,35 +54,35 @@ public class MovingLineManager : Singleton<MovingLineManager>
         }
     }
 
-    public void SetZonePosition(NavigationButton button)
+    public void MoveZone(NavigationButton button)
+    { 
+        StartCoroutine(SetMainCamPosRotCo(button));
+    }
+
+    IEnumerator SetMainCamPosRotCo(NavigationButton button)
     {
+        isMoving = true;
         StartFadeIn();
+
+        yield return new WaitUntil(() => isFading == false);
+
         GameObject go = null;
         if (NavigationManager.instance.zoneDic.TryGetValue(button.name, out go))
         {
             foreach (Transform tr in posionTransforms)
             {
                 if (go.name.Equals(tr.name))
-                {                    
+                {
                     mainCam.transform.SetLocalPositionAndRotation(tr.localPosition, tr.localRotation);
                 }
-                    
             }
         }
-        StartFadeOut();
-    }
 
-    public void FadeInOut()
-    {
-        StartCoroutine(FadeInOutCo());
-    }    
-
-    IEnumerator FadeInOutCo()
-    {
-        StartFadeIn();
-        yield return new WaitForSeconds(0.5f);
         StartFadeOut();
-    }
+        isMoving = false;
+
+        StartCoroutine(CameraZoom());
+    }   
 
     // fade in 효과를 시작하는 함수
     public void StartFadeIn()
@@ -127,5 +129,18 @@ public class MovingLineManager : Singleton<MovingLineManager>
 
         SetImageAlpha(targetAlpha); // 알파 값을 목표 값으로 설정 (확실히)
         isFading = false;
-    }   
+    }
+
+    // 흠냥 : 임시
+    public float smoothSpeed = 0.125f; // 부드러운 이동을 위한 속도
+    IEnumerator CameraZoom()
+    {
+        Vector3 desiredPosition = mainCam.transform.localPosition + new Vector3(0, 0, -1f);
+
+        while (mainCam.transform.localPosition != desiredPosition)
+        {           
+            mainCam.transform.localPosition = Vector3.MoveTowards(mainCam.transform.localPosition, desiredPosition, smoothSpeed * Time.deltaTime); // 카메라의 위치를 부드럽게 이동된 위치로 설정
+            yield return null;
+        }
+    }
 }

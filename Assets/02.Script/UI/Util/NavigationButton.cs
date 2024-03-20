@@ -137,9 +137,17 @@ public class NavigationButton : MonoBehaviour
 
     private void ButtonFunction()
     {
+        SetCurZone();
         //MovingLineManager.instance.SetActiveMovingLine((int)zone-1);
-        MovingLineManager.instance.SetZonePosition(this);
+        MovingLineManager.instance.MoveZone(this);
+
         UIZoneActivate();
+    }
+
+    void SetCurZone()
+    {
+        NavigationManager.instance.preZoneName = NavigationManager.instance.curZoneName;
+        NavigationManager.instance.curZoneName = $"{zone}_Zone";
     }
 
     void UIZoneActivate()

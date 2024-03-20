@@ -37,7 +37,7 @@ public class UIRoot : MonoBehaviour
     public bool isIntroVideoPlay = false;
 
     [Header("-----Temp-----")]
-    public GameObject NewItemZonePanel;
+    public Image FadeInOutBg;
     public NavigationUIAni NavigationUIAni;
 
 
