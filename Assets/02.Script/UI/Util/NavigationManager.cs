@@ -9,7 +9,8 @@ public class NavigationManager : Singleton<NavigationManager>
     public static NavigationManager Instance;
 
     [SerializeField] Transform UIZoneparentTransform;
-
+    public string curZoneName = "Main_Zone";
+    public string preZoneName = string.Empty;
     [SerializeField] List<NavigationButton> navigationButtons = new List<NavigationButton>();
     public SerializedDictionary<string, GameObject> zoneDic = new SerializedDictionary<string, GameObject>();
 
@@ -61,11 +62,16 @@ public class NavigationManager : Singleton<NavigationManager>
 
     public void ActiviateZoneObj(NavigationButton navButton)
     {
+        StartCoroutine(UIZoneActivateCo(navButton));
+    }
+
+    IEnumerator UIZoneActivateCo(NavigationButton navButton)
+    {
+        yield return new WaitUntil(() => MovingLineManager.instance.isMoving == false);
         GameObject panel = null;
         if (zoneDic.TryGetValue(navButton.name.ToString(), out panel) == true)
         {
             panel.SetActive(true);
         }
     }
-
 }
