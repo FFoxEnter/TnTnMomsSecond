@@ -386,44 +386,6 @@ MonoBehaviour:
   baked: 0
   modifiedFromInspector: 0
   bakedShadows: []
---- !u!1 &259728281464304302
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5657022040098499654}
-  m_Layer: 5
-  m_Name: BearPatch_01 hov
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &5657022040098499654
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 259728281464304302}
-  m_LocalRotation: {x: 0, y: -0.11450361, z: 0, w: 0.9934228}
-  m_LocalPosition: {x: 0, y: 0, z: -5182}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5601329430195109085}
-  - {fileID: 7948515653832612858}
-  - {fileID: 2115125537599036343}
-  m_Father: {fileID: 8678393594921165538}
-  m_LocalEulerAnglesHint: {x: 0, y: -13.15, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2553, y: -788}
-  m_SizeDelta: {x: 200, y: 200}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &623423205008998865
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,9 +632,7 @@ RectTransform:
   m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5657022040098499654}
   - {fileID: 1492214814008481117}
-  - {fileID: 2754526849692335233}
   - {fileID: 5121158202756094963}
   - {fileID: 1177017582602964402}
   m_Father: {fileID: 0}
@@ -770,13 +730,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100357874564771553}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7538185677481924532}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 158, y: 27}
@@ -1113,220 +1073,6 @@ MonoBehaviour:
   baked: 0
   modifiedFromInspector: 0
   bakedShadows: []
---- !u!1 &1479230309408309277
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5601329430195109085}
-  - component: {fileID: 2508763562892804484}
-  - component: {fileID: 998050252810883736}
-  - component: {fileID: 7486161639977712192}
-  - component: {fileID: 7050374169506707331}
-  m_Layer: 5
-  m_Name: img - bg 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &5601329430195109085
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479230309408309277}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.00011197664}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5657022040098499654}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.7402344, y: 0.7414551}
-  m_SizeDelta: {x: -42.96295, y: -42.96295}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2508763562892804484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479230309408309277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data:
-    id: I3618:15462;3612:8390
-    formattedName: img - bg 2
-    spriteName: img - bg 2 4x 1078628617.png
-    tags: c9000000f4010000
-    childIndexes: 
-    fcuInstance: {fileID: 0}
-    gameObject: {fileID: 1479230309408309277}
-    rootFrameGO: {fileID: 0}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0, g: 0, b: 0, a: 0}
-    spriteSize: {x: 629, y: 629}
-    size: {x: 157.03705, y: 157.03705}
-    position: {x: -2424.778, y: -562.74}
-    fcuImageType: 1
-    buttonComponent: 0
-    hash: 1078628617
-    hashDataTree: "\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000000999/img
-      - bg 2\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
-      | 0\r\n    FillGeometry | 2000109007\r\n    StrokeWeight | 1\r\n    StrokeAlign
-      | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode
-      | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-      Size | (157.04, 157.04)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | 2000109007\r\n    StrokeWeight
-      | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode
-      | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
-      CounterAxisAlignItems | NONE\r\n    Size | (157.04, 157.04)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Color | RGBA(0.000,
-      0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n        Color | RGBA(1.000,
-      1.000, 1.000, 0.500)\r\n        Position | 0\r\n        Color | RGBA(1.000,
-      1.000, 1.000, 0.200)\r\n        Position | 1\r\n        GradientHandlePositions
-      | (-0.02, -0.02) (1.10, 1.06) (-0.56, 0.54)\r\n    \u2014\u2014\u2014\u2014Effects\r\n       
-      IsVisible | False\r\n        Type | BACKGROUND_BLUR\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        Offset | (0.00, 0.00)\r\n       
-      IsVisible | False\r\n        Type | DROP_SHADOW\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.100)\r\n        BlendMode | NORMAL\r\n       
-      Offset | (0.00, 20.00)\r\n        ShowShadowBehindNode | False\r\n    \u2014\u2014\u2014\u2014Strokes\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Opacity | 0.6\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n        Position | 0\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 0.000)\r\n        Position | 1\r\n       
-      GradientHandlePositions | (0.14, 0.12) (0.91, 0.89) (-0.24, 0.50)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-    hashData: "\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000000999/img
-      - bg 2\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
-      | 0\r\n    FillGeometry | 2000109007\r\n    StrokeWeight | 1\r\n    StrokeAlign
-      | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode
-      | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-      Size | (157.04, 157.04)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | 2000109007\r\n    StrokeWeight
-      | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode
-      | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
-      CounterAxisAlignItems | NONE\r\n    Size | (157.04, 157.04)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Color | RGBA(0.000,
-      0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n        Color | RGBA(1.000,
-      1.000, 1.000, 0.500)\r\n        Position | 0\r\n        Color | RGBA(1.000,
-      1.000, 1.000, 0.200)\r\n        Position | 1\r\n        GradientHandlePositions
-      | (-0.02, -0.02) (1.10, 1.06) (-0.56, 0.54)\r\n    \u2014\u2014\u2014\u2014Effects\r\n       
-      IsVisible | False\r\n        Type | BACKGROUND_BLUR\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        Offset | (0.00, 0.00)\r\n       
-      IsVisible | False\r\n        Type | DROP_SHADOW\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.100)\r\n        BlendMode | NORMAL\r\n       
-      Offset | (0.00, 20.00)\r\n        ShowShadowBehindNode | False\r\n    \u2014\u2014\u2014\u2014Strokes\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Opacity | 0.6\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n        Position | 0\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 0.000)\r\n        Position | 1\r\n       
-      GradientHandlePositions | (0.14, 0.12) (0.91, 0.89) (-0.24, 0.50)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-    parentIndex: 92
-    hierarchy: Frame 34732/BearPatch_01 hov/Group 1000000999/img - bg 2
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: ForceImage
-    downloadAttempsCount: 0
-    angle: -0
-    isDuplicate: 1
-    isMutual: 0
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 0
-    needGenerate: 0
-    forceImage: 1
-    forceContainer: 0
-    isInsideDownloadable: 0
-    ignore: 0
-    hasFontAsset: 0
-    invisible: 0
---- !u!222 &998050252810883736
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479230309408309277}
-  m_CullTransparentMesh: 1
---- !u!114 &7486161639977712192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479230309408309277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b9d8d3c187ca8cc408926517e1d338cc, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!114 &7050374169506707331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479230309408309277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  size: 40
-  spread: 0
-  useGlobalAngle: 0
-  offsetAngle: 90
-  offsetDistance: 20
-  offset: {x: 0.000001192093, y: -20}
-  color: {r: 0, g: 0, b: 0, a: 0.1}
-  inset: 0
-  blendMode: 3
-  useCasterAlpha: 1
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
 --- !u!1 &2150099224882350212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,258 +1272,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
---- !u!1 &2677941124528131932
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7948515653832612858}
-  - component: {fileID: 3186980215353955690}
-  - component: {fileID: 4786995221596245430}
-  - component: {fileID: 7139706390121818543}
-  - component: {fileID: 8899211950780164581}
-  m_Layer: 5
-  m_Name: img - bg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &7948515653832612858
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2677941124528131932}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0029504753}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5657022040098499654}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &3186980215353955690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2677941124528131932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data:
-    id: I3618:15462;3612:8389
-    formattedName: img - bg
-    spriteName: img - bg 4x 1872737168.png
-    tags: c9000000f4010000
-    childIndexes: 
-    fcuInstance: {fileID: 0}
-    gameObject: {fileID: 2677941124528131932}
-    rootFrameGO: {fileID: 0}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0, g: 0, b: 0, a: 0}
-    spriteSize: {x: 800, y: 800}
-    size: {x: 200, y: 200}
-    position: {x: -2447, y: -542}
-    fcuImageType: 1
-    buttonComponent: 0
-    hash: 1872737168
-    hashDataTree: "\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000000999/img
-      - bg\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
-      | 0\r\n    FillGeometry | 533916262\r\n    StrokeWeight | 1\r\n    StrokeAlign
-      | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode
-      | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-      Size | (200.00, 200.00)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | 533916262\r\n    StrokeWeight
-      | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode
-      | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
-      CounterAxisAlignItems | NONE\r\n    Size | (200.00, 200.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Color | RGBA(0.000,
-      0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n        Color | RGBA(0.510,
-      0.737, 1.000, 0.500)\r\n        Position | 0\r\n        Color | RGBA(0.678,
-      0.827, 1.000, 0.800)\r\n        Position | 1\r\n        GradientHandlePositions
-      | (-0.02, -0.02) (1.10, 1.06) (-0.56, 0.54)\r\n    \u2014\u2014\u2014\u2014Effects\r\n       
-      IsVisible | False\r\n        Type | BACKGROUND_BLUR\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        Offset | (0.00, 0.00)\r\n       
-      IsVisible | False\r\n        Type | DROP_SHADOW\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.100)\r\n        BlendMode | NORMAL\r\n       
-      Offset | (0.00, 20.00)\r\n        ShowShadowBehindNode | False\r\n    \u2014\u2014\u2014\u2014Strokes\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Opacity | 0.6\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n        Position | 0\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 0.000)\r\n        Position | 1\r\n       
-      GradientHandlePositions | (0.14, 0.12) (0.91, 0.89) (-0.24, 0.50)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-    hashData: "\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000000999/img
-      - bg\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
-      | 0\r\n    FillGeometry | 533916262\r\n    StrokeWeight | 1\r\n    StrokeAlign
-      | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode
-      | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-      Size | (200.00, 200.00)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | 533916262\r\n    StrokeWeight
-      | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode
-      | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
-      CounterAxisAlignItems | NONE\r\n    Size | (200.00, 200.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Color | RGBA(0.000,
-      0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n        Color | RGBA(0.510,
-      0.737, 1.000, 0.500)\r\n        Position | 0\r\n        Color | RGBA(0.678,
-      0.827, 1.000, 0.800)\r\n        Position | 1\r\n        GradientHandlePositions
-      | (-0.02, -0.02) (1.10, 1.06) (-0.56, 0.54)\r\n    \u2014\u2014\u2014\u2014Effects\r\n       
-      IsVisible | False\r\n        Type | BACKGROUND_BLUR\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        Offset | (0.00, 0.00)\r\n       
-      IsVisible | False\r\n        Type | DROP_SHADOW\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.100)\r\n        BlendMode | NORMAL\r\n       
-      Offset | (0.00, 20.00)\r\n        ShowShadowBehindNode | False\r\n    \u2014\u2014\u2014\u2014Strokes\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Opacity | 0.6\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n        Position | 0\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 0.000)\r\n        Position | 1\r\n       
-      GradientHandlePositions | (0.14, 0.12) (0.91, 0.89) (-0.24, 0.50)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-    parentIndex: 92
-    hierarchy: Frame 34732/BearPatch_01 hov/Group 1000000999/img - bg
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: ForceImage
-    downloadAttempsCount: 1
-    angle: -0
-    isDuplicate: 1
-    isMutual: 0
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 1
-    needGenerate: 0
-    forceImage: 1
-    forceContainer: 0
-    isInsideDownloadable: 0
-    ignore: 0
-    hasFontAsset: 0
-    invisible: 0
---- !u!222 &4786995221596245430
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2677941124528131932}
-  m_CullTransparentMesh: 1
---- !u!114 &7139706390121818543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2677941124528131932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 60d3a0a3b23ad704dad41ea678e5d22a, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!114 &8899211950780164581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2677941124528131932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  size: 40
-  spread: 0
-  useGlobalAngle: 0
-  offsetAngle: 90
-  offsetDistance: 20
-  offset: {x: 0.000001192093, y: -20}
-  color: {r: 0, g: 0, b: 0, a: 0.1}
-  inset: 0
-  blendMode: 3
-  useCasterAlpha: 1
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
---- !u!1 &3305717779756316196
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2754526849692335233}
-  m_Layer: 5
-  m_Name: BearPatch_02 hov
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &2754526849692335233
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3305717779756316196}
-  m_LocalRotation: {x: 0, y: -0.11450361, z: 0, w: 0.9934228}
-  m_LocalPosition: {x: 0, y: 0, z: -5178.002}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6060469219824183635}
-  - {fileID: 5964895503897433668}
-  - {fileID: 6579787675249023827}
-  m_Father: {fileID: 8678393594921165538}
-  m_LocalEulerAnglesHint: {x: 0, y: -13.15, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2575.9932, y: -844.99976}
-  m_SizeDelta: {x: 200, y: 200}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3408334199459887795
 GameObject:
   m_ObjectHideFlags: 0
@@ -2024,7 +1518,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1177017582602964402}
   - component: {fileID: 8287201595386395143}
-  - component: {fileID: 3980469264619123004}
+  - component: {fileID: 2765947722810336624}
   m_Layer: 5
   m_Name: BearPack
   m_TagString: Untagged
@@ -2040,7 +1534,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3838161438197437723}
   m_LocalRotation: {x: 0, y: -0.11450361, z: 0, w: 0.9934228}
-  m_LocalPosition: {x: 0, y: 0, z: -5170.998}
+  m_LocalPosition: {x: 0, y: 0, z: -5214.203}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2051,7 +1545,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -13.15, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2661.3, y: -768.9957}
+  m_AnchoredPosition: {x: 2478.5913, y: -755.7053}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &8287201595386395143
@@ -2075,7 +1569,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 216.35, y: 247.67, z: 30.18}
   m_Center: {x: 7.4, y: -28.47, z: 0}
---- !u!114 &3980469264619123004
+--- !u!114 &2765947722810336624
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2084,7 +1578,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3838161438197437723}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0764fd2be0ce11418b4df1e10b35f2b, type: 3}
+  m_Script: {fileID: 11500000, guid: 421fc2eb9750b594a8184865d53ced68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targetCamera: {fileID: 0}
@@ -2516,220 +2010,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &5358229019239356754
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2115125537599036343}
-  - component: {fileID: 8863561624141733229}
-  - component: {fileID: 5597714588109313763}
-  - component: {fileID: 8944877833936586723}
-  m_Layer: 5
-  m_Name: Group 1000001002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2115125537599036343
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5358229019239356754}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.012240561}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5657022040098499654}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.9711914, y: 0.36291504}
-  m_SizeDelta: {x: -91.94258, y: -158.72577}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8863561624141733229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5358229019239356754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data:
-    id: I3618:15462;3612:8391
-    formattedName: Group 1000001002
-    spriteName: Group 1000001002 4x 594189563.png
-    tags: c9000000
-    childIndexes: 
-    fcuInstance: {fileID: 0}
-    gameObject: {fileID: 5358229019239356754}
-    rootFrameGO: {fileID: 0}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0, g: 0, b: 0, a: 0}
-    spriteSize: {x: 433, y: 166}
-    size: {x: 108.05742, y: 41.27423}
-    position: {x: -2402, y: -621}
-    fcuImageType: 1
-    buttonComponent: 0
-    hash: 594189563
-    hashDataTree: "\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000001002\r\n   
-      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
-      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
-      ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-      | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (108.06, 41.27)\r\n   
-      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
-      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
-      ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-      | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (108.06, 41.27)\r\n   
-      \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle | 0\r\n        EndingAngle
-      | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01
-      hov/Group 1000001002/Ellipse 486\r\n    isVisible | True\r\n    Type | ELLIPSE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | 2122380899\r\n    StrokeWeight
-      | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode
-      | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-      Size | (19.07, 19.07)\r\n    isVisible | True\r\n    Type | ELLIPSE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | 2122380899\r\n    StrokeWeight
-      | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode
-      | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-      Size | (19.07, 19.07)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
-      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.221, 0.221, 0.221,
-      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 6.283185\r\n        InnerRadius
-      | 0\r\n    \u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000001002/Ellipse
-      487\r\n        isVisible | True\r\n        Type | ELLIPSE\r\n        GetFigmaRotationAngle
-      | 0\r\n        FillGeometry | 2122380899\r\n        StrokeWeight | 1\r\n       
-      StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode
-      | NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-      | NONE\r\n        Size | (19.07, 19.07)\r\n        isVisible | True\r\n       
-      Type | ELLIPSE\r\n        GetFigmaRotationAngle | 0\r\n        FillGeometry
-      | 2122380899\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
-      BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-      | NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (19.07, 19.07)\r\n       
-      \u2014\u2014\u2014\u2014Fills\r\n            IsVisible | True\r\n           
-      Type | SOLID\r\n            Color | RGBA(0.221, 0.221, 0.221, 1.000)\r\n           
-      BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-      StartingAngle | 0\r\n            EndingAngle | 6.283185\r\n            InnerRadius
-      | 0\r\n        \u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000001002/Vector
-      995\r\n            isVisible | True\r\n            Type | VECTOR\r\n           
-      GetFigmaRotationAngle | 0\r\n            FillGeometry | -1395764344\r\n           
-      StrokeWeight | 1\r\n            StrokeAlign | CENTER\r\n            BlendMode
-      | PASS_THROUGH\r\n            LayoutMode | NONE\r\n            PrimaryAxisAlignItems
-      | NONE\r\n            CounterAxisAlignItems | NONE\r\n            StrokeCap
-      | NONE\r\n            Size | (54.00, 23.10)\r\n            isVisible | True\r\n           
-      Type | VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
-      | -1395764344\r\n            StrokeWeight | 1\r\n            StrokeAlign |
-      CENTER\r\n            BlendMode | PASS_THROUGH\r\n            LayoutMode |
-      NONE\r\n            PrimaryAxisAlignItems | NONE\r\n            CounterAxisAlignItems
-      | NONE\r\n            StrokeCap | NONE\r\n            Size | (54.00, 23.10)\r\n           
-      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
-      Type | SOLID\r\n                Color | RGBA(0.221, 0.221, 0.221, 1.000)\r\n               
-      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
-      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
-      | 0\r\n            \u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group
-      1000001002/Vector 996\r\n                isVisible | True\r\n               
-      Type | VECTOR\r\n                GetFigmaRotationAngle | 0\r\n               
-      FillGeometry | -1189820527\r\n                StrokeWeight | 1\r\n               
-      StrokeAlign | CENTER\r\n                BlendMode | PASS_THROUGH\r\n               
-      LayoutMode | NONE\r\n                PrimaryAxisAlignItems | NONE\r\n               
-      CounterAxisAlignItems | NONE\r\n                StrokeCap | NONE\r\n               
-      Size | (30.81, 26.51)\r\n                isVisible | True\r\n               
-      Type | VECTOR\r\n                GetFigmaRotationAngle | 0\r\n               
-      FillGeometry | -1189820527\r\n                StrokeWeight | 1\r\n               
-      StrokeAlign | CENTER\r\n                BlendMode | PASS_THROUGH\r\n               
-      LayoutMode | NONE\r\n                PrimaryAxisAlignItems | NONE\r\n               
-      CounterAxisAlignItems | NONE\r\n                StrokeCap | NONE\r\n               
-      Size | (30.81, 26.51)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
-      IsVisible | True\r\n                    Type | SOLID\r\n                   
-      Color | RGBA(0.945, 0.435, 0.592, 1.000)\r\n                    BlendMode |
-      NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
-      StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
-      InnerRadius | 0\r\n"
-    hashData: "\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000001002\r\n   
-      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
-      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
-      ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-      | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (108.06, 41.27)\r\n   
-      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
-      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
-      ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-      | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (108.06, 41.27)\r\n   
-      \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle | 0\r\n        EndingAngle
-      | 0\r\n        InnerRadius | 0\r\n"
-    parentIndex: 91
-    hierarchy: Frame 34732/BearPatch_01 hov/Group 1000001002
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: SingleImage
-    downloadAttempsCount: 0
-    angle: -0
-    isDuplicate: 1
-    isMutual: 0
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 0
-    needGenerate: 0
-    forceImage: 1
-    forceContainer: 0
-    isInsideDownloadable: 0
-    ignore: 0
-    hasFontAsset: 0
-    invisible: 0
---- !u!222 &5597714588109313763
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5358229019239356754}
-  m_CullTransparentMesh: 1
---- !u!114 &8944877833936586723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5358229019239356754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a1445415f4e59f14dbb0f76eac983bb2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &5623441517139496303
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,6 +2019,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1492214814008481117}
+  - component: {fileID: 7016474985482390888}
+  - component: {fileID: 7255046736202125944}
+  - component: {fileID: 5684253052758234418}
+  - component: {fileID: 1628915180788696334}
+  - component: {fileID: 7957524523655284871}
   m_Layer: 5
   m_Name: BearPatch_01 def
   m_TagString: Untagged
@@ -2754,7 +2039,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5623441517139496303}
   m_LocalRotation: {x: 0, y: -0.11450361, z: 0, w: 0.9934228}
-  m_LocalPosition: {x: 0, y: 0, z: -5181.9966}
+  m_LocalPosition: {x: 0, y: 0, z: -5225.2017}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2763,421 +2048,121 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -13.15, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2553.0176, y: -787.9972}
+  m_AnchoredPosition: {x: 2370.3088, y: -774.7068}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &5712255918126394852
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6060469219824183635}
-  - component: {fileID: 3775573013034711043}
-  - component: {fileID: 4976173837280991230}
-  - component: {fileID: 8032510890453350356}
-  - component: {fileID: 8470426024460665087}
-  m_Layer: 5
-  m_Name: img - bg 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &6060469219824183635
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5712255918126394852}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.00011197664}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2754526849692335233}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.74072266, y: 0.7414551}
-  m_SizeDelta: {x: -42.96295, y: -42.96295}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &3775573013034711043
+--- !u!114 &7016474985482390888
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5712255918126394852}
+  m_GameObject: {fileID: 5623441517139496303}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data:
-    id: 3618:15523
-    formattedName: img - bg 2
-    spriteName: img - bg 2 4x 1078628617.png
-    tags: c9000000f4010000
-    childIndexes: 
-    fcuInstance: {fileID: 0}
-    gameObject: {fileID: 5712255918126394852}
-    rootFrameGO: {fileID: 0}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0, g: 0, b: 0, a: 0}
-    spriteSize: {x: 629, y: 629}
-    size: {x: 157.03705, y: 157.03705}
-    position: {x: -2114.778, y: -564.74}
-    fcuImageType: 1
-    buttonComponent: 0
-    hash: 1078628617
-    hashDataTree: "\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000000999/img
-      - bg 2\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
-      | 0\r\n    FillGeometry | 2000109007\r\n    StrokeWeight | 1\r\n    StrokeAlign
-      | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode
-      | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-      Size | (157.04, 157.04)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | 2000109007\r\n    StrokeWeight
-      | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode
-      | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
-      CounterAxisAlignItems | NONE\r\n    Size | (157.04, 157.04)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Color | RGBA(0.000,
-      0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n        Color | RGBA(1.000,
-      1.000, 1.000, 0.500)\r\n        Position | 0\r\n        Color | RGBA(1.000,
-      1.000, 1.000, 0.200)\r\n        Position | 1\r\n        GradientHandlePositions
-      | (-0.02, -0.02) (1.10, 1.06) (-0.56, 0.54)\r\n    \u2014\u2014\u2014\u2014Effects\r\n       
-      IsVisible | False\r\n        Type | BACKGROUND_BLUR\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        Offset | (0.00, 0.00)\r\n       
-      IsVisible | False\r\n        Type | DROP_SHADOW\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.100)\r\n        BlendMode | NORMAL\r\n       
-      Offset | (0.00, 20.00)\r\n        ShowShadowBehindNode | False\r\n    \u2014\u2014\u2014\u2014Strokes\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Opacity | 0.6\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n        Position | 0\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 0.000)\r\n        Position | 1\r\n       
-      GradientHandlePositions | (0.14, 0.12) (0.91, 0.89) (-0.24, 0.50)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-    hashData: "\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000000999/img
-      - bg 2\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
-      | 0\r\n    FillGeometry | 2000109007\r\n    StrokeWeight | 1\r\n    StrokeAlign
-      | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode
-      | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-      Size | (157.04, 157.04)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | 2000109007\r\n    StrokeWeight
-      | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode
-      | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
-      CounterAxisAlignItems | NONE\r\n    Size | (157.04, 157.04)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Color | RGBA(0.000,
-      0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n        Color | RGBA(1.000,
-      1.000, 1.000, 0.500)\r\n        Position | 0\r\n        Color | RGBA(1.000,
-      1.000, 1.000, 0.200)\r\n        Position | 1\r\n        GradientHandlePositions
-      | (-0.02, -0.02) (1.10, 1.06) (-0.56, 0.54)\r\n    \u2014\u2014\u2014\u2014Effects\r\n       
-      IsVisible | False\r\n        Type | BACKGROUND_BLUR\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        Offset | (0.00, 0.00)\r\n       
-      IsVisible | False\r\n        Type | DROP_SHADOW\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.100)\r\n        BlendMode | NORMAL\r\n       
-      Offset | (0.00, 20.00)\r\n        ShowShadowBehindNode | False\r\n    \u2014\u2014\u2014\u2014Strokes\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Opacity | 0.6\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n        Position | 0\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 0.000)\r\n        Position | 1\r\n       
-      GradientHandlePositions | (0.14, 0.12) (0.91, 0.89) (-0.24, 0.50)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-    parentIndex: 97
-    hierarchy: Frame 34732/BearPatch_01 hov/Group 1000000999/img - bg 2
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: ForceImage
-    downloadAttempsCount: 0
-    angle: -0
-    isDuplicate: 1
-    isMutual: 0
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 0
-    needGenerate: 0
-    forceImage: 1
-    forceContainer: 0
-    isInsideDownloadable: 0
-    ignore: 0
-    hasFontAsset: 0
-    invisible: 0
---- !u!222 &4976173837280991230
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5712255918126394852}
-  m_CullTransparentMesh: 1
---- !u!114 &8032510890453350356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5712255918126394852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 2
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 21300000, guid: 60d3a0a3b23ad704dad41ea678e5d22a, type: 3}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1820102483142159567}
+  m_OnClick:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b9d8d3c187ca8cc408926517e1d338cc, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!114 &8470426024460665087
+--- !u!114 &7255046736202125944
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5712255918126394852}
+  m_GameObject: {fileID: 5623441517139496303}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
+  m_Script: {fileID: 11500000, guid: 01df5e9993321ce45a47cb4962057a75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 40
-  spread: 0
-  useGlobalAngle: 0
-  offsetAngle: 90
-  offsetDistance: 20
-  offset: {x: 0.000001192093, y: -20}
-  color: {r: 0, g: 0, b: 0, a: 0.1}
-  inset: 0
-  blendMode: 3
-  useCasterAlpha: 1
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
---- !u!1 &5870878853013868437
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6579787675249023827}
-  - component: {fileID: 1529859717749555291}
-  - component: {fileID: 1405118044319712981}
-  - component: {fileID: 7486748025078577046}
-  m_Layer: 5
-  m_Name: Group 1000001001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &6579787675249023827
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5870878853013868437}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2754526849692335233}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 8.22583, y: -2.9835205}
-  m_SizeDelta: {x: -97.54821, y: -142.03297}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1529859717749555291
+  TargetButton: {fileID: 7016474985482390888}
+  EaseType: 1
+  DurationTime: 0
+  TargetImage: {fileID: 1820102483142159567}
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
+  HoverColor: {r: 0.50980395, g: 0.5882353, b: 1, a: 0.50980395}
+  TargetImage2: {fileID: 0}
+  NormalColor2: {r: 0, g: 0, b: 0, a: 0}
+  HoverColor2: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &5684253052758234418
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5870878853013868437}
+  m_GameObject: {fileID: 5623441517139496303}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Script: {fileID: 11500000, guid: 421fc2eb9750b594a8184865d53ced68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data:
-    id: 3618:15529
-    formattedName: Group 1000001001
-    spriteName: Group 1000001001 4x -1302370841.png
-    tags: c9000000
-    childIndexes: 
-    fcuInstance: {fileID: 0}
-    gameObject: {fileID: 5870878853013868437}
-    rootFrameGO: {fileID: 0}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0, g: 0, b: 0, a: 0}
-    spriteSize: {x: 399, y: 218}
-    size: {x: 102.45179, y: 57.96703}
-    position: {x: -2080, y: -618}
-    fcuImageType: 1
-    buttonComponent: 0
-    hash: -1302370841
-    hashDataTree: "\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000001001\r\n   
-      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
-      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
-      ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-      | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (102.45, 57.97)\r\n   
-      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
-      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
-      ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-      | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (102.45, 57.97)\r\n   
-      \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle | 0\r\n        EndingAngle
-      | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01
-      hov/Group 1000001001/Vector 997\r\n    isVisible | True\r\n    Type | VECTOR\r\n   
-      GetFigmaRotationAngle | -21.95998\r\n    FillGeometry | -1978184381\r\n   
-      StrokeWeight | 1\r\n    StrokeAlign | CENTER\r\n    BlendMode | PASS_THROUGH\r\n   
-      LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-      | NONE\r\n    StrokeCap | NONE\r\n    Size | (34.44, 30.40)\r\n    isVisible
-      | True\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | -21.95998\r\n   
-      FillGeometry | -1978184381\r\n    StrokeWeight | 1\r\n    StrokeAlign | CENTER\r\n   
-      BlendMode | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-      | NONE\r\n    CounterAxisAlignItems | NONE\r\n    StrokeCap | NONE\r\n    Size
-      | (34.44, 30.40)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
-      | True\r\n        Type | SOLID\r\n        Color | RGBA(0.945, 0.435, 0.592,
-      1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
-      \u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000001001/Vector
-      998\r\n        isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
-      | 0\r\n        FillGeometry | -554034948\r\n        StrokeWeight | 1\r\n       
-      StrokeAlign | CENTER\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode
-      | NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-      | NONE\r\n        StrokeCap | NONE\r\n        Size | (76.76, 54.28)\r\n       
-      isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
-      | 0\r\n        FillGeometry | -554034948\r\n        StrokeWeight | 1\r\n       
-      StrokeAlign | CENTER\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode
-      | NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-      | NONE\r\n        StrokeCap | NONE\r\n        Size | (76.76, 54.28)\r\n       
-      \u2014\u2014\u2014\u2014Fills\r\n            IsVisible | True\r\n           
-      Type | SOLID\r\n            Color | RGBA(0.012, 0.012, 0.012, 1.000)\r\n           
-      BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-      StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
-      | 0\r\n        \u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000001001/Vector
-      999\r\n            isVisible | True\r\n            Type | VECTOR\r\n           
-      GetFigmaRotationAngle | 0\r\n            FillGeometry | -2110894435\r\n           
-      StrokeWeight | 1\r\n            StrokeAlign | CENTER\r\n            BlendMode
-      | PASS_THROUGH\r\n            LayoutMode | NONE\r\n            PrimaryAxisAlignItems
-      | NONE\r\n            CounterAxisAlignItems | NONE\r\n            StrokeCap
-      | NONE\r\n            Size | (69.27, 6.84)\r\n            isVisible | True\r\n           
-      Type | VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
-      | -2110894435\r\n            StrokeWeight | 1\r\n            StrokeAlign |
-      CENTER\r\n            BlendMode | PASS_THROUGH\r\n            LayoutMode |
-      NONE\r\n            PrimaryAxisAlignItems | NONE\r\n            CounterAxisAlignItems
-      | NONE\r\n            StrokeCap | NONE\r\n            Size | (69.27, 6.84)\r\n           
-      \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
-      Type | SOLID\r\n                Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n               
-      BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
-      StartingAngle | 0\r\n                EndingAngle | 0\r\n                InnerRadius
-      | 0\r\n"
-    hashData: "\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000001001\r\n   
-      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
-      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
-      ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-      | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (102.45, 57.97)\r\n   
-      isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
-      StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
-      ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-      | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (102.45, 57.97)\r\n   
-      \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle | 0\r\n        EndingAngle
-      | 0\r\n        InnerRadius | 0\r\n"
-    parentIndex: 96
-    hierarchy: Frame 34732/BearPatch_01 hov/Group 1000001001
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: SingleImage
-    downloadAttempsCount: 0
-    angle: -0
-    isDuplicate: 1
-    isMutual: 0
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 0
-    needGenerate: 0
-    forceImage: 1
-    forceContainer: 0
-    isInsideDownloadable: 0
-    ignore: 0
-    hasFontAsset: 0
-    invisible: 0
---- !u!222 &1405118044319712981
-CanvasRenderer:
+  targetCamera: {fileID: 0}
+--- !u!65 &1628915180788696334
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5870878853013868437}
-  m_CullTransparentMesh: 1
---- !u!114 &7486748025078577046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5870878853013868437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_GameObject: {fileID: 5623441517139496303}
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 45e7088a71ee10444a17db45d7d0e5d5, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 216.35, y: 247.67, z: 30.18}
+  m_Center: {x: 7.4, y: -28.47, z: 0}
+--- !u!114 &7957524523655284871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5623441517139496303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0764fd2be0ce11418b4df1e10b35f2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetCamera: {fileID: 0}
 --- !u!1 &7017287589091395253
 GameObject:
   m_ObjectHideFlags: 0
@@ -3187,6 +2172,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5121158202756094963}
+  - component: {fileID: 1113605879201588399}
+  - component: {fileID: 2299190024409704431}
+  - component: {fileID: 4329068958293358075}
+  - component: {fileID: 8445947502448786844}
+  - component: {fileID: 6560414761633978209}
   m_Layer: 5
   m_Name: BearPatch_02 def
   m_TagString: Untagged
@@ -3202,7 +2192,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7017287589091395253}
   m_LocalRotation: {x: 0, y: -0.11450361, z: 0, w: 0.9934228}
-  m_LocalPosition: {x: 0, y: 0, z: -5178}
+  m_LocalPosition: {x: 0, y: 0, z: -5221.205}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3211,223 +2201,121 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -13.15, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2576, y: -845}
+  m_AnchoredPosition: {x: 2393.2913, y: -831.7096}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &7700300594520899343
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5964895503897433668}
-  - component: {fileID: 992094400692927465}
-  - component: {fileID: 1070641080997026381}
-  - component: {fileID: 3038859805268832187}
-  - component: {fileID: 4375744812260337553}
-  m_Layer: 5
-  m_Name: img - bg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &5964895503897433668
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7700300594520899343}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0029504753}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2754526849692335233}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &992094400692927465
+--- !u!114 &1113605879201588399
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7700300594520899343}
+  m_GameObject: {fileID: 7017287589091395253}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data:
-    id: 3618:15522
-    formattedName: img - bg
-    spriteName: img - bg 4x 1872737168.png
-    tags: c9000000f4010000
-    childIndexes: 
-    fcuInstance: {fileID: 0}
-    gameObject: {fileID: 7700300594520899343}
-    rootFrameGO: {fileID: 0}
-    transformData:
-      anchorMin: {x: 0, y: 0}
-      anchorMax: {x: 0, y: 0}
-      anchoredPosition: {x: 0, y: 0}
-      sizeDelta: {x: 0, y: 0, z: 0}
-      localRotation: {x: 0, y: 0, z: 0, w: 0}
-      localScale: {x: 0, y: 0, z: 0}
-    singleColor: {r: 0, g: 0, b: 0, a: 0}
-    spriteSize: {x: 800, y: 800}
-    size: {x: 200, y: 200}
-    position: {x: -2137, y: -544}
-    fcuImageType: 1
-    buttonComponent: 0
-    hash: 1872737168
-    hashDataTree: "\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000000999/img
-      - bg\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
-      | 0\r\n    FillGeometry | 533916262\r\n    StrokeWeight | 1\r\n    StrokeAlign
-      | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode
-      | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-      Size | (200.00, 200.00)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | 533916262\r\n    StrokeWeight
-      | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode
-      | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
-      CounterAxisAlignItems | NONE\r\n    Size | (200.00, 200.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Color | RGBA(0.000,
-      0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n        Color | RGBA(0.510,
-      0.737, 1.000, 0.500)\r\n        Position | 0\r\n        Color | RGBA(0.678,
-      0.827, 1.000, 0.800)\r\n        Position | 1\r\n        GradientHandlePositions
-      | (-0.02, -0.02) (1.10, 1.06) (-0.56, 0.54)\r\n    \u2014\u2014\u2014\u2014Effects\r\n       
-      IsVisible | False\r\n        Type | BACKGROUND_BLUR\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        Offset | (0.00, 0.00)\r\n       
-      IsVisible | False\r\n        Type | DROP_SHADOW\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.100)\r\n        BlendMode | NORMAL\r\n       
-      Offset | (0.00, 20.00)\r\n        ShowShadowBehindNode | False\r\n    \u2014\u2014\u2014\u2014Strokes\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Opacity | 0.6\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n        Position | 0\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 0.000)\r\n        Position | 1\r\n       
-      GradientHandlePositions | (0.14, 0.12) (0.91, 0.89) (-0.24, 0.50)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-    hashData: "\u2014\u2014\u2014\u2014Frame 34732/BearPatch_01 hov/Group 1000000999/img
-      - bg\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle
-      | 0\r\n    FillGeometry | 533916262\r\n    StrokeWeight | 1\r\n    StrokeAlign
-      | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode
-      | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-      Size | (200.00, 200.00)\r\n    isVisible | True\r\n    Type | RECTANGLE\r\n   
-      GetFigmaRotationAngle | 0\r\n    FillGeometry | 533916262\r\n    StrokeWeight
-      | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 237\r\n    BlendMode
-      | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
-      CounterAxisAlignItems | NONE\r\n    Size | (200.00, 200.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Color | RGBA(0.000,
-      0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n        Color | RGBA(0.510,
-      0.737, 1.000, 0.500)\r\n        Position | 0\r\n        Color | RGBA(0.678,
-      0.827, 1.000, 0.800)\r\n        Position | 1\r\n        GradientHandlePositions
-      | (-0.02, -0.02) (1.10, 1.06) (-0.56, 0.54)\r\n    \u2014\u2014\u2014\u2014Effects\r\n       
-      IsVisible | False\r\n        Type | BACKGROUND_BLUR\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        Offset | (0.00, 0.00)\r\n       
-      IsVisible | False\r\n        Type | DROP_SHADOW\r\n        Radius | 40\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.100)\r\n        BlendMode | NORMAL\r\n       
-      Offset | (0.00, 20.00)\r\n        ShowShadowBehindNode | False\r\n    \u2014\u2014\u2014\u2014Strokes\r\n       
-      IsVisible | True\r\n        Type | GRADIENT_LINEAR\r\n        Opacity | 0.6\r\n       
-      Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n        Position | 0\r\n       
-      Color | RGBA(1.000, 1.000, 1.000, 0.000)\r\n        Position | 1\r\n       
-      GradientHandlePositions | (0.14, 0.12) (0.91, 0.89) (-0.24, 0.50)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-      StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-    parentIndex: 97
-    hierarchy: Frame 34732/BearPatch_01 hov/Group 1000000999/img - bg
-    spritePath: 
-    link: 
-    humanizedTextPrefabName: 
-    tagReason: ForceImage
-    downloadAttempsCount: 0
-    angle: -0
-    isDuplicate: 1
-    isMutual: 0
-    isEmptyMask: 0
-    isEmpty: 0
-    needDownload: 0
-    needGenerate: 0
-    forceImage: 1
-    forceContainer: 0
-    isInsideDownloadable: 0
-    ignore: 0
-    hasFontAsset: 0
-    invisible: 0
---- !u!222 &1070641080997026381
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7700300594520899343}
-  m_CullTransparentMesh: 1
---- !u!114 &3038859805268832187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7700300594520899343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 2
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 21300000, guid: 60d3a0a3b23ad704dad41ea678e5d22a, type: 3}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 8015774957715504626}
+  m_OnClick:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 60d3a0a3b23ad704dad41ea678e5d22a, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!114 &4375744812260337553
+--- !u!114 &2299190024409704431
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7700300594520899343}
+  m_GameObject: {fileID: 7017287589091395253}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
+  m_Script: {fileID: 11500000, guid: 01df5e9993321ce45a47cb4962057a75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 40
-  spread: 0
-  useGlobalAngle: 0
-  offsetAngle: 90
-  offsetDistance: 20
-  offset: {x: 0.000001192093, y: -20}
-  color: {r: 0, g: 0, b: 0, a: 0.1}
-  inset: 0
-  blendMode: 3
-  useCasterAlpha: 1
-  ignoreCasterColor: 0
-  colorBleedMode: 2
-  disableFitCompensation: 0
-  shadowAsSibling: 0
-  cutout: 0
-  baked: 0
-  modifiedFromInspector: 0
-  bakedShadows: []
+  TargetButton: {fileID: 1113605879201588399}
+  EaseType: 1
+  DurationTime: 0
+  TargetImage: {fileID: 8015774957715504626}
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
+  HoverColor: {r: 0.50980395, g: 0.5882353, b: 1, a: 1}
+  TargetImage2: {fileID: 0}
+  NormalColor2: {r: 0, g: 0, b: 0, a: 0}
+  HoverColor2: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &4329068958293358075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7017287589091395253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421fc2eb9750b594a8184865d53ced68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetCamera: {fileID: 0}
+--- !u!65 &8445947502448786844
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7017287589091395253}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 216.35, y: 247.67, z: 30.18}
+  m_Center: {x: 7.4, y: -28.47, z: 0}
+--- !u!114 &6560414761633978209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7017287589091395253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0764fd2be0ce11418b4df1e10b35f2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetCamera: {fileID: 0}
 --- !u!1 &7711741817771280104
 GameObject:
   m_ObjectHideFlags: 0
