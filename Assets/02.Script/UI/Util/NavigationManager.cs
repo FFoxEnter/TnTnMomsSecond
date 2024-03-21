@@ -8,7 +8,7 @@ public class NavigationManager : Singleton<NavigationManager>
 {
     public static NavigationManager Instance;
 
-    [SerializeField] Transform UIZoneparentTransform;
+    [SerializeField] Transform SpecialFeatureParentTransform;
     public string curZoneName = "Main_Zone";
     public string preZoneName = string.Empty;
     [SerializeField] List<NavigationButton> navigationButtons = new List<NavigationButton>();
@@ -23,10 +23,10 @@ public class NavigationManager : Singleton<NavigationManager>
     {
         navigationButtons.Add(button);
 
-        if (UIZoneparentTransform == null)
-            UIZoneparentTransform = GameObject.Find("UIZone").transform;
+        if (SpecialFeatureParentTransform == null)
+            SpecialFeatureParentTransform = GameObject.Find("SpecialFeature").transform;
 
-        foreach (Transform tr in UIZoneparentTransform)
+        foreach (Transform tr in SpecialFeatureParentTransform)
         {
             AddZoneDic(tr, button);
         }
@@ -53,7 +53,7 @@ public class NavigationManager : Singleton<NavigationManager>
 
     public void InActivateZone()
     {
-        foreach (Transform tr in UIZoneparentTransform)
+        foreach (Transform tr in SpecialFeatureParentTransform)
         {
             if (tr.gameObject.activeSelf == true)
                 tr.gameObject.SetActive(false);
