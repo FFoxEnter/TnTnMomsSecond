@@ -78,8 +78,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
             }
         }
 
-        StartFadeOut();
-        isMoving = false;
+        StartFadeOut();        
 
         StartCoroutine(CameraZoom());
     }   
@@ -142,5 +141,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
             mainCam.transform.localPosition = Vector3.MoveTowards(mainCam.transform.localPosition, desiredPosition, smoothSpeed * Time.deltaTime); // 카메라의 위치를 부드럽게 이동된 위치로 설정
             yield return null;
         }
+
+        isMoving = false;
     }
 }
