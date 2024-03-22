@@ -1,14 +1,34 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
 
-public class MovingLineManager : Singleton<MovingLineManager>
+public enum EMovingLineVideo
 {
+    V_intro,
+    V_Bodypillow,
+    V_Blanket,
+    V_Bearcusion,
+    V_FabricTo1st,
+    Egg_EV_left,
+    Egg_EV_right,
+    V_Newitem,
+    V_Bearbelly,
+}
+
+public class MovingLineManager : Singleton<MovingLineManager>
+{    
     public GameObject TimelineRoot;
-    public GameObject[] MovingLine;
-    [SerializeField] Transform positionParentTransform;
-    [SerializeField] List<Transform> posionTransforms;
+    public GameObject[] MovingLine;    
+    public SerializedDictionary<EMovingLineVideo, GameObject> MovingLineVideoDic = new SerializedDictionary<EMovingLineVideo, GameObject>();
+
+    [Header("-----CameraPosition-----")]
+    [SerializeField] Transform initPositionParentTransform;
+    [SerializeField] List<Transform> initPosionTransformList;
+    [SerializeField] Transform zoomPositionParentTransform;
+    [SerializeField] List<Transform> zoomPosionTransformList;
 
     [Header("-----Fade-----")]
     [SerializeField] Image uiZoneBGImage;
@@ -18,24 +38,13 @@ public class MovingLineManager : Singleton<MovingLineManager>
 
     [Header("-----ETC-----")]
     Camera mainCam;
+    public Coroutine mainCamMoveCo;
 
     public void InnerAwake()
     {
-        TimelineRoot = GameObject.FindWithTag("TimeLine");
-
-        // TimelineRoot의 자식 GameObject들을 검색하여 MovingLine 배열에 할당.
-        int childCount = TimelineRoot.transform.childCount;
-        MovingLine = new GameObject[childCount];
-        for (int i = 0; i < childCount; i++)
-        {
-            MovingLine[i] = TimelineRoot.transform.GetChild(i).gameObject;
-        }
-
-        positionParentTransform = GameObject.Find("[Position]").transform;
-        foreach (Transform tr in positionParentTransform)
-        {
-            posionTransforms.Add(tr);
-        }
+        MovingLineSetting();
+        InitPositionSetting();
+        ZoomPositionSetting();        
 
         if (uiZoneBGImage == null)
             uiZoneBGImage = UIRoot.Instance.FadeInOutBg;
@@ -43,6 +52,47 @@ public class MovingLineManager : Singleton<MovingLineManager>
         SetImageAlpha(0.0f);
 
         mainCam = Camera.main;
+    }
+
+    void MovingLineSetting()
+    {
+        TimelineRoot = GameObject.FindWithTag("TimeLine");
+
+        // TimelineRoot의 자식 GameObject들을 검색하여 MovingLine 배열에 할당.
+        int childCount = TimelineRoot.transform.childCount;
+        MovingLine = new GameObject[childCount];
+        var videoList = Enum.GetValues(typeof(EMovingLineVideo));
+        foreach (EMovingLineVideo video in videoList)
+        {
+            for (int i = 0; i < childCount; i++)
+            {
+                MovingLine[i] = TimelineRoot.transform.GetChild(i).gameObject;
+                if (MovingLine[i].name.Equals(video.ToString()))
+                {
+                    if (!MovingLineVideoDic.ContainsKey(video))
+                        MovingLineVideoDic.Add(video, MovingLine[i]);
+                    break;
+                }
+            }
+        }
+    }
+
+    void InitPositionSetting()
+    {
+        initPositionParentTransform = GameObject.Find("[InitPosition]").transform;
+        foreach (Transform tr in initPositionParentTransform)
+        {
+            initPosionTransformList.Add(tr);
+        }
+    }
+
+    void ZoomPositionSetting()
+    {
+        zoomPositionParentTransform = GameObject.Find("[ZoomPosition]").transform;
+        foreach (Transform tr in zoomPositionParentTransform)
+        {
+            zoomPosionTransformList.Add(tr);
+        }
     }
 
     // MovingLine 배열의 특정 인덱스에 해당하는 요소만 활성화하는 함수.
@@ -55,21 +105,29 @@ public class MovingLineManager : Singleton<MovingLineManager>
     }
 
     public void MoveZone(NavigationButton button)
-    { 
-        StartCoroutine(SetMainCamPosRotCo(button));
+    {
+        SetImageAlpha(0.0f);
+        if (mainCamMoveCo != null)
+        {
+            StopCoroutine(mainCamMoveCo);
+            mainCamMoveCo = null;
+            isFading = false;
+        }
+
+        mainCamMoveCo = StartCoroutine(SetMainCamPosRotCo(button));
+        //StartCoroutine(SetMainCamPosRotCo(button));
     }
 
     IEnumerator SetMainCamPosRotCo(NavigationButton button)
     {
-        isMoving = true;
+        isMoving = true;        
         StartFadeIn();
-
         yield return new WaitUntil(() => isFading == false);
 
         GameObject go = null;
         if (NavigationManager.instance.zoneDic.TryGetValue(button.name, out go))
         {
-            foreach (Transform tr in posionTransforms)
+            foreach (Transform tr in initPosionTransformList)
             {
                 if (go.name.Equals(tr.name))
                 {
@@ -78,9 +136,9 @@ public class MovingLineManager : Singleton<MovingLineManager>
             }
         }
 
-        StartFadeOut();        
+        StartFadeOut();
 
-        StartCoroutine(CameraZoom());
+        StartCoroutine(CameraZoom(button));
     }   
 
     // fade in 효과를 시작하는 함수
@@ -132,16 +190,69 @@ public class MovingLineManager : Singleton<MovingLineManager>
 
     // 흠냥 : 임시
     public float smoothSpeed = 0.125f; // 부드러운 이동을 위한 속도
-    IEnumerator CameraZoom()
-    {
-        Vector3 desiredPosition = mainCam.transform.localPosition + new Vector3(0, 0, -1f);
+    Vector3 desiredPosition;
+    Quaternion desiredRotation;
+    IEnumerator CameraZoom(NavigationButton button)
+    {       
+        GameObject go = null;
+        if (NavigationManager.instance.zoneDic.TryGetValue(button.name, out go))
+        {
+            foreach (Transform tr in zoomPosionTransformList)
+            {
+                if (go.name.Equals(tr.name))
+                {
+                    desiredPosition = tr.localPosition;
+                    desiredRotation = tr.localRotation;
+                }
+            }
+        }        
 
         while (mainCam.transform.localPosition != desiredPosition)
         {           
             mainCam.transform.localPosition = Vector3.MoveTowards(mainCam.transform.localPosition, desiredPosition, smoothSpeed * Time.deltaTime); // 카메라의 위치를 부드럽게 이동된 위치로 설정
+            mainCam.transform.localRotation = Quaternion.Lerp(mainCam.transform.localRotation, desiredRotation, (smoothSpeed + 1) * Time.deltaTime);
+
             yield return null;
         }
 
         isMoving = false;
+        MovingLineCheck();
+    }
+
+    void MovingLineCheck()
+    {
+        switch (NavigationManager.instance.curZoneName)
+        {
+            case "NewItem_Zone":
+                PlayMovingLine(EMovingLineVideo.V_Newitem);
+                break;
+            case "Belly_Zone":
+                break;
+            case "Beely_Zone":
+                break;
+            case "Breast_Zone":
+                break;
+            case "Breast2_Zone":
+                break;
+            case "SkinCare_Zone":
+                break;
+            case "OralCare_Zone":
+                break;
+            case "Bath_Zone":
+                break;
+            case "Fabric_Zone":
+                break;
+            case "Food_Zone":
+                break;
+        }
+    }
+
+    void PlayMovingLine(EMovingLineVideo eMovingLineVideo)
+    {
+        GameObject video = null;
+        if (MovingLineVideoDic.TryGetValue(eMovingLineVideo, out video) == true)
+        {
+            video.SetActive(true);
+        }
     }
 }
