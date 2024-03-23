@@ -5,65 +5,64 @@ using UnityEngine.UI;
 
 public class Dissolve : MonoBehaviour
 {
-    //[SerializeField] RawImage _ri;
-    float changeSpeed = 2f;
-    //[SerializeField] BellyZone bellyZone;
+    DissolveManager dissolveManager;
+    [SerializeField] Image image;    
+    [SerializeField] bool isFading = false; // fade 중 여부
 
-    public GameObject[] gameObjects;
-    public Image[] images;
-    public GameObject imgObj01;
-    public GameObject imgObj02;
-    public GameObject imgObj03;
-    public Image img01;
-    public Image img02;
-    public Image img03;
-
-
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        //bellyZone = FindObjectOfType<BellyZone>();
-        //_ri = GetComponent<RawImage>();
-        //_ri.texture = bellyZone.ScreenTexture;
-
-        //if (_ri.texture == null)
-        //    gameObject.SetActive(false);
-
-        //_ri.color = Color.white;
-
-        StartCoroutine(ImageDissolveCo());
+        dissolveManager = GetComponentInParent<DissolveManager>();
+        image = GetComponent<Image>();
     }
 
-    IEnumerator ImageDissolveCo()
+    private void OnDisable()
     {
-        int i = 0;
-        
-        while (true)
+        isFading = false;
+    }
+
+    public void StartFadeIn()
+    {
+        if (!isFading)
         {
-            if (gameObjects[i].activeSelf == false)
-                gameObjects[i].SetActive(true);
-            if (images[i].color != new Color(1,1,1,0))
-            {
-                images[i].color = Color.Lerp(Color.white, new Color(1, 1, 1, 0), 100f * Time.deltaTime);
-                yield return null;
-            }
-            gameObjects[i].SetActive(false);
-            i++;
-            images[i - 1].color = Color.white;
-            if (i == gameObjects.Length)
-                i = 0;
-            
+            StartCoroutine(FadeImage(true));
+        }
+    }
+
+    public void StartFadeOut()
+    {
+        if (!isFading)
+        {
+            StartCoroutine(FadeImage(false));
+        }
+    }
+
+    IEnumerator FadeImage(bool fadeIn)
+    {
+        isFading = true;
+        
+        float firstAlpha = fadeIn ? 0.0f : 1.0f;
+        SetImageAlpha(firstAlpha);
+        float targetAlpha = fadeIn ? 1.0f : 0.0f;
+        float startAlpha = image.color.a;
+        float elapsedTime = 0.0f;
+
+        while (elapsedTime < dissolveManager.fadeDuration)
+        {
+            elapsedTime += Time.deltaTime;
+            float newAlpha = Mathf.Lerp(startAlpha, targetAlpha, elapsedTime / dissolveManager.fadeDuration);
+            SetImageAlpha(newAlpha);
+            yield return null;
         }
 
-        
-
+        SetImageAlpha(targetAlpha); // 알파 값을 목표 값으로 설정 (확실히)
+        isFading = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    // 이미지의 알파 값을 설정하는 함수
+    void SetImageAlpha(float alpha)
     {
-        //_ri.color = Color.Lerp(_ri.color, new Color(1,1,1,0), changeSpeed * Time.deltaTime);
-        //if (_ri.color.a <= 0.01f)
-        //    gameObject.SetActive(false);
+        Color color = image.color;
+        color.a = alpha;
+        image.color = color;
     }
 }
