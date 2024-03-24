@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NavigationUIAni : MonoBehaviour
 {
     public Animator Animator;
-    
+    public Toggle ViewAllToggle;
+    public Toggle MapToggle;
+
     public void InnerAwake()
     {
         SetNavigationAni();
@@ -12,6 +15,8 @@ public class NavigationUIAni : MonoBehaviour
     public void SetNavigationAni()
     {
         Animator = GetComponent<Animator>();
+        ViewAllToggle.enabled = false;
+        MapToggle.enabled = false;
     }
 
     public enum AnimationName
@@ -28,6 +33,8 @@ public class NavigationUIAni : MonoBehaviour
     public void PlayUp()
     {
         PlayAnimation(AnimationName.Up.ToString());
+        ViewAllToggle.enabled = true;
+        MapToggle.enabled = true;
     }
 
     public void PlayDown()

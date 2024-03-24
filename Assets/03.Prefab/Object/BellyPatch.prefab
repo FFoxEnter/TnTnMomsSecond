@@ -235,6 +235,7 @@ Transform:
   - {fileID: 8364486266424963117}
   - {fileID: 4091647858767975103}
   - {fileID: 4029894469168259998}
+  - {fileID: 2678540785378247544}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 167.85, z: 0}
 --- !u!114 &8154883846136766003
@@ -249,6 +250,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f3975258d45b8742859e0e0e04ddae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BellyPackObject: {fileID: 2050915355907414584}
+  BellyZoneInteractionCameraPos2: {fileID: 0}
+  SpecialFeature: {fileID: 0}
+  BellyPackOfStatue: {fileID: 6034020861406597686}
+  Tutorial: {fileID: 0}
+  BearPack: {fileID: 7026808633362650651}
   BellyPack: {fileID: 2800000, guid: 858130fbdf8059a4085fc24d8e625c34, type: 3}
   BellyPackNeon: {fileID: 2800000, guid: a69f2e310ef965e438b3e1d25c63bfff, type: 3}
   BellyPatchSticker1:
@@ -257,8 +264,11 @@ MonoBehaviour:
   BellyPatchSticker2:
   - {fileID: 2800000, guid: bf61af5924be7a042a526dd7724585ce, type: 3}
   - {fileID: 2800000, guid: 19022c9663befe24da941281bbfb1b39, type: 3}
-  BellyPatchSticker1Material: {fileID: 0}
-  BellyPatchSticker2Material: {fileID: 0}
+  BellyPatchStickerCollider:
+  - {fileID: 6458691439490699140}
+  - {fileID: 7053078381584881626}
+  BellyPatchSticker1Material: {fileID: 2100000, guid: 245a7652e8bc8364482f445532a4d26b, type: 2}
+  BellyPatchSticker2Material: {fileID: 2100000, guid: 6e527e7328f11c94eae8c91e70311955, type: 2}
 --- !u!1 &2050915355907414584
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,9 +280,10 @@ GameObject:
   - component: {fileID: 8364486266424963117}
   - component: {fileID: 1169005399064849554}
   - component: {fileID: 3458165884307339142}
+  - component: {fileID: 7026808633362650651}
   m_Layer: 5
   m_Name: BearPack
-  m_TagString: Untagged
+  m_TagString: BearPack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -313,8 +324,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 216.35, y: 247.67, z: 30.18}
-  m_Center: {x: 7.4, y: -28.47, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.01}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3458165884307339142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,6 +339,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetCamera: {fileID: 0}
+--- !u!114 &7026808633362650651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050915355907414584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b9cc48b92bcd4a4d997b43804534a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isTriggerCollider: 1
 --- !u!1 &2495302846057105585
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,6 +435,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6034020861406597686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2678540785378247544}
+  m_Layer: 5
+  m_Name: BellyPackOfStatue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2678540785378247544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034020861406597686}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3170330660484394753}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7873107699107296827
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,8 +617,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 216.35, y: 247.67, z: 30.18}
-  m_Center: {x: 7.4, y: -28.47, z: 0}
+  m_Size: {x: 1.0000002, y: 1, z: 6.123234e-17}
+  m_Center: {x: -0.00048828125, y: 0.00048828125, z: 0}
 --- !u!114 &7400578586326653526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -577,6 +632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetCamera: {fileID: 0}
+  stopDragObject: {fileID: 0}
 --- !u!23 &5177851767420405721
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -695,8 +751,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 216.35, y: 247.67, z: 30.18}
-  m_Center: {x: 7.4, y: -28.47, z: 0}
+  m_Size: {x: 1.0000002, y: 1, z: 6.123234e-17}
+  m_Center: {x: -0.00048828125, y: 0, z: 0}
 --- !u!114 &1487029412035154785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -710,6 +766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetCamera: {fileID: 0}
+  stopDragObject: {fileID: 0}
 --- !u!23 &8364224993520802937
 MeshRenderer:
   m_ObjectHideFlags: 0
