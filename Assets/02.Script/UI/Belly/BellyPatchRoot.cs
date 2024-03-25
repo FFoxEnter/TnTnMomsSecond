@@ -6,7 +6,6 @@ public class BellyPatchRoot : MonoBehaviour
 {
     public GameObject BellyPackObject;
     public GameObject BellyZoneInteractionCameraPos2;
-    public GameObject SpecialFeature;
     public GameObject BellyPackOfStatue;
 
     public GameObject Tutorial;
@@ -36,6 +35,7 @@ public class BellyPatchRoot : MonoBehaviour
     {
         // 초기 상태 설정
         currentState = GameState.State1;
+        OnState1Enter();
     }
 
     void OnState1Enter()
@@ -51,7 +51,6 @@ public class BellyPatchRoot : MonoBehaviour
         // State2 진입 시 실행될 코드.
         BellyPackObject.SetActive(true);
         BellyZoneInteractionCameraPos2.SetActive(true);
-        SpecialFeature.SetActive(true);
     }
 
     void OnState3Enter()

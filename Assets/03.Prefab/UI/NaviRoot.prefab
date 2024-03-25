@@ -919,6 +919,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Animator: {fileID: 0}
+  ViewAllToggle: {fileID: 3376440841655433029}
+  MapToggle: {fileID: 5826796636529951245}
 --- !u!1 &643616830094471725
 GameObject:
   m_ObjectHideFlags: 0
