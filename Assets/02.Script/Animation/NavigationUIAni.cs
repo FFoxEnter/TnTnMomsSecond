@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NavigationUIAni : MonoBehaviour
+public class NavigationUIAni : Singleton<NavigationUIAni>
 {
     public Animator Animator;
     public Toggle ViewAllToggle;
@@ -21,6 +21,9 @@ public class NavigationUIAni : MonoBehaviour
 
         ViewAllToggle.gameObject.SetActive(false);
         MapToggle.gameObject.SetActive(false);
+
+        // MapOnToggle의 값이 변경될 때 호출될 메서드를 설정
+        MapToggle.onValueChanged.AddListener(OnMapToggleValueChanged);
     }
 
     public enum AnimationName
@@ -44,5 +47,18 @@ public class NavigationUIAni : MonoBehaviour
     public void PlayDown()
     {
         PlayAnimation(AnimationName.Down.ToString());
+    }
+
+    // 외부 Toggle 상태가 변경될 때 호출되는 메서드.
+    public void OnMapToggleValueChanged(bool isOn)
+    {
+        if (isOn)
+        {
+            PlayUp();
+        }
+        else
+        {
+            PlayDown();
+        }
     }
 }

@@ -27,6 +27,7 @@ public class BearPack : MonoBehaviour
     {
         // 특정 작업을 수행하는 코드를 작성합니다.
         Debug.Log("BearPack을 클릭했습니다!");
+        BellyPatchRoot.instance.ChangeState(BellyPatchRoot.GameState.State2);
 
     }
 }
