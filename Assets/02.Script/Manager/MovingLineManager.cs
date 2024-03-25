@@ -25,9 +25,9 @@ public class MovingLineManager : Singleton<MovingLineManager>
     public SerializedDictionary<EMovingLineVideo, GameObject> MovingLineVideoDic = new SerializedDictionary<EMovingLineVideo, GameObject>();
 
     [Header("-----CameraPosition-----")]
-    [SerializeField] Transform initPositionParentTransform;
+    Transform initPositionParentTransform;
     [SerializeField] List<Transform> initPosionTransformList;
-    [SerializeField] Transform zoomPositionParentTransform;
+    Transform zoomPositionParentTransform;
     [SerializeField] List<Transform> zoomPosionTransformList;
 
     [Header("-----Fade-----")]
@@ -227,7 +227,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
                 break;
             case "Belly_Zone":
                 break;
-            case "Beely_Zone":
+            case "Belly2F_Zone":
                 break;
             case "Breast_Zone":
                 break;
