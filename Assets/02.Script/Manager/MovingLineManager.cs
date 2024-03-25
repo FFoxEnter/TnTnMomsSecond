@@ -21,7 +21,7 @@ public enum EMovingLineVideo
 public class MovingLineManager : Singleton<MovingLineManager>
 {    
     public GameObject TimelineRoot;
-    public GameObject[] MovingLine;    
+    public GameObject[] MovingLine;
     public SerializedDictionary<EMovingLineVideo, GameObject> MovingLineVideoDic = new SerializedDictionary<EMovingLineVideo, GameObject>();
 
     [Header("-----CameraPosition-----")]
@@ -38,7 +38,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
 
     [Header("-----ETC-----")]
     Camera mainCam;
-    public Coroutine mainCamMoveCo;
+    public Coroutine mainCamMoveCo;    
 
     public void InnerAwake()
     {
@@ -113,9 +113,8 @@ public class MovingLineManager : Singleton<MovingLineManager>
             mainCamMoveCo = null;
             isFading = false;
         }
-
+        AllVideoOff();
         mainCamMoveCo = StartCoroutine(SetMainCamPosRotCo(button));
-        //StartCoroutine(SetMainCamPosRotCo(button));
     }
 
     IEnumerator SetMainCamPosRotCo(NavigationButton button)
@@ -124,12 +123,12 @@ public class MovingLineManager : Singleton<MovingLineManager>
         StartFadeIn();
         yield return new WaitUntil(() => isFading == false);
 
-        GameObject go = null;
-        if (NavigationManager.instance.zoneDic.TryGetValue(button.name, out go))
+        GameObject uIZone = null;
+        if (NavigationManager.instance.zoneDic.TryGetValue(button.name, out uIZone))
         {
             foreach (Transform tr in initPosionTransformList)
             {
-                if (go.name.Equals(tr.name))
+                if (uIZone.name.Equals(tr.name))
                 {
                     mainCam.transform.SetLocalPositionAndRotation(tr.localPosition, tr.localRotation);
                 }
@@ -194,12 +193,12 @@ public class MovingLineManager : Singleton<MovingLineManager>
     Quaternion desiredRotation;
     IEnumerator CameraZoom(NavigationButton button)
     {       
-        GameObject go = null;
-        if (NavigationManager.instance.zoneDic.TryGetValue(button.name, out go))
+        GameObject uIZone = null;
+        if (NavigationManager.instance.zoneDic.TryGetValue(button.name, out uIZone))
         {
             foreach (Transform tr in zoomPosionTransformList)
             {
-                if (go.name.Equals(tr.name))
+                if (uIZone.name.Equals(tr.name))
                 {
                     desiredPosition = tr.localPosition;
                     desiredRotation = tr.localRotation;
@@ -210,11 +209,11 @@ public class MovingLineManager : Singleton<MovingLineManager>
         while (mainCam.transform.localPosition != desiredPosition)
         {           
             mainCam.transform.localPosition = Vector3.MoveTowards(mainCam.transform.localPosition, desiredPosition, smoothSpeed * Time.deltaTime); // 카메라의 위치를 부드럽게 이동된 위치로 설정
-            mainCam.transform.localRotation = Quaternion.Lerp(mainCam.transform.localRotation, desiredRotation, (smoothSpeed + 1) * Time.deltaTime);
+            mainCam.transform.localRotation = Quaternion.Lerp(mainCam.transform.localRotation, desiredRotation, (smoothSpeed + 0.1f) * Time.deltaTime);
 
             yield return null;
         }
-
+        mainCam.transform.localPosition = desiredPosition;
         isMoving = false;
         MovingLineCheck();
     }
@@ -247,12 +246,21 @@ public class MovingLineManager : Singleton<MovingLineManager>
         }
     }
 
-    void PlayMovingLine(EMovingLineVideo eMovingLineVideo)
+    public void PlayMovingLine(EMovingLineVideo eMovingLineVideo)
     {
         GameObject video = null;
         if (MovingLineVideoDic.TryGetValue(eMovingLineVideo, out video) == true)
         {
             video.SetActive(true);
+        }
+    }
+
+    void AllVideoOff()
+    {
+        for (int i = 0; i < MovingLine.Length; i++)
+        {
+            if (MovingLine[i].activeSelf)
+                MovingLine[i].SetActive(false);
         }
     }
 }
