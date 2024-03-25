@@ -14,6 +14,8 @@ public class NavigationManager : Singleton<NavigationManager>
     [SerializeField] List<NavigationButton> navigationButtons = new List<NavigationButton>();
     public SerializedDictionary<string, GameObject> zoneDic = new SerializedDictionary<string, GameObject>();
 
+    public Coroutine zoneUICo;
+
     public void InnerAwake()
     {
         Instance = this;
@@ -51,7 +53,7 @@ public class NavigationManager : Singleton<NavigationManager>
             zoneDic.Add(button.name, tr.gameObject);
     }
 
-    public void InActivateZone()
+    public void InActivateZoneUI()
     {
         foreach (Transform tr in SpecialFeatureParentTransform)
         {
@@ -62,7 +64,12 @@ public class NavigationManager : Singleton<NavigationManager>
 
     public void ActiviateZoneObj(NavigationButton navButton)
     {
-        StartCoroutine(UIZoneActivateCo(navButton));
+        if (zoneUICo != null)
+        {
+            StopCoroutine(zoneUICo);
+            zoneUICo = null;
+        }
+        zoneUICo = StartCoroutine(UIZoneActivateCo(navButton));
     }
 
     IEnumerator UIZoneActivateCo(NavigationButton navButton)

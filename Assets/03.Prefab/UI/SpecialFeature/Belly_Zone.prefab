@@ -2016,7 +2016,6 @@ Animation:
   m_Animation: {fileID: 0}
   m_Animations:
   - {fileID: 7400000, guid: 23fdbf0376d7a334892f1415ebf3d65d, type: 2}
-  - {fileID: 7400000, guid: e185bb593c5893443a9f317354c3846a, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0

@@ -29,6 +29,8 @@ public class BellyZone : MonoBehaviour
 
     Animation anim;
     List<string> animArray = new List<string>();
+
+    [Header("-----ETC-----")]
     public int tempClickCount = 0;
 
     private void Awake()
@@ -36,19 +38,9 @@ public class BellyZone : MonoBehaviour
         InitSetting();
     }
 
-    private void Start()
-    {
-        StartCoroutine(ShowUICo());
-    }
-
-    IEnumerator ShowUICo()
+    private void OnEnable()
     {
         anim.Play(animArray[0]);
-        anim.wrapMode = WrapMode.Once;
-
-        yield return new WaitForSeconds(0.75f);
-
-        anim.Play(animArray[1]);
         anim.wrapMode = WrapMode.Once;
     }
 
@@ -116,7 +108,7 @@ public class BellyZone : MonoBehaviour
 
     void BellyZone2FMoveButtonClick()
     {
-        // 흠냥.
-        // 비디오 재생
+        NavigationManager.instance.InActivateZoneUI();
+        MovingLineManager.instance.PlayMovingLine(EMovingLineVideo.V_Bearbelly);
     }
 }
