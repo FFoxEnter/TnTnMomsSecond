@@ -5,7 +5,6 @@ using UnityEngine;
 public class BellyPatchRoot : Singleton<BellyPatchRoot>
 {
     public GameObject BellyPackObject;
-    public GameObject BellyZoneInteractionCameraPos2;
     public GameObject BellyPackOfStatue;
 
     public GameObject Tutorial;
@@ -43,7 +42,6 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
     void OnState1Enter()
     {
         // State1 진입 시 실행될 코드.
-        BellyZoneInteractionCameraPos2.SetActive(false);
         StickerCollider(0, false);
     }
 
@@ -51,7 +49,6 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
     {
         // State2 진입 시 실행될 코드.
         BellyPackObject.SetActive(true);
-        BellyZoneInteractionCameraPos2.SetActive(true);
         Statue.RotateNegative10Degrees();
     }
 
