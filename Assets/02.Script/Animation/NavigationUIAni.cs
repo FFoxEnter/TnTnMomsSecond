@@ -15,8 +15,12 @@ public class NavigationUIAni : MonoBehaviour
     public void SetNavigationAni()
     {
         Animator = GetComponent<Animator>();
+
         ViewAllToggle.enabled = false;
         MapToggle.enabled = false;
+
+        ViewAllToggle.gameObject.SetActive(false);
+        MapToggle.gameObject.SetActive(false);
     }
 
     public enum AnimationName
