@@ -15,7 +15,8 @@ public class NavigationButton : MonoBehaviour
         OralCare,
         Bath,
         Fabric,
-        Food
+        Food,
+        Belly2f,
     }public Zone zone;
 
     /// <summary>

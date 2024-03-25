@@ -60,6 +60,8 @@ public class BellyZone : MonoBehaviour
         {
             animArray.Add(state.name);
         }
+
+        Belly2FDicAdd();
     }
 
     void DetailsButtonClick()
@@ -106,8 +108,22 @@ public class BellyZone : MonoBehaviour
         productAddChangeTextColor.HoverColor = tempColor;
     }
 
+    void Belly2FDicAdd()
+    {
+        Transform sFTransform = GameObject.Find("SpecialFeature").transform;
+        foreach (Transform tr in sFTransform)
+        {
+            if (tr.gameObject.name.Contains("Belly2F"))
+            {
+                NavigationManager.instance.zoneDic.Add(BellyZone2FMoveButton.name, tr.gameObject);
+            }
+        }
+    }
+
     void BellyZone2FMoveButtonClick()
     {
+        NavigationManager.instance.preZoneName = "Belly_Zone";
+        NavigationManager.instance.curZoneName = "Belly2F_Zone";
         NavigationManager.instance.InActivateZoneUI();
         MovingLineManager.instance.PlayMovingLine(EMovingLineVideo.V_Bearbelly);
     }
