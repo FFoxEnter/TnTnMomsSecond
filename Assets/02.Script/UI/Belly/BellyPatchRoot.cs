@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BellyPatchRoot : MonoBehaviour
+public class BellyPatchRoot : Singleton<BellyPatchRoot>
 {
     public GameObject BellyPackObject;
     public GameObject BellyZoneInteractionCameraPos2;
@@ -21,11 +21,13 @@ public class BellyPatchRoot : MonoBehaviour
     public Material BellyPatchSticker1Material;
     public Material BellyPatchSticker2Material;
 
+    public RotateObjectToTargetAngle Statue;
+
     public enum GameState
     {
-        State1,
-        State2,
-        State3,
+        State1,// Scene 시작 시.
+        State2,// 카메라 진입 시.
+        State3,// 팩 클릭 시.
         State4,
         State5
     }
@@ -42,8 +44,7 @@ public class BellyPatchRoot : MonoBehaviour
     {
         // State1 진입 시 실행될 코드.
         BellyZoneInteractionCameraPos2.SetActive(false);
-
-
+        StickerCollider(0, false);
     }
 
     void OnState2Enter()
@@ -51,12 +52,14 @@ public class BellyPatchRoot : MonoBehaviour
         // State2 진입 시 실행될 코드.
         BellyPackObject.SetActive(true);
         BellyZoneInteractionCameraPos2.SetActive(true);
+        Statue.RotateNegative10Degrees();
     }
 
     void OnState3Enter()
     {
         // State3 진입 시 실행될 코드.
         Tutorial.SetActive(true);
+        StickerCollider(0, true);
     }
 
     void OnState4Enter()
@@ -70,7 +73,7 @@ public class BellyPatchRoot : MonoBehaviour
         // State5 진입 시 실행될 코드
     }
 
-    public void StateUpdate()
+    private void StateUpdate()
     {
         // 게임 상태 업데이트.
         switch (currentState)
@@ -99,6 +102,7 @@ public class BellyPatchRoot : MonoBehaviour
     public void ChangeState(GameState newState)
     {
         currentState = newState;
+        StateUpdate();
     }
 
 
@@ -113,6 +117,7 @@ public class BellyPatchRoot : MonoBehaviour
         switch (currentState)
         {
             case GameState.State1:
+            case GameState.State3:
                 for (int i = 0; i < BellyPatchStickerCollider.Length; i++)
                 {
                     BellyPatchStickerCollider[i].enabled = flag;
@@ -121,6 +126,7 @@ public class BellyPatchRoot : MonoBehaviour
             case GameState.State2:
                 BellyPatchStickerCollider[index].enabled = flag;
                 break;
+
         }
     }
 

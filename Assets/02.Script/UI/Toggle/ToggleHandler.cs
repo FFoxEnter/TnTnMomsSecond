@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using JetBrains.Annotations;
+using UnityEngine.Events;
 
 public class ToggleHandler : MonoBehaviour
 {
@@ -10,6 +11,13 @@ public class ToggleHandler : MonoBehaviour
     [CanBeNull]
     public TextMeshProUGUI[] TMPro;
     public Image[] image;
+
+    // 각각의 이벤트 정의
+    public UnityEvent MapOnEvent;
+    public UnityEvent MapOffEvent;
+    public UnityEvent OtherEvent;
+
+    public static event System.Action<bool> ToggleStateChanged;
 
     /// <summary>
     /// 가변
@@ -49,6 +57,12 @@ public class ToggleHandler : MonoBehaviour
             {
                 ChangeToggleImage(image[0], image[1], true, false);
             }
+
+            // MapOnEvent 호출
+            if (MapOnEvent != null)
+            {
+                MapOnEvent.Invoke();
+            }
         }
         else
         {
@@ -62,7 +76,16 @@ public class ToggleHandler : MonoBehaviour
             {
                 ChangeToggleImage(image[0], image[1], false, true);
             }
+
+            // MapOffEvent 호출
+            if (MapOffEvent != null)
+            {
+                MapOffEvent.Invoke();
+            }
         }
+
+        // 정적 이벤트 호출
+        ToggleStateChanged?.Invoke(isOn);
     }
 
     private void ChangeToggleImage(Image image1, Image image2, bool image1flag, bool image2flag)
