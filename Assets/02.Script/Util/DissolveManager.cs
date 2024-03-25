@@ -11,15 +11,32 @@ public class DissolveManager : MonoBehaviour
     public float fadeDuration = 2f;
     [SerializeField] float delayTime = 3f;
     WaitForSeconds wTime;
+    Coroutine curDissolveCo;
 
-    private void Start()
+    private void Awake()
     {
         wTime = new WaitForSeconds(fadeDuration + delayTime);
-        StartCoroutine(DissolveCo());
+    }
+
+    private void OnEnable()
+    {
+        if (curDissolveCo != null)
+        {
+            StopCoroutine(curDissolveCo);
+            curDissolveCo = null;            
+        }
+        curDissolveCo = StartCoroutine(DissolveCo());
+    }   
+
+    void InitSetting()
+    {
+        curIndex = 0;
+        dissolves[0].gameObject.SetActive(true);
     }
 
     IEnumerator DissolveCo()
     {
+        InitSetting();
         toggles[curIndex].isOn = true;
         yield return new WaitForSeconds(delayTime);
 
@@ -30,10 +47,10 @@ public class DissolveManager : MonoBehaviour
             dissolves[curIndex].StartFadeOut();
             dissolves[(curIndex + 1) % dissolves.Length].StartFadeIn();
             toggles[(curIndex + 1) % dissolves.Length].isOn = true;
-
+            curIndex++;
             yield return wTime;
 
-            curIndex++;
+            
             if (curIndex >= dissolves.Length)
                 curIndex = 0;
             
