@@ -19,7 +19,7 @@ public enum EMovingLineVideo
 }
 
 public class MovingLineManager : Singleton<MovingLineManager>
-{    
+{
     public GameObject TimelineRoot;
     public GameObject[] MovingLine;
     public SerializedDictionary<EMovingLineVideo, GameObject> MovingLineVideoDic = new SerializedDictionary<EMovingLineVideo, GameObject>();
@@ -38,13 +38,14 @@ public class MovingLineManager : Singleton<MovingLineManager>
 
     [Header("-----ETC-----")]
     Camera mainCam;
-    public Coroutine mainCamMoveCo;    
+    public Coroutine mainCamMoveCo;
+    public Coroutine CamZoomCo;
 
     public void InnerAwake()
     {
         MovingLineSetting();
         InitPositionSetting();
-        ZoomPositionSetting();        
+        ZoomPositionSetting();
 
         if (uiZoneBGImage == null)
             uiZoneBGImage = UIRoot.Instance.FadeInOutBg;
@@ -95,31 +96,33 @@ public class MovingLineManager : Singleton<MovingLineManager>
         }
     }
 
-    // MovingLine 배열의 특정 인덱스에 해당하는 요소만 활성화하는 함수.
-    public void SetActiveMovingLine(int index)
-    {
-        for (int i = 0; i < MovingLine.Length; i++)
-        {
-            MovingLine[i].SetActive(i == index);
-        }
-    }
-
     public void MoveZone(NavigationButton button)
     {
         SetImageAlpha(0.0f);
-        if (mainCamMoveCo != null)
-        {
-            StopCoroutine(mainCamMoveCo);
-            mainCamMoveCo = null;
-            isFading = false;
-        }
+        StopAllCamCo();
+        isFading = false;
         AllVideoOff();
         mainCamMoveCo = StartCoroutine(SetMainCamPosRotCo(button));
     }
 
+    public void StopAllCamCo()
+    {
+        if (mainCamMoveCo != null)
+        {
+            StopCoroutine(mainCamMoveCo);
+            mainCamMoveCo = null;
+        }
+        
+        if (CamZoomCo != null)
+        {
+            StopCoroutine(CamZoomCo);
+            CamZoomCo = null;
+        }
+    }
+
     IEnumerator SetMainCamPosRotCo(NavigationButton button)
     {
-        isMoving = true;        
+        isMoving = true;
         StartFadeIn();
         yield return new WaitUntil(() => isFading == false);
 
@@ -136,15 +139,18 @@ public class MovingLineManager : Singleton<MovingLineManager>
         }
 
         StartFadeOut();
-
-        StartCoroutine(CameraZoom(button));
-    }   
+        if (button.name.Equals("btn - main"))
+            NavigationManager.instance.SpecialButtonView(false);
+        else
+            NavigationManager.instance.SpecialButtonView(true);
+        CamZoomCo = StartCoroutine(CameraZoom(button));
+    }
 
     // fade in 효과를 시작하는 함수
     public void StartFadeIn()
     {
         if (!isFading)
-        {            
+        {
             StartCoroutine(FadeImage(true));
         }
     }
@@ -153,7 +159,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
     public void StartFadeOut()
     {
         if (!isFading)
-        {            
+        {
             StartCoroutine(FadeImage(false));
         }
     }
@@ -192,7 +198,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
     Vector3 desiredPosition;
     Quaternion desiredRotation;
     IEnumerator CameraZoom(NavigationButton button)
-    {       
+    {
         GameObject uIZone = null;
         if (NavigationManager.instance.zoneDic.TryGetValue(button.name, out uIZone))
         {
@@ -209,7 +215,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
         Invoke("InvokeStateCall", 2.0f);
 
         while (mainCam.transform.localPosition != desiredPosition)
-        {           
+        {
             mainCam.transform.localPosition = Vector3.MoveTowards(mainCam.transform.localPosition, desiredPosition, smoothSpeed * Time.deltaTime); // 카메라의 위치를 부드럽게 이동된 위치로 설정
             mainCam.transform.localRotation = Quaternion.Lerp(mainCam.transform.localRotation, desiredRotation, (smoothSpeed + 0.1f) * Time.deltaTime);
 
@@ -218,7 +224,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
         mainCam.transform.localPosition = desiredPosition;
         isMoving = false;
         MovingLineCheck();
-    }
+    }    
 
     void MovingLineCheck()
     {
@@ -257,7 +263,47 @@ public class MovingLineManager : Singleton<MovingLineManager>
         }
     }
 
-    void AllVideoOff()
+    public void CameraMove(string curZoneName, bool isZoom)
+    {
+        StartCoroutine(CameraMoveCo(curZoneName, isZoom));
+    }
+
+    IEnumerator CameraMoveCo(string curZoneName, bool isZoom)
+    {
+        isMoving = true;
+        List<Transform> list = new List<Transform>();
+        if (isZoom)
+        {
+            list = zoomPosionTransformList;
+            NavigationManager.instance.InActivateZoneUI();
+        }
+        else
+        {
+            list = initPosionTransformList;
+            NavigationManager.instance.ActiviateZoneObj(curZoneName);
+        }
+
+        foreach (Transform tr in list)
+        {
+            if (curZoneName.Equals(tr.gameObject.name))
+            {
+                desiredPosition = tr.localPosition;
+                desiredRotation = tr.localRotation;
+            }
+        }        
+
+        while (mainCam.transform.localPosition != desiredPosition)
+        {
+            mainCam.transform.localPosition = Vector3.MoveTowards(mainCam.transform.localPosition, desiredPosition, smoothSpeed * Time.deltaTime); // 카메라의 위치를 부드럽게 이동된 위치로 설정
+            mainCam.transform.localRotation = Quaternion.Lerp(mainCam.transform.localRotation, desiredRotation, (smoothSpeed + 0.05f) * Time.deltaTime);
+
+            yield return null;
+        }
+        mainCam.transform.localPosition = desiredPosition;
+        isMoving = false;
+    }
+
+    public void AllVideoOff()
     {
         for (int i = 0; i < MovingLine.Length; i++)
         {

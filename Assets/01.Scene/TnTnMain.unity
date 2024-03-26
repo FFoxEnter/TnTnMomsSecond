@@ -145,32 +145,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3801364 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1023151858266300533, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4519311 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6117451480333990433, guid: e3124d7631ba5324cb0d009f8d0c9fcc, type: 3}
   m_PrefabInstance: {fileID: 2134499282}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &6373518 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3375261985494748539, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -200,15 +178,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!114 &14723491
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
+=======
+--- !u!114 &14462226 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6810704736361458860, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+>>>>>>> Stashed changes
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -217,6 +203,11 @@ MonoBehaviour:
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+=======
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Stashed changes
 --- !u!114 &22088616 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9113209506346899921, guid: e3124d7631ba5324cb0d009f8d0c9fcc, type: 3}
@@ -228,6 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!114 &22745209 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3677821501947102690, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
@@ -239,6 +231,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> Stashed changes
 --- !u!114 &25802127 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5877410307899953288, guid: 9e5e6a89ad8a77a4fbb8a5951ac02c70, type: 3}
@@ -324,7 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1285298200}
+  mTarget: {fileID: 1373756028}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -351,6 +345,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &38222358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 2020220777}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &44547968 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6913632900582240480, guid: 9e5e6a89ad8a77a4fbb8a5951ac02c70, type: 3}
@@ -463,7 +474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 677422722}
+  mTarget: {fileID: 310519409}
   mAlignment_RTL: 260
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
@@ -479,6 +490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!114 &61874704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -496,6 +508,8 @@ MonoBehaviour:
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+=======
+>>>>>>> Stashed changes
 --- !u!114 &62461723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -676,7 +690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 272627198}
+  mTarget: {fileID: 1570179511}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -754,6 +768,28 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &92168660 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4868193319148443760, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &97692720 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2882412019976421969, guid: 99fd794a0d9c263419e14059b3e200eb, type: 3}
+  m_PrefabInstance: {fileID: 2068385513}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &97991344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1051,11 +1087,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1379654971}
+  mTarget: {fileID: 594584566}
   mAlignment_RTL: 260
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &135797094 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6344630998771653289, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &139278880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1378,17 +1425,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3652728424348959064, guid: 6046727ebec66a142b837f26b980333c, type: 3}
   m_PrefabInstance: {fileID: 154143176}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &159594962 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6142706510596084148, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &162521788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1454,17 +1490,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1419590981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &177421716 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7867224998844420272, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &184358025 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7960939468642071859, guid: 9b906c6dce135054ea630543d2c7eddd, type: 3}
@@ -1598,6 +1623,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTarget: {fileID: 478575345}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+--- !u!114 &208845148 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4681708167905822891, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &210714100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 732245247}
   mAlignment_RTL: 260
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
@@ -1772,6 +1825,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+=======
+--- !u!114 &234065700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 438675453}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+>>>>>>> Stashed changes
 --- !u!114 &235481700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1928,6 +2001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!114 &272627198 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1206810340913992975, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
@@ -1939,6 +2013,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> Stashed changes
 --- !u!114 &274994679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2056,6 +2132,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &310519409 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3830194400156822213, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &312096829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2129,6 +2216,47 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!21 &320216541
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/RoundedCorners/CornerRounder
+  m_Shader: {fileID: 4800000, guid: d3beb88e61f88ca4393acdefb005fa70, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _halfSize: {r: 320, g: 420, b: 0, a: 0}
+    - _r: {r: 30, g: 30, b: 30, a: 30}
+    - _rect2props: {r: 0.000030517578, g: -0.000061035156, b: 502.04584, a: 502.04584}
+  m_BuildTextureStacks: []
 --- !u!1 &326162421
 GameObject:
   m_ObjectHideFlags: 0
@@ -2201,7 +2329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1216984885}
+  mTarget: {fileID: 1648247173}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -2672,6 +2800,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365374393}
   m_CullTransparentMesh: 1
+--- !u!114 &365618109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 369220072}
+  mAlignment_RTL: 514
+  mAlignment_LTR: 514
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &369220072 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9035184901384769050, guid: 9e5e6a89ad8a77a4fbb8a5951ac02c70, type: 3}
@@ -2795,6 +2940,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &390692661 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1445790687575955301, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &392541606 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5877410307899953288, guid: 7c5ba61ab7aeeaa4b9e5055ec762154b, type: 3}
@@ -2828,6 +2984,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &396407347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 881495924}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &396811743 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8621153310830471028, guid: 6e73331f43fc9e4438a90cbe4848b1a4, type: 3}
@@ -2939,15 +3112,23 @@ MonoBehaviour:
   mAlignment_LTR: 513
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+<<<<<<< Updated upstream
 --- !u!114 &404302989
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
+=======
+--- !u!114 &405467284 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7566993453126099281, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+>>>>>>> Stashed changes
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -2973,6 +3154,11 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+=======
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Stashed changes
 --- !u!114 &408808039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3057,6 +3243,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &432067313 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8590192286007815203, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &433318465 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6117451480333990433, guid: 613911f14c58f6a43bfca806314b158e, type: 3}
@@ -3085,17 +3282,6 @@ MonoBehaviour:
   mAlignment_LTR: 513
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
---- !u!114 &438644680 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3682913733970275682, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &438675453 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6751899808868221202, guid: 9e5e6a89ad8a77a4fbb8a5951ac02c70, type: 3}
@@ -3197,17 +3383,6 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
---- !u!114 &456220286 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3873229294909003187, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &459988513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3349,7 +3524,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   mTarget: {fileID: 439997984}
+=======
+  mTarget: {fileID: 1069266914}
+>>>>>>> Stashed changes
   mAlignment_RTL: 260
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
@@ -3365,6 +3544,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &480614867 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 576081567677860635, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &483219701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 338055587}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &483668499 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 596346140328855952, guid: 6e73331f43fc9e4438a90cbe4848b1a4, type: 3}
@@ -3443,6 +3650,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &496303418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1352782149}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+--- !u!114 &496839910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1933674015}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!1 &498240326
 GameObject:
   m_ObjectHideFlags: 0
@@ -3502,6 +3743,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &503266747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 2114820918}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &505493040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3695,6 +3953,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &516431680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 260278452}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &517551165 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1950829177616433444, guid: 8d3d7dd06b6d45b4f8b139c501653d9e, type: 3}
@@ -4120,6 +4395,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 398817452}
   m_LocalEulerAnglesHint: {x: 0, y: 168.42, z: 0}
+--- !u!114 &540785854 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7474948009925147800, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &544405869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4373,17 +4659,6 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
---- !u!114 &575302040 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6884570393783495277, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &576337190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4412,6 +4687,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+=======
+--- !u!114 &583419450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1961374170}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+>>>>>>> Stashed changes
 --- !u!114 &588271131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4480,6 +4775,17 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &594584566 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7580187995014780758, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &594906732 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7866810712632627557, guid: 613911f14c58f6a43bfca806314b158e, type: 3}
@@ -4536,6 +4842,37 @@ MonoBehaviour:
   mAlignment_LTR: 513
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!1 &607238253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 607238254}
+  m_Layer: 0
+  m_Name: Main_Zone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &607238254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607238253}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1419590981}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &618474866 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2324090407478999471, guid: 478cb168f3c89fc429ef1dea5709d848, type: 3}
@@ -4574,6 +4911,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &622759365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 358990340}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!1001 &623375056
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4582,6 +4936,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1022084492}
     m_Modifications:
+<<<<<<< Updated upstream
     - target: {fileID: 129553499468129728, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -4599,6 +4954,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 420506626297145879, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+=======
+    - target: {fileID: 36734161749055780, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 36734161749055780, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+>>>>>>> Stashed changes
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
@@ -4606,6 +4968,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: NaviRoot
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 488908337406819996, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -4631,33 +4994,80 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1681264517893717306, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+=======
+    - target: {fileID: 1028544901329416528, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+>>>>>>> Stashed changes
       propertyPath: mLocalizeTarget
       value: 
-      objectReference: {fileID: 1264724692}
-    - target: {fileID: 1742121876646370298, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-      propertyPath: mLocalizeTarget
-      value: 
-      objectReference: {fileID: 60464801}
-    - target: {fileID: 1914293182466765402, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-      propertyPath: mLocalizeTarget
-      value: 
-      objectReference: {fileID: 672664899}
-    - target: {fileID: 2708899387326949920, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-      propertyPath: mLocalizeTarget
-      value: 
-      objectReference: {fileID: 135189706}
-    - target: {fileID: 2747167386009050688, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      objectReference: {fileID: 655278246}
+    - target: {fileID: 1175119092744192957, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 82189719}
-    - target: {fileID: 3201044718008096010, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-      propertyPath: mLocalizeTarget
-      value: 
-      objectReference: {fileID: 674948265}
-    - target: {fileID: 3260757978959859826, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+    - target: {fileID: 1497472066363537518, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 2111863321}
+    - target: {fileID: 1695607329323021814, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 1764248974}
+    - target: {fileID: 1980383829161957352, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980383829161957352, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150879203646635267, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 1008920005}
+    - target: {fileID: 2353458811698204038, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 1715970862}
+    - target: {fileID: 2711051254910611589, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 1888834886}
+    - target: {fileID: 2758111087655765371, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 672664899}
+    - target: {fileID: 3059095225778463741, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 330733075}
+    - target: {fileID: 3128575933247278101, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128575933247278101, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135557283987607584, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 2083876661}
+    - target: {fileID: 3206164929686853818, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 135189706}
+    - target: {fileID: 3214750825740884701, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 1823484655}
+    - target: {fileID: 3228413442768444984, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 1365789370}
+    - target: {fileID: 3313134325632554208, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 2036054986}
     - target: {fileID: 3382343053221440055, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4738,10 +5148,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3392659482915175414, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+    - target: {fileID: 3522345052402198353, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522345052402198353, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3559691374888358263, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3559691374888358263, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3726533233240941590, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 1264724692}
+    - target: {fileID: 3736565871943832712, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 2094696509}
+<<<<<<< Updated upstream
     - target: {fileID: 3598593524010888114, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
       propertyPath: mLocalizeTarget
       value: 
@@ -4831,16 +5262,28 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1888834886}
     - target: {fileID: 7452752703829729157, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+=======
+    - target: {fileID: 3903015252350965557, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903015252350965557, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3912044492301256878, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+>>>>>>> Stashed changes
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 1820096334}
-    - target: {fileID: 7625342453340311404, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+    - target: {fileID: 4510626481738186193, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
       propertyPath: mLocalizeTarget
       value: 
-      objectReference: {fileID: 1317620802}
-    - target: {fileID: 7734202937868687264, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      objectReference: {fileID: 1836583191}
+    - target: {fileID: 4743494574777385466, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
       propertyPath: mLocalizeTarget
       value: 
+<<<<<<< Updated upstream
       objectReference: {fileID: 1764248974}
     - target: {fileID: 7915624670870361360, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -4863,13 +5306,93 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8420168071870432474, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+=======
+      objectReference: {fileID: 1406813709}
+    - target: {fileID: 5116679484840057164, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+>>>>>>> Stashed changes
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 32948941}
-    - target: {fileID: 9164456824143367810, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+    - target: {fileID: 5806245768517276991, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
       propertyPath: mLocalizeTarget
       value: 
-      objectReference: {fileID: 1365789370}
+      objectReference: {fileID: 1477466899}
+    - target: {fileID: 6018668132642833482, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 2016751800}
+    - target: {fileID: 6102703782377742467, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6102703782377742467, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6198362282345723925, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6198362282345723925, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215709874860518251, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215709874860518251, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6457457676771687397, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 1143730929}
+    - target: {fileID: 6695519324564908185, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 2141254007}
+    - target: {fileID: 6714902156089594246, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6714902156089594246, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096706342054998754, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 965179114}
+    - target: {fileID: 7142098126346307897, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 674948265}
+    - target: {fileID: 7886847311022561233, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886847311022561233, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8753250086348256552, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 1317620802}
+    - target: {fileID: 8824882013887883828, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 60464801}
+    - target: {fileID: 9081005332818241847, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 1211308440}
+    - target: {fileID: 9126947775884915712, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+      propertyPath: mLocalizeTarget
+      value: 
+      objectReference: {fileID: 1670693270}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4886,7 +5409,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!114 &624997833
+=======
+--- !u!114 &626625196
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4898,9 +5425,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   mTarget: {fileID: 2127475055}
   mAlignment_RTL: 516
   mAlignment_LTR: 513
+=======
+  mTarget: {fileID: 1797566658}
+  mAlignment_RTL: 514
+  mAlignment_LTR: 514
+>>>>>>> Stashed changes
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
 --- !u!114 &628903575
@@ -4942,6 +5475,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &632310210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1769013393}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &638067047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5050,7 +5600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 6373518}
+  mTarget: {fileID: 208845148}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -5103,6 +5653,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 398817452}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &666398227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 2127475055}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &669491789 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9035184901384769050, guid: 8d3d7dd06b6d45b4f8b139c501653d9e, type: 3}
@@ -5143,7 +5710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 2114123022}
+  mTarget: {fileID: 1615205415}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -5194,11 +5761,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1656887802}
+  mTarget: {fileID: 1886965287}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+<<<<<<< Updated upstream
 --- !u!114 &677184385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5227,6 +5795,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> Stashed changes
 --- !u!114 &678341128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5362,15 +5932,23 @@ MonoBehaviour:
   mAlignment_LTR: 513
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+<<<<<<< Updated upstream
 --- !u!114 &692777496
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
+=======
+--- !u!114 &697041649 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2530457878744489302, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+>>>>>>> Stashed changes
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -5379,6 +5957,11 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+=======
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Stashed changes
 --- !u!114 &702831506 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3817612703755012221, guid: 7c5ba61ab7aeeaa4b9e5055ec762154b, type: 3}
@@ -5929,6 +6512,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &733985119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 240205674}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &740407538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5950,17 +6550,6 @@ MonoBehaviour:
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8587946042826547938, guid: 99fd794a0d9c263419e14059b3e200eb, type: 3}
   m_PrefabInstance: {fileID: 2068385513}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &751157602 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4072746771286825145, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -6168,6 +6757,7 @@ MonoBehaviour:
   mAlignment_LTR: 513
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+<<<<<<< Updated upstream
 --- !u!114 &781635613 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4128090225397530020, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
@@ -6180,6 +6770,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &784139854 stripped
+=======
+--- !u!114 &788500576 stripped
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2882412019976421969, guid: 99fd794a0d9c263419e14059b3e200eb, type: 3}
   m_PrefabInstance: {fileID: 2068385513}
@@ -6190,6 +6783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!114 &788500576 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 164047020366124789, guid: 99fd794a0d9c263419e14059b3e200eb, type: 3}
@@ -6201,6 +6795,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> Stashed changes
 --- !u!114 &796977825 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9113209506346899921, guid: 7c5ba61ab7aeeaa4b9e5055ec762154b, type: 3}
@@ -6263,17 +6859,6 @@ MonoBehaviour:
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
---- !u!114 &806043634 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2385210069760151240, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &806213096 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2882412019976421969, guid: 7c5ba61ab7aeeaa4b9e5055ec762154b, type: 3}
@@ -6867,6 +7452,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &874853079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1491621786}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &876533905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6968,7 +7570,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   mTarget: {fileID: 352159386}
+=======
+  mTarget: {fileID: 907228113}
+>>>>>>> Stashed changes
   mAlignment_RTL: 516
   mAlignment_LTR: 513
   mAlignmentWasRTL: 0
@@ -7034,6 +7640,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &907228113 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4275177320550189797, guid: 99fd794a0d9c263419e14059b3e200eb, type: 3}
+  m_PrefabInstance: {fileID: 2068385513}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &908001767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7090,6 +7707,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &916672367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1132250348}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &917106782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7281,1298 +7915,29 @@ MonoBehaviour:
     textDrawer: {}
     autoLayoutDrawer: {}
     buttonDrawer:
-      buttons:
-      - id: 3612:8459
-        formattedName: btn - close-Default
-        spriteName: 
-        tags: 2c01000001000000
-        childIndexes: 2500000026000000
-        fcuInstance: {fileID: 934929935}
-        gameObject: {fileID: 0}
-        rootFrameGO: {fileID: 0}
-        transformData:
-          anchorMin: {x: 0, y: 0}
-          anchorMax: {x: 0, y: 0}
-          anchoredPosition: {x: 0, y: 0}
-          sizeDelta: {x: 0, y: 0, z: 0}
-          localRotation: {x: 0, y: 0, z: 0, w: 0}
-          localScale: {x: 0, y: 0, z: 0}
-        singleColor: {r: 0, g: 0, b: 0, a: 0}
-        spriteSize: {x: 0, y: 0}
-        size: {x: 70, y: 70}
-        position: {x: -1216, y: -484}
-        fcuImageType: 0
-        buttonComponent: 0
-        hash: 1482571440
-        hashDataTree: "\u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn -
-          close-Default\r\n    isVisible | True\r\n    Type | COMPONENT\r\n    GetFigmaRotationAngle
-          | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
-          | PASS_THROUGH\r\n    ClipsContent | False\r\n    LayoutMode | NONE\r\n   
-          PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-          Size | (70.00, 70.00)\r\n    isVisible | True\r\n    Type | COMPONENT\r\n   
-          GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (70.00, 70.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Frame
-          34732/Group 1000001143/btn - close-Default/Ellipse 1884\r\n    isVisible
-          | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
-          | -407540892\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
-          BlendMode | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-          | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (70.00, 70.00)\r\n   
-          isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n   
-          FillGeometry | -407540892\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode | NONE\r\n   
-          PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-          Size | (70.00, 70.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
-          | True\r\n        Type | SOLID\r\n        Opacity | 0.7\r\n        Color
-          | RGBA(1.000, 1.000, 1.000, 1.000)\r\n        BlendMode | NORMAL\r\n   
-          \u2014\u2014\u2014\u2014Effects\r\n        IsVisible | True\r\n       
-          Type | BACKGROUND_BLUR\r\n        Radius | 20\r\n        Color | RGBA(0.000,
-          0.000, 0.000, 0.000)\r\n        Offset | (0.00, 0.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 6.283185\r\n        InnerRadius
-          | 0\r\n    \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - close-Default/img
-          - icon\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
-          GetFigmaRotationAngle | 0\r\n        FillGeometry | 1226850601\r\n       
-          StrokeWeight | 0\r\n        StrokeAlign | CENTER\r\n        CornerRadiuses
-          | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
-          PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          StrokeCap | NONE\r\n        Size | (34.00, 34.00)\r\n        isVisible
-          | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n       
-          FillGeometry | 1226850601\r\n        StrokeWeight | 0\r\n        StrokeAlign
-          | CENTER\r\n        CornerRadiuses | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n       
-          LayoutMode | NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-          | NONE\r\n        StrokeCap | NONE\r\n        Size | (34.00, 34.00)\r\n       
-          \u2014\u2014\u2014\u2014Fills\r\n            IsVisible | True\r\n           
-          Type | SOLID\r\n            Color | RGBA(0.604, 0.604, 0.604, 1.000)\r\n           
-          BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-          StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
-          | 0\r\n"
-        hashData: "\u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - close-Default\r\n   
-          isVisible | True\r\n    Type | COMPONENT\r\n    GetFigmaRotationAngle |
-          0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
-          | PASS_THROUGH\r\n    ClipsContent | False\r\n    LayoutMode | NONE\r\n   
-          PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-          Size | (70.00, 70.00)\r\n    isVisible | True\r\n    Type | COMPONENT\r\n   
-          GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (70.00, 70.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 1
-        hierarchy: Frame 34732/Group 1000001143/btn - close-Default
-        spritePath: 
-        link: 
-        humanizedTextPrefabName: 
-        tagReason: children not empty
-        downloadAttempsCount: 0
-        angle: -0
-        isDuplicate: 0
-        isMutual: 0
-        isEmptyMask: 0
-        isEmpty: 0
-        needDownload: 0
-        needGenerate: 0
-        forceImage: 0
-        forceContainer: 1
-        isInsideDownloadable: 0
-        ignore: 0
-        hasFontAsset: 0
-        invisible: 0
-      - id: 3612:8462
-        formattedName: btn - close-hover
-        spriteName: 
-        tags: 2c01000001000000
-        childIndexes: 2800000029000000
-        fcuInstance: {fileID: 934929935}
-        gameObject: {fileID: 0}
-        rootFrameGO: {fileID: 0}
-        transformData:
-          anchorMin: {x: 0, y: 0}
-          anchorMax: {x: 0, y: 0}
-          anchoredPosition: {x: 0, y: 0}
-          sizeDelta: {x: 0, y: 0, z: 0}
-          localRotation: {x: 0, y: 0, z: 0, w: 0}
-          localScale: {x: 0, y: 0, z: 0}
-        singleColor: {r: 0, g: 0, b: 0, a: 0}
-        spriteSize: {x: 0, y: 0}
-        size: {x: 70, y: 70}
-        position: {x: -1216, y: -409}
-        fcuImageType: 0
-        buttonComponent: 0
-        hash: 1687485230
-        hashDataTree: "\u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn -
-          close-hover\r\n    isVisible | True\r\n    Type | COMPONENT\r\n    GetFigmaRotationAngle
-          | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
-          | PASS_THROUGH\r\n    ClipsContent | False\r\n    LayoutMode | NONE\r\n   
-          PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-          Size | (70.00, 70.00)\r\n    isVisible | True\r\n    Type | COMPONENT\r\n   
-          GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (70.00, 70.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Frame
-          34732/Group 1000001143/btn - close-hover/Ellipse 1884\r\n    isVisible
-          | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
-          | -407540892\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n   
-          BlendMode | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-          | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (70.00, 70.00)\r\n   
-          isVisible | True\r\n    Type | ELLIPSE\r\n    GetFigmaRotationAngle | 0\r\n   
-          FillGeometry | -407540892\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode | NONE\r\n   
-          PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-          Size | (70.00, 70.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible
-          | True\r\n        Type | SOLID\r\n        Opacity | 0.7\r\n        Color
-          | RGBA(0.000, 0.000, 0.000, 1.000)\r\n        BlendMode | NORMAL\r\n   
-          \u2014\u2014\u2014\u2014Effects\r\n        IsVisible | True\r\n       
-          Type | BACKGROUND_BLUR\r\n        Radius | 20\r\n        Color | RGBA(0.000,
-          0.000, 0.000, 0.000)\r\n        Offset | (0.00, 0.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 6.283185\r\n        InnerRadius
-          | 0\r\n    \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - close-hover/img
-          - icon\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
-          GetFigmaRotationAngle | 0\r\n        FillGeometry | 1226850601\r\n       
-          StrokeWeight | 0\r\n        StrokeAlign | CENTER\r\n        CornerRadiuses
-          | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
-          PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          StrokeCap | NONE\r\n        Size | (34.00, 34.00)\r\n        isVisible
-          | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle | 0\r\n       
-          FillGeometry | 1226850601\r\n        StrokeWeight | 0\r\n        StrokeAlign
-          | CENTER\r\n        CornerRadiuses | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n       
-          LayoutMode | NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-          | NONE\r\n        StrokeCap | NONE\r\n        Size | (34.00, 34.00)\r\n       
-          \u2014\u2014\u2014\u2014Fills\r\n            IsVisible | True\r\n           
-          Type | SOLID\r\n            Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n           
-          BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-          StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
-          | 0\r\n"
-        hashData: "\u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - close-hover\r\n   
-          isVisible | True\r\n    Type | COMPONENT\r\n    GetFigmaRotationAngle |
-          0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
-          | PASS_THROUGH\r\n    ClipsContent | False\r\n    LayoutMode | NONE\r\n   
-          PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-          Size | (70.00, 70.00)\r\n    isVisible | True\r\n    Type | COMPONENT\r\n   
-          GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (70.00, 70.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 1
-        hierarchy: Frame 34732/Group 1000001143/btn - close-hover
-        spritePath: 
-        link: 
-        humanizedTextPrefabName: 
-        tagReason: children not empty
-        downloadAttempsCount: 0
-        angle: -0
-        isDuplicate: 0
-        isMutual: 0
-        isEmptyMask: 0
-        isEmpty: 0
-        needDownload: 0
-        needGenerate: 0
-        forceImage: 0
-        forceContainer: 1
-        isInsideDownloadable: 0
-        ignore: 0
-        hasFontAsset: 0
-        invisible: 0
-      - id: 3612:8518
-        formattedName: btn - Interation icon-Default
-        spriteName: 
-        tags: 2c01000001000000
-        childIndexes: 2b000000
-        fcuInstance: {fileID: 934929935}
-        gameObject: {fileID: 0}
-        rootFrameGO: {fileID: 0}
-        transformData:
-          anchorMin: {x: 0, y: 0}
-          anchorMax: {x: 0, y: 0}
-          anchoredPosition: {x: 0, y: 0}
-          sizeDelta: {x: 0, y: 0, z: 0}
-          localRotation: {x: 0, y: 0, z: 0, w: 0}
-          localScale: {x: 0, y: 0, z: 0}
-        singleColor: {r: 0, g: 0, b: 0, a: 0}
-        spriteSize: {x: 0, y: 0}
-        size: {x: 100, y: 100}
-        position: {x: -1614, y: -331}
-        fcuImageType: 0
-        buttonComponent: 0
-        hash: 160738723
-        hashDataTree: "\u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn -
-          Interation icon-Default\r\n    isVisible | True\r\n    Type | COMPONENT\r\n   
-          GetFigmaRotationAngle | 0\r\n    StrokeWeight | 3\r\n    StrokeAlign |
-          INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (100.00, 100.00)\r\n    isVisible | True\r\n    Type
-          | COMPONENT\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 3\r\n   
-          StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent
-          | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
-          CounterAxisAlignItems | NONE\r\n    Size | (100.00, 100.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Frame
-          34732/Group 1000001143/btn - Interation icon-Default/img - Interaction\r\n   
-          isVisible | True\r\n    Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n   
-          FillGeometry | -714132427\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    CornerRadius | 20\r\n    BlendMode | PASS_THROUGH\r\n   
-          ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-          | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (100.00, 100.00)\r\n   
-          isVisible | True\r\n    Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n   
-          FillGeometry | -714132427\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    CornerRadius | 20\r\n    BlendMode | PASS_THROUGH\r\n   
-          ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-          | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (100.00, 100.00)\r\n   
-          \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type
-          | GRADIENT_LINEAR\r\n        Opacity | 0.9\r\n        Color | RGBA(0.000,
-          0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n        Color | RGBA(1.000,
-          1.000, 1.000, 0.600)\r\n        Position | 0\r\n        Color | RGBA(1.000,
-          1.000, 1.000, 0.300)\r\n        Position | 1\r\n        GradientHandlePositions
-          | (0.04, 0.06) (0.96, 0.95) (-0.41, 0.52)\r\n    \u2014\u2014\u2014\u2014Effects\r\n       
-          IsVisible | True\r\n        Type | BACKGROUND_BLUR\r\n        Radius |
-          40\r\n        Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        Offset
-          | (0.00, 0.00)\r\n        IsVisible | True\r\n        Type | DROP_SHADOW\r\n       
-          Radius | 10\r\n        Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n       
-          BlendMode | NORMAL\r\n        Offset | (0.00, 4.00)\r\n        ShowShadowBehindNode
-          | False\r\n    \u2014\u2014\u2014\u2014Strokes\r\n        IsVisible | True\r\n       
-          Type | GRADIENT_LINEAR\r\n        Opacity | 0.6\r\n        Color | RGBA(0.000,
-          0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n        Color | RGBA(1.000,
-          1.000, 1.000, 1.000)\r\n        Position | 0\r\n        Color | RGBA(1.000,
-          1.000, 1.000, 0.000)\r\n        Position | 1\r\n        GradientHandlePositions
-          | (0.50, 0.00) (0.50, 1.00) (0.00, 0.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Frame
-          34732/Group 1000001143/btn - Interation icon-Default/img - Interaction/icon\r\n   
-          isVisible | False\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n   
-          FillGeometry | 1972611830\r\n    StrokeWeight | 0\r\n    StrokeAlign |
-          CENTER\r\n    CornerRadiuses | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    StrokeCap | NONE\r\n    Size | (44.00, 44.00)\r\n    isVisible
-          | False\r\n    Type | VECTOR\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry
-          | 1972611830\r\n    StrokeWeight | 0\r\n    StrokeAlign | CENTER\r\n   
-          CornerRadiuses | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode
-          | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    StrokeCap | NONE\r\n    Size | (44.00, 44.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-          IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000,
-          1.000, 1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
-          \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - Interation icon-Default/img
-          - Interaction/img - InteractionGroup\r\n        isVisible | True\r\n       
-          Type | GROUP\r\n        GetFigmaRotationAngle | 0\r\n        FillGeometry
-          | 141398859\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
-          CornerRadiuses | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n       
-          ClipsContent | False\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (48.00,
-          57.17)\r\n        isVisible | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle
-          | 0\r\n        FillGeometry | 141398859\r\n        StrokeWeight | 1\r\n       
-          StrokeAlign | INSIDE\r\n        CornerRadiuses | 0 0 0 0\r\n        BlendMode
-          | PASS_THROUGH\r\n        ClipsContent | False\r\n        LayoutMode |
-          NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-          | NONE\r\n        Size | (48.00, 57.17)\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
-          IsVisible | True\r\n            Type | DROP_SHADOW\r\n            Radius
-          | 1\r\n            Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n           
-          BlendMode | NORMAL\r\n            Offset | (1.00, 1.00)\r\n           
-          ShowShadowBehindNode | False\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-          StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
-          | 0\r\n    \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - Interation
-          icon-Default/img - Interaction/img - InteractionGroup/img - icon-park-outline-hand-up\r\n       
-          isVisible | True\r\n        Type | FRAME\r\n        GetFigmaRotationAngle
-          | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
-          BlendMode | PASS_THROUGH\r\n        ClipsContent | False\r\n        LayoutMode
-          | NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-          | NONE\r\n        Size | (48.00, 48.00)\r\n        isVisible | True\r\n       
-          Type | FRAME\r\n        GetFigmaRotationAngle | 0\r\n        StrokeWeight
-          | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
-          ClipsContent | False\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (48.00,
-          48.00)\r\n        \u2014\u2014\u2014\u2014Fills\r\n            IsVisible
-          | False\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
-          1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-          StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
-          | 0\r\n    \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - Interation
-          icon-Default/img - Interaction/img - InteractionGroup/img - icon-park-outline-hand-up/img
-          - hand\r\n        isVisible | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle
-          | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
-          CornerRadiuses | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n       
-          ClipsContent | False\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (33.95,
-          42.50)\r\n        isVisible | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle
-          | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
-          CornerRadiuses | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n       
-          ClipsContent | False\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (33.95,
-          42.50)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n            StartingAngle
-          | 0\r\n            EndingAngle | 0\r\n            InnerRadius | 0\r\n   
-          \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - Interation icon-Default/img
-          - Interaction/img - InteractionGroup/img - icon-park-outline-hand-up/img
-          - hand/Vector\r\n        isVisible | True\r\n        Type | VECTOR\r\n       
-          GetFigmaRotationAngle | 0\r\n        StrokeWeight | 4\r\n        StrokeAlign
-          | CENTER\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
-          PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          StrokeCap | NONE\r\n        StrokeJoin | ROUND\r\n        Size | (22.00,
-          6.00)\r\n        isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
-          | 0\r\n        StrokeWeight | 4\r\n        StrokeAlign | CENTER\r\n       
-          BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        StrokeCap | NONE\r\n       
-          StrokeJoin | ROUND\r\n        Size | (22.00, 6.00)\r\n        \u2014\u2014\u2014\u2014Strokes\r\n           
-          IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
-          1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-          StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
-          | 0\r\n        \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn
-          - Interation icon-Default/img - Interaction/img - InteractionGroup/img
-          - icon-park-outline-hand-up/img - hand/Vector\r\n            isVisible
-          | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
-          | 0\r\n            StrokeWeight | 4\r\n            StrokeAlign | CENTER\r\n           
-          CornerRadiuses | 0 0 0 0\r\n            BlendMode | PASS_THROUGH\r\n           
-          LayoutMode | NONE\r\n            PrimaryAxisAlignItems | NONE\r\n           
-          CounterAxisAlignItems | NONE\r\n            StrokeCap | NONE\r\n           
-          StrokeJoin | ROUND\r\n            Size | (33.95, 36.50)\r\n           
-          isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
-          | 0\r\n            StrokeWeight | 4\r\n            StrokeAlign | CENTER\r\n           
-          CornerRadiuses | 0 0 0 0\r\n            BlendMode | PASS_THROUGH\r\n           
-          LayoutMode | NONE\r\n            PrimaryAxisAlignItems | NONE\r\n           
-          CounterAxisAlignItems | NONE\r\n            StrokeCap | NONE\r\n           
-          StrokeJoin | ROUND\r\n            Size | (33.95, 36.50)\r\n           
-          \u2014\u2014\u2014\u2014Strokes\r\n                IsVisible | True\r\n               
-          Type | SOLID\r\n                Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n               
-          BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
-          StartingAngle | 0\r\n                EndingAngle | 0\r\n               
-          InnerRadius | 0\r\n        \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn
-          - Interation icon-Default/img - Interaction/img - InteractionGroup/img
-          - Subtract\r\n            isVisible | True\r\n            Type | BOOLEAN_OPERATION\r\n           
-          GetFigmaRotationAngle | 0\r\n            FillGeometry | -934641869\r\n           
-          StrokeWeight | 0\r\n            StrokeAlign | INSIDE\r\n            BlendMode
-          | PASS_THROUGH\r\n            LayoutMode | NONE\r\n            PrimaryAxisAlignItems
-          | NONE\r\n            CounterAxisAlignItems | NONE\r\n            Size
-          | (26.00, 21.40)\r\n            isVisible | True\r\n            Type |
-          BOOLEAN_OPERATION\r\n            GetFigmaRotationAngle | 0\r\n           
-          FillGeometry | -934641869\r\n            StrokeWeight | 0\r\n           
-          StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
-          LayoutMode | NONE\r\n            PrimaryAxisAlignItems | NONE\r\n           
-          CounterAxisAlignItems | NONE\r\n            Size | (26.00, 21.40)\r\n           
-          \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
-          Type | SOLID\r\n                Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n               
-          BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
-          StartingAngle | 0\r\n                EndingAngle | 0\r\n               
-          InnerRadius | 0\r\n        \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn
-          - Interation icon-Default/img - Interaction/img - InteractionGroup/img
-          - Subtract/Ellipse 1893\r\n            isVisible | True\r\n           
-          Type | ELLIPSE\r\n            GetFigmaRotationAngle | 0\r\n           
-          FillGeometry | -47154623\r\n            StrokeWeight | 4\r\n           
-          StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
-          LayoutMode | NONE\r\n            PrimaryAxisAlignItems | NONE\r\n           
-          CounterAxisAlignItems | NONE\r\n            Size | (26.00, 26.00)\r\n           
-          isVisible | True\r\n            Type | ELLIPSE\r\n            GetFigmaRotationAngle
-          | 0\r\n            FillGeometry | -47154623\r\n            StrokeWeight
-          | 4\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
-          LayoutMode | NONE\r\n            PrimaryAxisAlignItems | NONE\r\n           
-          CounterAxisAlignItems | NONE\r\n            Size | (26.00, 26.00)\r\n           
-          \u2014\u2014\u2014\u2014Strokes\r\n                IsVisible | True\r\n               
-          Type | SOLID\r\n                Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n               
-          BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
-          StartingAngle | 0\r\n                EndingAngle | 6.283185\r\n               
-          InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Frame 34732/Group
-          1000001143/btn - Interation icon-Default/img - Interaction/img - InteractionGroup/img
-          - Subtract/Rectangle 4101\r\n                isVisible | True\r\n               
-          Type | RECTANGLE\r\n                GetFigmaRotationAngle | 0\r\n               
-          FillGeometry | 107712619\r\n                StrokeWeight | 1\r\n               
-          StrokeAlign | INSIDE\r\n                BlendMode | PASS_THROUGH\r\n               
-          LayoutMode | NONE\r\n                PrimaryAxisAlignItems | NONE\r\n               
-          CounterAxisAlignItems | NONE\r\n                Size | (14.44, 20.22)\r\n               
-          isVisible | True\r\n                Type | RECTANGLE\r\n               
-          GetFigmaRotationAngle | 0\r\n                FillGeometry | 107712619\r\n               
-          StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
-          BlendMode | PASS_THROUGH\r\n                LayoutMode | NONE\r\n               
-          PrimaryAxisAlignItems | NONE\r\n                CounterAxisAlignItems |
-          NONE\r\n                Size | (14.44, 20.22)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
-          IsVisible | True\r\n                    Type | SOLID\r\n                   
-          Color | RGBA(0.851, 0.851, 0.851, 1.000)\r\n                    BlendMode
-          | NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
-          StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
-          InnerRadius | 0\r\n"
-        hashData: "\u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - Interation
-          icon-Default\r\n    isVisible | True\r\n    Type | COMPONENT\r\n    GetFigmaRotationAngle
-          | 0\r\n    StrokeWeight | 3\r\n    StrokeAlign | INSIDE\r\n    BlendMode
-          | PASS_THROUGH\r\n    ClipsContent | False\r\n    LayoutMode | NONE\r\n   
-          PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-          Size | (100.00, 100.00)\r\n    isVisible | True\r\n    Type | COMPONENT\r\n   
-          GetFigmaRotationAngle | 0\r\n    StrokeWeight | 3\r\n    StrokeAlign |
-          INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (100.00, 100.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 1
-        hierarchy: Frame 34732/Group 1000001143/btn - Interation icon-Default
-        spritePath: 
-        link: 
-        humanizedTextPrefabName: 
-        tagReason: children not empty
-        downloadAttempsCount: 0
-        angle: -0
-        isDuplicate: 0
-        isMutual: 0
-        isEmptyMask: 0
-        isEmpty: 0
-        needDownload: 0
-        needGenerate: 0
-        forceImage: 0
-        forceContainer: 0
-        isInsideDownloadable: 0
-        ignore: 0
-        hasFontAsset: 0
-        invisible: 0
-      - id: 3612:8635
-        formattedName: btn - Map on
-        spriteName: 
-        tags: 2c01000001000000
-        childIndexes: 5f00000060000000
-        fcuInstance: {fileID: 934929935}
-        gameObject: {fileID: 0}
-        rootFrameGO: {fileID: 0}
-        transformData:
-          anchorMin: {x: 0, y: 0}
-          anchorMax: {x: 0, y: 0}
-          anchoredPosition: {x: 0, y: 0}
-          sizeDelta: {x: 0, y: 0, z: 0}
-          localRotation: {x: 0, y: 0, z: 0, w: 0}
-          localScale: {x: 0, y: 0, z: 0}
-        singleColor: {r: 0, g: 0, b: 0, a: 0}
-        spriteSize: {x: 0, y: 0}
-        size: {x: 194, y: 64}
-        position: {x: -1862, y: -381}
-        fcuImageType: 0
-        buttonComponent: 0
-        hash: -1296297512
-        hashDataTree: "\u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn -
-          Map on\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
-          | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses
-          | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (194.00, 64.00)\r\n    isVisible | True\r\n    Type
-          | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
-          StrokeAlign | INSIDE\r\n    CornerRadiuses | 0 0 0 0\r\n    BlendMode |
-          PASS_THROUGH\r\n    ClipsContent | False\r\n    LayoutMode | NONE\r\n   
-          PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-          Size | (194.00, 64.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Frame
-          34732/Group 1000001143/btn - Map on/Rectangle 4104\r\n    isVisible | True\r\n   
-          Type | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry |
-          943647968\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadius
-          | 14\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-          | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (182.00, 52.00)\r\n   
-          isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle |
-          0\r\n    FillGeometry | 943647968\r\n    StrokeWeight | 1\r\n    StrokeAlign
-          | INSIDE\r\n    CornerRadius | 14\r\n    BlendMode | PASS_THROUGH\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (182.00, 52.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-          IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000,
-          0.000, 0.240, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014Effects\r\n       
-          IsVisible | True\r\n        Type | DROP_SHADOW\r\n        Radius | 4\r\n       
-          Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n        BlendMode | NORMAL\r\n       
-          Offset | (0.00, 4.00)\r\n        ShowShadowBehindNode | False\r\n       
-          IsVisible | True\r\n        Type | INNER_SHADOW\r\n        Radius | 2\r\n       
-          Color | RGBA(1.000, 1.000, 1.000, 0.250)\r\n        BlendMode | NORMAL\r\n       
-          Offset | (2.00, 2.00)\r\n        IsVisible | True\r\n        Type | INNER_SHADOW\r\n       
-          Radius | 2\r\n        Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n       
-          BlendMode | NORMAL\r\n        Offset | (-2.00, -2.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
-          \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - Map on/img -
-          Map on\r\n        isVisible | True\r\n        Type | FRAME\r\n        GetFigmaRotationAngle
-          | 0\r\n        FillGeometry | -735275006\r\n        StrokeWeight | 1\r\n       
-          StrokeAlign | INSIDE\r\n        CornerRadius | 15\r\n        BlendMode
-          | PASS_THROUGH\r\n        ClipsContent | False\r\n        LayoutMode |
-          NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-          | NONE\r\n        Size | (194.00, 64.00)\r\n        isVisible | True\r\n       
-          Type | FRAME\r\n        GetFigmaRotationAngle | 0\r\n        FillGeometry
-          | -735275006\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
-          CornerRadius | 15\r\n        BlendMode | PASS_THROUGH\r\n        ClipsContent
-          | False\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems |
-          NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (194.00,
-          64.00)\r\n        \u2014\u2014\u2014\u2014Fills\r\n            IsVisible
-          | True\r\n            Type | GRADIENT_LINEAR\r\n            Color | RGBA(0.000,
-          0.000, 0.000, 0.000)\r\n            BlendMode | NORMAL\r\n            Color
-          | RGBA(1.000, 1.000, 1.000, 0.600)\r\n            Position | 0\r\n           
-          Color | RGBA(1.000, 1.000, 1.000, 0.300)\r\n            Position | 1\r\n           
-          GradientHandlePositions | (0.04, 0.06) (0.96, 0.95) (-0.41, 0.52)\r\n       
-          \u2014\u2014\u2014\u2014Effects\r\n            IsVisible | True\r\n           
-          Type | BACKGROUND_BLUR\r\n            Radius | 40\r\n            Color
-          | RGBA(0.000, 0.000, 0.000, 0.000)\r\n            Offset | (0.00, 0.00)\r\n           
-          IsVisible | True\r\n            Type | DROP_SHADOW\r\n            Radius
-          | 10\r\n            Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n           
-          BlendMode | NORMAL\r\n            Offset | (0.00, 4.00)\r\n           
-          ShowShadowBehindNode | False\r\n        \u2014\u2014\u2014\u2014Strokes\r\n           
-          IsVisible | True\r\n            Type | GRADIENT_LINEAR\r\n            Opacity
-          | 0.6\r\n            Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n           
-          BlendMode | NORMAL\r\n            Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n           
-          Position | 0\r\n            Color | RGBA(1.000, 1.000, 1.000, 0.000)\r\n           
-          Position | 1\r\n            GradientHandlePositions | (0.50, 0.00) (0.50,
-          1.00) (0.00, 0.00)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-          StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
-          | 0\r\n    \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - Map
-          on/img - Map on/txt - Map on\r\n        isVisible | True\r\n        Type
-          | TEXT\r\n        GetFigmaRotationAngle | 0\r\n        StrokeWeight | 1\r\n       
-          StrokeAlign | OUTSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode
-          | NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-          | NONE\r\n        isVisible | True\r\n        Type | TEXT\r\n        GetFigmaRotationAngle
-          | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign | OUTSIDE\r\n       
-          BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        \u2014\u2014\u2014\u2014TextStyle\r\n           
-          FontFamily | Arita-dotum4.0(OTF)\r\n            FontWeight | 400\r\n           
-          FontSize | 30\r\n            TextAlignHorizontal | CENTER\r\n           
-          TextAlignVertical | TOP\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
-          IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
-          1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
-          IsVisible | True\r\n            Type | DROP_SHADOW\r\n            Radius
-          | 2\r\n            Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n           
-          BlendMode | NORMAL\r\n            Offset | (0.00, 2.00)\r\n           
-          ShowShadowBehindNode | False\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-          StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
-          | 0\r\n        \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn
-          - Map on/img - Map on/img - Mapicon\r\n            isVisible | True\r\n           
-          Type | GROUP\r\n            GetFigmaRotationAngle | 0\r\n            StrokeWeight
-          | 1\r\n            StrokeAlign | INSIDE\r\n            CornerRadiuses |
-          0 0 0 0\r\n            BlendMode | PASS_THROUGH\r\n            ClipsContent
-          | False\r\n            LayoutMode | NONE\r\n            PrimaryAxisAlignItems
-          | NONE\r\n            CounterAxisAlignItems | NONE\r\n            Size
-          | (50.00, 50.00)\r\n            isVisible | True\r\n            Type |
-          GROUP\r\n            GetFigmaRotationAngle | 0\r\n            StrokeWeight
-          | 1\r\n            StrokeAlign | INSIDE\r\n            CornerRadiuses |
-          0 0 0 0\r\n            BlendMode | PASS_THROUGH\r\n            ClipsContent
-          | False\r\n            LayoutMode | NONE\r\n            PrimaryAxisAlignItems
-          | NONE\r\n            CounterAxisAlignItems | NONE\r\n            Size
-          | (50.00, 50.00)\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
-          StartingAngle | 0\r\n                EndingAngle | 0\r\n               
-          InnerRadius | 0\r\n        \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn
-          - Map on/img - Map on/img - Mapicon/img - MapiconBg\r\n            isVisible
-          | True\r\n            Type | RECTANGLE\r\n            GetFigmaRotationAngle
-          | 0\r\n            FillGeometry | -1082148173\r\n            StrokeWeight
-          | 1\r\n            StrokeAlign | INSIDE\r\n            CornerRadius | 15\r\n           
-          BlendMode | PASS_THROUGH\r\n            LayoutMode | NONE\r\n           
-          PrimaryAxisAlignItems | NONE\r\n            CounterAxisAlignItems | NONE\r\n           
-          Size | (50.00, 50.00)\r\n            isVisible | True\r\n            Type
-          | RECTANGLE\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
-          | -1082148173\r\n            StrokeWeight | 1\r\n            StrokeAlign
-          | INSIDE\r\n            CornerRadius | 15\r\n            BlendMode | PASS_THROUGH\r\n           
-          LayoutMode | NONE\r\n            PrimaryAxisAlignItems | NONE\r\n           
-          CounterAxisAlignItems | NONE\r\n            Size | (50.00, 50.00)\r\n           
-          \u2014\u2014\u2014\u2014Fills\r\n                IsVisible | True\r\n               
-          Type | SOLID\r\n                Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n               
-          BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014Effects\r\n               
-          IsVisible | True\r\n                Type | DROP_SHADOW\r\n               
-          Radius | 2\r\n                Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n               
-          BlendMode | NORMAL\r\n                Offset | (0.00, 2.00)\r\n               
-          ShowShadowBehindNode | False\r\n                IsVisible | True\r\n               
-          Type | INNER_SHADOW\r\n                Radius | 2\r\n                Color
-          | RGBA(1.000, 1.000, 1.000, 0.250)\r\n                BlendMode | NORMAL\r\n               
-          Offset | (2.00, 2.00)\r\n                IsVisible | True\r\n               
-          Type | INNER_SHADOW\r\n                Radius | 1\r\n                Color
-          | RGBA(0.000, 0.000, 0.000, 0.250)\r\n                BlendMode | NORMAL\r\n               
-          Offset | (-1.00, -1.00)\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
-          StartingAngle | 0\r\n                EndingAngle | 0\r\n               
-          InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Frame 34732/Group
-          1000001143/btn - Map on/img - Map on/img - Mapicon/Vector\r\n               
-          isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
-          | 0\r\n                FillGeometry | 755630328\r\n                StrokeWeight
-          | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode
-          | PASS_THROUGH\r\n                LayoutMode | NONE\r\n               
-          PrimaryAxisAlignItems | NONE\r\n                CounterAxisAlignItems |
-          NONE\r\n                StrokeCap | NONE\r\n                Size | (26.67,
-          24.00)\r\n                isVisible | True\r\n                Type | VECTOR\r\n               
-          GetFigmaRotationAngle | 0\r\n                FillGeometry | 755630328\r\n               
-          StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
-          BlendMode | PASS_THROUGH\r\n                LayoutMode | NONE\r\n               
-          PrimaryAxisAlignItems | NONE\r\n                CounterAxisAlignItems |
-          NONE\r\n                StrokeCap | NONE\r\n                Size | (26.67,
-          24.00)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
-          IsVisible | True\r\n                    Type | SOLID\r\n                   
-          Color | RGBA(1.000, 0.420, 0.557, 1.000)\r\n                    BlendMode
-          | NORMAL\r\n                \u2014\u2014\u2014\u2014Effects\r\n                   
-          IsVisible | True\r\n                    Type | INNER_SHADOW\r\n                   
-          Radius | 0.5\r\n                    Color | RGBA(1.000, 1.000, 1.000, 0.500)\r\n                   
-          BlendMode | NORMAL\r\n                    Offset | (0.50, 0.50)\r\n                   
-          IsVisible | True\r\n                    Type | INNER_SHADOW\r\n                   
-          Radius | 0.5\r\n                    Color | RGBA(0.525, 0.000, 0.251, 0.500)\r\n                   
-          BlendMode | NORMAL\r\n                    Offset | (-0.50, -0.50)\r\n                   
-          IsVisible | True\r\n                    Type | DROP_SHADOW\r\n                   
-          Radius | 1\r\n                    Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n                   
-          BlendMode | NORMAL\r\n                    Offset | (0.00, 1.00)\r\n                   
-          ShowShadowBehindNode | False\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
-          StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
-          InnerRadius | 0\r\n"
-        hashData: "\u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - Map
-          on\r\n    isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle
-          | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses
-          | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (194.00, 64.00)\r\n    isVisible | True\r\n    Type
-          | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
-          StrokeAlign | INSIDE\r\n    CornerRadiuses | 0 0 0 0\r\n    BlendMode |
-          PASS_THROUGH\r\n    ClipsContent | False\r\n    LayoutMode | NONE\r\n   
-          PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-          Size | (194.00, 64.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 1
-        hierarchy: Frame 34732/Group 1000001143/btn - Map on
-        spritePath: 
-        link: 
-        humanizedTextPrefabName: 
-        tagReason: children not empty
-        downloadAttempsCount: 0
-        angle: -0
-        isDuplicate: 0
-        isMutual: 0
-        isEmptyMask: 0
-        isEmpty: 0
-        needDownload: 0
-        needGenerate: 0
-        forceImage: 0
-        forceContainer: 0
-        isInsideDownloadable: 0
-        ignore: 0
-        hasFontAsset: 0
-        invisible: 0
-      - id: 3618:15371
-        formattedName: btn - view all hover
-        spriteName: 
-        tags: 2c01000001000000
-        childIndexes: 62000000
-        fcuInstance: {fileID: 934929935}
-        gameObject: {fileID: 0}
-        rootFrameGO: {fileID: 0}
-        transformData:
-          anchorMin: {x: 0, y: 0}
-          anchorMax: {x: 0, y: 0}
-          anchoredPosition: {x: 0, y: 0}
-          sizeDelta: {x: 0, y: 0, z: 0}
-          localRotation: {x: 0, y: 0, z: 0, w: 0}
-          localScale: {x: 0, y: 0, z: 0}
-        singleColor: {r: 0, g: 0, b: 0, a: 0}
-        spriteSize: {x: 0, y: 0}
-        size: {x: 194, y: 64}
-        position: {x: -1491, y: -469}
-        fcuImageType: 0
-        buttonComponent: 0
-        hash: -1507943181
-        hashDataTree: "\u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn -
-          view all hover\r\n    isVisible | True\r\n    Type | FRAME\r\n    GetFigmaRotationAngle
-          | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
-          | PASS_THROUGH\r\n    ClipsContent | False\r\n    LayoutMode | NONE\r\n   
-          PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-          Size | (194.00, 64.00)\r\n    isVisible | True\r\n    Type | FRAME\r\n   
-          GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (194.00, 64.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Frame
-          34732/Group 1000001143/btn - view all hover/img-bg\r\n    isVisible | True\r\n   
-          Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -735275006\r\n   
-          StrokeWeight | 0.5\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 15\r\n   
-          BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    LayoutMode
-          | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (194.00, 64.00)\r\n    isVisible | True\r\n    Type
-          | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry | -735275006\r\n   
-          StrokeWeight | 0.5\r\n    StrokeAlign | INSIDE\r\n    CornerRadius | 15\r\n   
-          BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n    LayoutMode
-          | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (194.00, 64.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-          IsVisible | True\r\n        Type | GRADIENT_RADIAL\r\n        Color | RGBA(0.000,
-          0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n        Color | RGBA(0.624,
-          0.831, 0.980, 1.000)\r\n        Position | 0\r\n        Color | RGBA(0.831,
-          0.930, 1.000, 1.000)\r\n        Position | 1\r\n        GradientHandlePositions
-          | (0.50, 0.50) (1.41, 0.50) (0.50, 1.41)\r\n    \u2014\u2014\u2014\u2014Strokes\r\n       
-          IsVisible | True\r\n        Type | SOLID\r\n        Color | RGBA(1.000,
-          1.000, 1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Frame
-          34732/Group 1000001143/btn - view all hover/img-bg/Group 1000001137\r\n   
-          isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
-          StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses | 0
-          0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (167.00, 50.00)\r\n    isVisible | True\r\n    Type
-          | GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
-          StrokeAlign | INSIDE\r\n    CornerRadiuses | 0 0 0 0\r\n    BlendMode |
-          PASS_THROUGH\r\n    ClipsContent | False\r\n    LayoutMode | NONE\r\n   
-          PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-          Size | (167.00, 50.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Frame
-          34732/Group 1000001143/btn - view all hover/img-bg/Group 1000001137/View
-          all\r\n    isVisible | True\r\n    Type | TEXT\r\n    GetFigmaRotationAngle
-          | 0\r\n    StrokeWeight | 0.8\r\n    StrokeAlign | CENTER\r\n    BlendMode
-          | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems |
-          NONE\r\n    CounterAxisAlignItems | NONE\r\n    isVisible | True\r\n   
-          Type | TEXT\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 0.8\r\n   
-          StrokeAlign | CENTER\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode
-          | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    \u2014\u2014\u2014\u2014TextStyle\r\n        FontFamily |
-          Arita-dotum4.0(OTF)\r\n        FontWeight | 400\r\n        FontSize | 30\r\n       
-          TextAlignHorizontal | LEFT\r\n        TextAlignVertical | CENTER\r\n   
-          \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type
-          | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n       
-          BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle
-          | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n    \u2014\u2014\u2014\u2014Frame
-          34732/Group 1000001143/btn - view all hover/img-bg/Group 1000001137/img
-          - View all Icon\r\n        isVisible | True\r\n        Type | GROUP\r\n       
-          GetFigmaRotationAngle | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign
-          | INSIDE\r\n        CornerRadiuses | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n       
-          ClipsContent | False\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (50.00,
-          50.00)\r\n        isVisible | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle
-          | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
-          CornerRadiuses | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n       
-          ClipsContent | False\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (50.00,
-          50.00)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n            StartingAngle
-          | 0\r\n            EndingAngle | 0\r\n            InnerRadius | 0\r\n   
-          \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - view all hover/img-bg/Group
-          1000001137/img - View all Icon/Group 1000001135\r\n        isVisible |
-          True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle | 0\r\n       
-          StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        CornerRadiuses
-          | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n        ClipsContent |
-          False\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems | NONE\r\n       
-          CounterAxisAlignItems | NONE\r\n        Size | (50.00, 50.00)\r\n       
-          isVisible | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle
-          | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
-          CornerRadiuses | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n       
-          ClipsContent | False\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (50.00,
-          50.00)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n            StartingAngle
-          | 0\r\n            EndingAngle | 0\r\n            InnerRadius | 0\r\n   
-          \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - view all hover/img-bg/Group
-          1000001137/img - View all Icon/Group 1000001135/Rectangle 4103\r\n       
-          isVisible | True\r\n        Type | RECTANGLE\r\n        GetFigmaRotationAngle
-          | 0\r\n        FillGeometry | -1082148173\r\n        StrokeWeight | 1\r\n       
-          StrokeAlign | INSIDE\r\n        CornerRadius | 15\r\n        BlendMode
-          | PASS_THROUGH\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (50.00,
-          50.00)\r\n        isVisible | True\r\n        Type | RECTANGLE\r\n       
-          GetFigmaRotationAngle | 0\r\n        FillGeometry | -1082148173\r\n       
-          StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        CornerRadius
-          | 15\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
-          PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          Size | (50.00, 50.00)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
-          IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(0.420,
-          0.745, 0.980, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
-          IsVisible | True\r\n            Type | DROP_SHADOW\r\n            Radius
-          | 2\r\n            Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n           
-          BlendMode | NORMAL\r\n            Offset | (0.00, 2.00)\r\n           
-          ShowShadowBehindNode | False\r\n            IsVisible | True\r\n           
-          Type | INNER_SHADOW\r\n            Radius | 2\r\n            Color | RGBA(1.000,
-          1.000, 1.000, 0.250)\r\n            BlendMode | NORMAL\r\n            Offset
-          | (2.00, 2.00)\r\n            IsVisible | True\r\n            Type | INNER_SHADOW\r\n           
-          Radius | 1\r\n            Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n           
-          BlendMode | NORMAL\r\n            Offset | (-1.00, -1.00)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-          StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
-          | 0\r\n        \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn
-          - view all hover/img-bg/Group 1000001137/img - View all Icon/Group 1000001135/Group\r\n           
-          isVisible | True\r\n            Type | GROUP\r\n            GetFigmaRotationAngle
-          | 0\r\n            FillGeometry | -116456629\r\n            StrokeWeight
-          | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
-          ClipsContent | False\r\n            LayoutMode | NONE\r\n            PrimaryAxisAlignItems
-          | NONE\r\n            CounterAxisAlignItems | NONE\r\n            Size
-          | (24.00, 24.00)\r\n            isVisible | True\r\n            Type |
-          GROUP\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
-          | -116456629\r\n            StrokeWeight | 1\r\n            StrokeAlign
-          | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n            ClipsContent
-          | False\r\n            LayoutMode | NONE\r\n            PrimaryAxisAlignItems
-          | NONE\r\n            CounterAxisAlignItems | NONE\r\n            Size
-          | (24.00, 24.00)\r\n            \u2014\u2014\u2014\u2014Effects\r\n               
-          IsVisible | True\r\n                Type | DROP_SHADOW\r\n               
-          Radius | 4\r\n                Color | RGBA(0.000, 0.000, 0.000, 0.100)\r\n               
-          BlendMode | NORMAL\r\n                Offset | (0.50, 0.50)\r\n               
-          ShowShadowBehindNode | False\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
-          StartingAngle | 0\r\n                EndingAngle | 0\r\n               
-          InnerRadius | 0\r\n        \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn
-          - view all hover/img-bg/Group 1000001137/img - View all Icon/Group 1000001135/Group/Vector\r\n           
-          isVisible | True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
-          | 0\r\n            FillGeometry | -1059734832\r\n            StrokeWeight
-          | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
-          Opacity | 0.2\r\n            LayoutMode | NONE\r\n            PrimaryAxisAlignItems
-          | NONE\r\n            CounterAxisAlignItems | NONE\r\n            StrokeCap
-          | NONE\r\n            Size | (12.00, 12.00)\r\n            isVisible |
-          True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
-          | 0\r\n            FillGeometry | -1059734832\r\n            StrokeWeight
-          | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
-          Opacity | 0.2\r\n            LayoutMode | NONE\r\n            PrimaryAxisAlignItems
-          | NONE\r\n            CounterAxisAlignItems | NONE\r\n            StrokeCap
-          | NONE\r\n            Size | (12.00, 12.00)\r\n            \u2014\u2014\u2014\u2014Fills\r\n               
-          IsVisible | True\r\n                Type | SOLID\r\n                Color
-          | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                BlendMode | NORMAL\r\n           
-          \u2014\u2014\u2014\u2014ArcData\r\n                StartingAngle | 0\r\n               
-          EndingAngle | 0\r\n                InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Frame
-          34732/Group 1000001143/btn - view all hover/img-bg/Group 1000001137/img
-          - View all Icon/Group 1000001135/Group/Vector\r\n                isVisible
-          | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
-          | 0\r\n                FillGeometry | 1925500608\r\n                StrokeWeight
-          | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode
-          | PASS_THROUGH\r\n                LayoutMode | NONE\r\n               
-          PrimaryAxisAlignItems | NONE\r\n                CounterAxisAlignItems |
-          NONE\r\n                StrokeCap | NONE\r\n                Size | (24.00,
-          24.00)\r\n                isVisible | True\r\n                Type | VECTOR\r\n               
-          GetFigmaRotationAngle | 0\r\n                FillGeometry | 1925500608\r\n               
-          StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
-          BlendMode | PASS_THROUGH\r\n                LayoutMode | NONE\r\n               
-          PrimaryAxisAlignItems | NONE\r\n                CounterAxisAlignItems |
-          NONE\r\n                StrokeCap | NONE\r\n                Size | (24.00,
-          24.00)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
-          IsVisible | True\r\n                    Type | SOLID\r\n                   
-          Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n                    BlendMode
-          | NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
-          StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
-          InnerRadius | 0\r\n"
-        hashData: "\u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - view
-          all hover\r\n    isVisible | True\r\n    Type | FRAME\r\n    GetFigmaRotationAngle
-          | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode
-          | PASS_THROUGH\r\n    ClipsContent | False\r\n    LayoutMode | NONE\r\n   
-          PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems | NONE\r\n   
-          Size | (194.00, 64.00)\r\n    isVisible | True\r\n    Type | FRAME\r\n   
-          GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (194.00, 64.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 1
-        hierarchy: Frame 34732/Group 1000001143/btn - view all hover
-        spritePath: 
-        link: 
-        humanizedTextPrefabName: 
-        tagReason: children not empty
-        downloadAttempsCount: 0
-        angle: -0
-        isDuplicate: 0
-        isMutual: 0
-        isEmptyMask: 0
-        isEmpty: 0
-        needDownload: 0
-        needGenerate: 0
-        forceImage: 0
-        forceContainer: 0
-        isInsideDownloadable: 0
-        ignore: 0
-        hasFontAsset: 0
-        invisible: 0
-      - id: 3612:8557
-        formattedName: btn - view all_btn-Default
-        spriteName: 
-        tags: 2c01000001000000
-        childIndexes: 73000000
-        fcuInstance: {fileID: 934929935}
-        gameObject: {fileID: 0}
-        rootFrameGO: {fileID: 0}
-        transformData:
-          anchorMin: {x: 0, y: 0}
-          anchorMax: {x: 0, y: 0}
-          anchoredPosition: {x: 0, y: 0}
-          sizeDelta: {x: 0, y: 0, z: 0}
-          localRotation: {x: 0, y: 0, z: 0, w: 0}
-          localScale: {x: 0, y: 0, z: 0}
-        singleColor: {r: 0, g: 0, b: 0, a: 0}
-        spriteSize: {x: 0, y: 0}
-        size: {x: 194, y: 64}
-        position: {x: -953, y: -487}
-        fcuImageType: 0
-        buttonComponent: 0
-        hash: -322339083
-        hashDataTree: "\u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn -
-          view all_btn-Default\r\n    isVisible | True\r\n    Type | COMPONENT\r\n   
-          GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (194.00, 64.00)\r\n    isVisible | True\r\n    Type
-          | COMPONENT\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
-          StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent
-          | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
-          CounterAxisAlignItems | NONE\r\n    Size | (194.00, 64.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Frame
-          34732/Group 1000001143/btn - view all_btn-Default/img - View All\r\n   
-          isVisible | True\r\n    Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n   
-          FillGeometry | -735275006\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    CornerRadius | 15\r\n    BlendMode | PASS_THROUGH\r\n   
-          ClipsContent | True\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-          | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (194.00, 64.00)\r\n   
-          isVisible | True\r\n    Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n   
-          FillGeometry | -735275006\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    CornerRadius | 15\r\n    BlendMode | PASS_THROUGH\r\n   
-          ClipsContent | True\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-          | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (194.00, 64.00)\r\n   
-          \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n        Type
-          | SOLID\r\n        Opacity | 0.6\r\n        Color | RGBA(1.000, 1.000,
-          1.000, 1.000)\r\n        BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014Effects\r\n       
-          IsVisible | False\r\n        Type | BACKGROUND_BLUR\r\n        Radius |
-          20\r\n        Color | RGBA(0.000, 0.000, 0.000, 0.000)\r\n        Offset
-          | (0.00, 0.00)\r\n        IsVisible | False\r\n        Type | DROP_SHADOW\r\n       
-          Radius | 4\r\n        Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n       
-          BlendMode | NORMAL\r\n        Offset | (0.00, 4.00)\r\n        ShowShadowBehindNode
-          | False\r\n    \u2014\u2014\u2014\u2014Strokes\r\n        IsVisible | True\r\n       
-          Type | GRADIENT_LINEAR\r\n        Opacity | 0.6\r\n        Color | RGBA(0.000,
-          0.000, 0.000, 0.000)\r\n        BlendMode | NORMAL\r\n        Color | RGBA(1.000,
-          1.000, 1.000, 1.000)\r\n        Position | 0\r\n        Color | RGBA(1.000,
-          1.000, 1.000, 0.000)\r\n        Position | 1\r\n        GradientHandlePositions
-          | (-0.07, -0.24) (1.21, 1.11) (-0.09, 0.41)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014Frame
-          34732/Group 1000001143/btn - view all_btn-Default/img - View All/View all\r\n   
-          isVisible | True\r\n    Type | TEXT\r\n    GetFigmaRotationAngle | 0\r\n   
-          StrokeWeight | 0.8\r\n    StrokeAlign | CENTER\r\n    BlendMode | PASS_THROUGH\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    isVisible | True\r\n    Type | TEXT\r\n    GetFigmaRotationAngle
-          | 0\r\n    StrokeWeight | 0.8\r\n    StrokeAlign | CENTER\r\n    BlendMode
-          | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems |
-          NONE\r\n    CounterAxisAlignItems | NONE\r\n    \u2014\u2014\u2014\u2014TextStyle\r\n       
-          FontFamily | Arita-dotum4.0(OTF)\r\n        FontWeight | 400\r\n       
-          FontSize | 30\r\n        TextAlignHorizontal | LEFT\r\n        TextAlignVertical
-          | CENTER\r\n    \u2014\u2014\u2014\u2014Fills\r\n        IsVisible | True\r\n       
-          Type | SOLID\r\n        Color | RGBA(1.000, 1.000, 1.000, 1.000)\r\n       
-          BlendMode | NORMAL\r\n    \u2014\u2014\u2014\u2014Effects\r\n        IsVisible
-          | False\r\n        Type | DROP_SHADOW\r\n        Radius | 2\r\n       
-          Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n        BlendMode | NORMAL\r\n       
-          Offset | (0.00, 2.00)\r\n        ShowShadowBehindNode | False\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
-          \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - view all_btn-Default/img
-          - View All/img - View all Icon\r\n        isVisible | True\r\n        Type
-          | GROUP\r\n        GetFigmaRotationAngle | 0\r\n        StrokeWeight |
-          1\r\n        StrokeAlign | INSIDE\r\n        CornerRadiuses | 0 0 0 0\r\n       
-          BlendMode | PASS_THROUGH\r\n        ClipsContent | False\r\n        LayoutMode
-          | NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-          | NONE\r\n        Size | (50.00, 50.00)\r\n        isVisible | True\r\n       
-          Type | GROUP\r\n        GetFigmaRotationAngle | 0\r\n        StrokeWeight
-          | 1\r\n        StrokeAlign | INSIDE\r\n        CornerRadiuses | 0 0 0 0\r\n       
-          BlendMode | PASS_THROUGH\r\n        ClipsContent | False\r\n        LayoutMode
-          | NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-          | NONE\r\n        Size | (50.00, 50.00)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-          StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
-          | 0\r\n    \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - view
-          all_btn-Default/img - View All/img - View all Icon/Group 1000001135\r\n       
-          isVisible | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle
-          | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
-          CornerRadiuses | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n       
-          ClipsContent | False\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (50.00,
-          50.00)\r\n        isVisible | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle
-          | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
-          CornerRadiuses | 0 0 0 0\r\n        BlendMode | PASS_THROUGH\r\n       
-          ClipsContent | False\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (50.00,
-          50.00)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n            StartingAngle
-          | 0\r\n            EndingAngle | 0\r\n            InnerRadius | 0\r\n   
-          \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - view all_btn-Default/img
-          - View All/img - View all Icon/Group 1000001135/Rectangle 4103\r\n       
-          isVisible | True\r\n        Type | RECTANGLE\r\n        GetFigmaRotationAngle
-          | 0\r\n        FillGeometry | -1082148173\r\n        StrokeWeight | 1\r\n       
-          StrokeAlign | INSIDE\r\n        CornerRadius | 15\r\n        BlendMode
-          | PASS_THROUGH\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (50.00,
-          50.00)\r\n        isVisible | True\r\n        Type | RECTANGLE\r\n       
-          GetFigmaRotationAngle | 0\r\n        FillGeometry | -1082148173\r\n       
-          StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n        CornerRadius
-          | 15\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode | NONE\r\n       
-          PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems | NONE\r\n       
-          Size | (50.00, 50.00)\r\n        \u2014\u2014\u2014\u2014Fills\r\n           
-          IsVisible | True\r\n            Type | SOLID\r\n            Color | RGBA(1.000,
-          1.000, 1.000, 1.000)\r\n            BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014Effects\r\n           
-          IsVisible | False\r\n            Type | DROP_SHADOW\r\n            Radius
-          | 2\r\n            Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n           
-          BlendMode | NORMAL\r\n            Offset | (0.00, 2.00)\r\n           
-          ShowShadowBehindNode | False\r\n            IsVisible | False\r\n           
-          Type | INNER_SHADOW\r\n            Radius | 2\r\n            Color | RGBA(1.000,
-          1.000, 1.000, 0.250)\r\n            BlendMode | NORMAL\r\n            Offset
-          | (2.00, 2.00)\r\n            IsVisible | False\r\n            Type | INNER_SHADOW\r\n           
-          Radius | 1\r\n            Color | RGBA(0.000, 0.000, 0.000, 0.250)\r\n           
-          BlendMode | NORMAL\r\n            Offset | (-1.00, -1.00)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-          StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
-          | 0\r\n        \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn
-          - view all_btn-Default/img - View All/img - View all Icon/Group 1000001135/Group
-          1000001131\r\n            isVisible | True\r\n            Type | GROUP\r\n           
-          GetFigmaRotationAngle | 0\r\n            FillGeometry | -116456629\r\n           
-          StrokeWeight | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode
-          | PASS_THROUGH\r\n            ClipsContent | False\r\n            LayoutMode
-          | NONE\r\n            PrimaryAxisAlignItems | NONE\r\n            CounterAxisAlignItems
-          | NONE\r\n            Size | (24.00, 24.00)\r\n            isVisible |
-          True\r\n            Type | GROUP\r\n            GetFigmaRotationAngle |
-          0\r\n            FillGeometry | -116456629\r\n            StrokeWeight
-          | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
-          ClipsContent | False\r\n            LayoutMode | NONE\r\n            PrimaryAxisAlignItems
-          | NONE\r\n            CounterAxisAlignItems | NONE\r\n            Size
-          | (24.00, 24.00)\r\n            \u2014\u2014\u2014\u2014Effects\r\n               
-          IsVisible | False\r\n                Type | DROP_SHADOW\r\n               
-          Radius | 4\r\n                Color | RGBA(0.000, 0.000, 0.000, 0.100)\r\n               
-          BlendMode | NORMAL\r\n                Offset | (0.50, 0.50)\r\n               
-          ShowShadowBehindNode | False\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
-          StartingAngle | 0\r\n                EndingAngle | 0\r\n               
-          InnerRadius | 0\r\n        \u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn
-          - view all_btn-Default/img - View All/img - View all Icon/Group 1000001135/Group
-          1000001131/Vector\r\n            isVisible | True\r\n            Type |
-          VECTOR\r\n            GetFigmaRotationAngle | 0\r\n            FillGeometry
-          | -1059734832\r\n            StrokeWeight | 1\r\n            StrokeAlign
-          | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n            Opacity
-          | 0.2\r\n            LayoutMode | NONE\r\n            PrimaryAxisAlignItems
-          | NONE\r\n            CounterAxisAlignItems | NONE\r\n            StrokeCap
-          | NONE\r\n            Size | (12.00, 12.00)\r\n            isVisible |
-          True\r\n            Type | VECTOR\r\n            GetFigmaRotationAngle
-          | 0\r\n            FillGeometry | -1059734832\r\n            StrokeWeight
-          | 1\r\n            StrokeAlign | INSIDE\r\n            BlendMode | PASS_THROUGH\r\n           
-          Opacity | 0.2\r\n            LayoutMode | NONE\r\n            PrimaryAxisAlignItems
-          | NONE\r\n            CounterAxisAlignItems | NONE\r\n            StrokeCap
-          | NONE\r\n            Size | (12.00, 12.00)\r\n            \u2014\u2014\u2014\u2014Fills\r\n               
-          IsVisible | True\r\n                Type | SOLID\r\n                Color
-          | RGBA(0.671, 0.855, 0.988, 1.000)\r\n                BlendMode | NORMAL\r\n           
-          \u2014\u2014\u2014\u2014ArcData\r\n                StartingAngle | 0\r\n               
-          EndingAngle | 0\r\n                InnerRadius | 0\r\n            \u2014\u2014\u2014\u2014Frame
-          34732/Group 1000001143/btn - view all_btn-Default/img - View All/img -
-          View all Icon/Group 1000001135/Group 1000001131/Vector\r\n               
-          isVisible | True\r\n                Type | VECTOR\r\n                GetFigmaRotationAngle
-          | 0\r\n                FillGeometry | 1925500608\r\n                StrokeWeight
-          | 1\r\n                StrokeAlign | INSIDE\r\n                BlendMode
-          | PASS_THROUGH\r\n                LayoutMode | NONE\r\n               
-          PrimaryAxisAlignItems | NONE\r\n                CounterAxisAlignItems |
-          NONE\r\n                StrokeCap | NONE\r\n                Size | (24.00,
-          24.00)\r\n                isVisible | True\r\n                Type | VECTOR\r\n               
-          GetFigmaRotationAngle | 0\r\n                FillGeometry | 1925500608\r\n               
-          StrokeWeight | 1\r\n                StrokeAlign | INSIDE\r\n               
-          BlendMode | PASS_THROUGH\r\n                LayoutMode | NONE\r\n               
-          PrimaryAxisAlignItems | NONE\r\n                CounterAxisAlignItems |
-          NONE\r\n                StrokeCap | NONE\r\n                Size | (24.00,
-          24.00)\r\n                \u2014\u2014\u2014\u2014Fills\r\n                   
-          IsVisible | True\r\n                    Type | SOLID\r\n                   
-          Color | RGBA(0.671, 0.855, 0.988, 1.000)\r\n                    BlendMode
-          | NORMAL\r\n                \u2014\u2014\u2014\u2014ArcData\r\n                   
-          StartingAngle | 0\r\n                    EndingAngle | 0\r\n                   
-          InnerRadius | 0\r\n"
-        hashData: "\u2014\u2014\u2014\u2014Frame 34732/Group 1000001143/btn - view
-          all_btn-Default\r\n    isVisible | True\r\n    Type | COMPONENT\r\n   
-          GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign |
-          INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (194.00, 64.00)\r\n    isVisible | True\r\n    Type
-          | COMPONENT\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n   
-          StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent
-          | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n   
-          CounterAxisAlignItems | NONE\r\n    Size | (194.00, 64.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: 1
-        hierarchy: Frame 34732/Group 1000001143/btn - view all_btn-Default
-        spritePath: 
-        link: 
-        humanizedTextPrefabName: 
-        tagReason: children not empty
-        downloadAttempsCount: 0
-        angle: -0
-        isDuplicate: 0
-        isMutual: 0
-        isEmptyMask: 0
-        isEmpty: 0
-        needDownload: 0
-        needGenerate: 0
-        forceImage: 0
-        forceContainer: 0
-        isInsideDownloadable: 0
-        ignore: 0
-        hasFontAsset: 0
-        invisible: 0
-      - id: 3618:15407
-        formattedName: btn - 2F Belly Zone
-        spriteName: 
-        tags: 2c01000002000000f601000001000000
-        childIndexes: 79000000
-        fcuInstance: {fileID: 934929935}
-        gameObject: {fileID: 0}
-        rootFrameGO: {fileID: 0}
-        transformData:
-          anchorMin: {x: 0, y: 0}
-          anchorMax: {x: 0, y: 0}
-          anchoredPosition: {x: 0, y: 0}
-          sizeDelta: {x: 0, y: 0, z: 0}
-          localRotation: {x: 0, y: 0, z: 0, w: 0}
-          localScale: {x: 0, y: 0, z: 0}
-        singleColor: {r: 0, g: 0, b: 0, a: 0}
-        spriteSize: {x: 0, y: 0}
-        size: {x: 640, y: 100}
-        position: {x: -1405, y: -746}
-        fcuImageType: 0
-        buttonComponent: 0
-        hash: 793640622
-        hashDataTree: "\u2014\u2014\u2014\u2014btn - 2F Belly Zone\r\n    isVisible
-          | True\r\n    Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
-          | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
-          ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-          | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (640.00, 100.00)\r\n   
-          isVisible | True\r\n    Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n   
-          StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
-          ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-          | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (640.00, 100.00)\r\n   
-          \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle | 0\r\n       
-          EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014btn
-          - 2F Belly Zone/Group 1000001142\r\n    isVisible | True\r\n    Type |
-          GROUP\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight | 1\r\n    StrokeAlign
-          | INSIDE\r\n    CornerRadiuses | 0 0 0 0\r\n    BlendMode | PASS_THROUGH\r\n   
-          ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-          | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (640.00, 100.00)\r\n   
-          isVisible | True\r\n    Type | GROUP\r\n    GetFigmaRotationAngle | 0\r\n   
-          StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadiuses | 0
-          0 0 0\r\n    BlendMode | PASS_THROUGH\r\n    ClipsContent | False\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (640.00, 100.00)\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n\u2014\u2014\u2014\u2014btn
-          - 2F Belly Zone/Group 1000001142/img - bg\r\n    isVisible | True\r\n   
-          Type | RECTANGLE\r\n    GetFigmaRotationAngle | 0\r\n    FillGeometry |
-          -26462940\r\n    StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    CornerRadius
-          | 20\r\n    BlendMode | PASS_THROUGH\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-          | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (640.00, 100.00)\r\n   
-          isVisible | True\r\n    Type | RECTANGLE\r\n    GetFigmaRotationAngle |
-          0\r\n    FillGeometry | -26462940\r\n    StrokeWeight | 1\r\n    StrokeAlign
-          | INSIDE\r\n    CornerRadius | 20\r\n    BlendMode | PASS_THROUGH\r\n   
-          LayoutMode | NONE\r\n    PrimaryAxisAlignItems | NONE\r\n    CounterAxisAlignItems
-          | NONE\r\n    Size | (640.00, 100.00)\r\n    \u2014\u2014\u2014\u2014Fills\r\n       
-          IsVisible | True\r\n        Type | SOLID\r\n        Opacity | 0.6\r\n       
-          Color | RGBA(0.000, 0.000, 0.000, 1.000)\r\n        BlendMode | NORMAL\r\n   
-          \u2014\u2014\u2014\u2014Effects\r\n        IsVisible | False\r\n       
-          Type | DROP_SHADOW\r\n        Radius | 4\r\n        Color | RGBA(0.000,
-          0.000, 0.000, 0.250)\r\n        BlendMode | NORMAL\r\n        Offset |
-          (4.00, 4.00)\r\n        ShowShadowBehindNode | False\r\n    \u2014\u2014\u2014\u2014ArcData\r\n       
-          StartingAngle | 0\r\n        EndingAngle | 0\r\n        InnerRadius | 0\r\n   
-          \u2014\u2014\u2014\u2014btn - 2F Belly Zone/Group 1000001142/Group 1000001141\r\n       
-          isVisible | True\r\n        Type | GROUP\r\n        GetFigmaRotationAngle
-          | 0\r\n        StrokeWeight | 1\r\n        StrokeAlign | INSIDE\r\n       
-          BlendMode | PASS_THROUGH\r\n        ClipsContent | False\r\n        LayoutMode
-          | NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-          | NONE\r\n        Size | (290.40, 40.00)\r\n        isVisible | True\r\n       
-          Type | GROUP\r\n        GetFigmaRotationAngle | 0\r\n        StrokeWeight
-          | 1\r\n        StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n       
-          ClipsContent | False\r\n        LayoutMode | NONE\r\n        PrimaryAxisAlignItems
-          | NONE\r\n        CounterAxisAlignItems | NONE\r\n        Size | (290.40,
-          40.00)\r\n        \u2014\u2014\u2014\u2014ArcData\r\n            StartingAngle
-          | 0\r\n            EndingAngle | 0\r\n            InnerRadius | 0\r\n   
-          \u2014\u2014\u2014\u2014btn - 2F Belly Zone/Group 1000001142/Group 1000001141/img
-          - up\r\n        isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
-          | 0\r\n        FillGeometry | -1863135156\r\n        StrokeWeight | 1\r\n       
-          StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode
-          | NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-          | NONE\r\n        StrokeCap | NONE\r\n        Size | (19.07, 31.53)\r\n       
-          isVisible | True\r\n        Type | VECTOR\r\n        GetFigmaRotationAngle
-          | 0\r\n        FillGeometry | -1863135156\r\n        StrokeWeight | 1\r\n       
-          StrokeAlign | INSIDE\r\n        BlendMode | PASS_THROUGH\r\n        LayoutMode
-          | NONE\r\n        PrimaryAxisAlignItems | NONE\r\n        CounterAxisAlignItems
-          | NONE\r\n        StrokeCap | NONE\r\n        Size | (19.07, 31.53)\r\n       
-          \u2014\u2014\u2014\u2014Fills\r\n            IsVisible | True\r\n           
-          Type | SOLID\r\n            Color | RGBA(1.000, 0.682, 0.690, 1.000)\r\n           
-          BlendMode | NORMAL\r\n        \u2014\u2014\u2014\u2014ArcData\r\n           
-          StartingAngle | 0\r\n            EndingAngle | 0\r\n            InnerRadius
-          | 0\r\n        \u2014\u2014\u2014\u2014btn - 2F Belly Zone/Group 1000001142/Group
-          1000001141/_F Belly Zone\r\n            isVisible | True\r\n           
-          Type | TEXT\r\n            GetFigmaRotationAngle | 0\r\n            StrokeWeight
-          | 0.8\r\n            StrokeAlign | CENTER\r\n            BlendMode | PASS_THROUGH\r\n           
-          LayoutMode | NONE\r\n            PrimaryAxisAlignItems | NONE\r\n           
-          CounterAxisAlignItems | NONE\r\n            isVisible | True\r\n           
-          Type | TEXT\r\n            GetFigmaRotationAngle | 0\r\n            StrokeWeight
-          | 0.8\r\n            StrokeAlign | CENTER\r\n            BlendMode | PASS_THROUGH\r\n           
-          LayoutMode | NONE\r\n            PrimaryAxisAlignItems | NONE\r\n           
-          CounterAxisAlignItems | NONE\r\n            \u2014\u2014\u2014\u2014TextStyle\r\n               
-          FontFamily | Arita-dotum4.0(OTF)\r\n                FontWeight | 400\r\n               
-          FontSize | 40\r\n                TextAlignHorizontal | CENTER\r\n               
-          TextAlignVertical | CENTER\r\n            \u2014\u2014\u2014\u2014Fills\r\n               
-          IsVisible | True\r\n                Type | SOLID\r\n                Color
-          | RGBA(1.000, 0.682, 0.690, 1.000)\r\n                BlendMode | NORMAL\r\n           
-          \u2014\u2014\u2014\u2014Strokes\r\n                IsVisible | True\r\n               
-          Type | SOLID\r\n                Color | RGBA(1.000, 0.682, 0.690, 1.000)\r\n               
-          BlendMode | NORMAL\r\n            \u2014\u2014\u2014\u2014ArcData\r\n               
-          StartingAngle | 0\r\n                EndingAngle | 0\r\n               
-          InnerRadius | 0\r\n"
-        hashData: "\u2014\u2014\u2014\u2014btn - 2F Belly Zone\r\n    isVisible |
-          True\r\n    Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n    StrokeWeight
-          | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
-          ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-          | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (640.00, 100.00)\r\n   
-          isVisible | True\r\n    Type | FRAME\r\n    GetFigmaRotationAngle | 0\r\n   
-          StrokeWeight | 1\r\n    StrokeAlign | INSIDE\r\n    BlendMode | PASS_THROUGH\r\n   
-          ClipsContent | False\r\n    LayoutMode | NONE\r\n    PrimaryAxisAlignItems
-          | NONE\r\n    CounterAxisAlignItems | NONE\r\n    Size | (640.00, 100.00)\r\n   
-          \u2014\u2014\u2014\u2014ArcData\r\n        StartingAngle | 0\r\n       
-          EndingAngle | 0\r\n        InnerRadius | 0\r\n"
-        parentIndex: -1
-        hierarchy: btn - 2F Belly Zone
-        spritePath: 
-        link: 
-        humanizedTextPrefabName: 
-        tagReason: children not empty
-        downloadAttempsCount: 0
-        angle: -0
-        isDuplicate: 0
-        isMutual: 0
-        isEmptyMask: 0
-        isEmpty: 0
-        needDownload: 0
-        needGenerate: 0
-        forceImage: 0
-        forceContainer: 0
-        isInsideDownloadable: 0
-        ignore: 0
-        hasFontAsset: 0
-        invisible: 0
+      buttons: []
     i2LocalizationDrawer:
       languageSource: {fileID: 1619099712}
   imageTypeSetter:
     downloadableIds:
-    - 3612:8391
-    - 3612:8397
-    - 3612:8401
-    - 3612:8410
-    - 3612:8420
-    - 3612:8425
-    - 3612:8429
-    - 3612:8437
-    - 3612:8460
-    - 3612:8461
-    - 3612:8463
-    - 3612:8464
-    - 3612:8519
-    - 3612:8529
-    - 3612:8577
-    - 3612:8580
-    - 3612:8600
-    - I3612:8605;3264:6927
-    - I3612:8610;3264:6608
-    - I3612:8611;3264:9124
-    - 3612:8636
-    - 3612:8585
-    - 3612:8448
-    - 3612:8452
-    - 3612:8456
-    - I3612:8644;3264:10384
-    - I3612:8644;3264:10385
-    - 3612:8544
-    - 3618:15348
-    - 3618:15375
-    - 3618:15381
-    - 3618:15391
-    - 3618:15385
-    - 3612:8558
-    - 3618:15395
-    - 3618:15401
-    - 3618:15409
-    - 3618:15411
+    - 3865:9799
+    - 3865:9802
+    - 3865:9806
+    - 3865:9814
+    - 3865:9820
+    - 3865:9823
+    - 3865:9830
+    - 3865:9831
+    - 3865:9869
+    - 3865:9849
+    - 3865:9852
+    - 3865:9868
     generativeIds: []
     drawableIds:
-    - 3612:8389
-    - 3612:8390
-    - 3612:8399
-    - 3612:8400
-    - 3612:8408
-    - 3612:8409
-    - 3612:8418
-    - 3612:8419
-    - 3612:8427
-    - 3612:8428
-    - 3612:8435
-    - 3612:8436
-    - 3612:8598
-    - 3612:8599
-    - 3612:8602
-    - 3612:8603
-    - 3612:8604
-    - 3612:8606
-    - 3612:8607
-    - 3612:8609
-    - 3612:8610
-    - 3612:8611
-    - 3612:8612
-    - 3612:8449
-    - 3612:8543
-    - 3618:15372
-    - 3618:15380
+    - 3865:9797
+    - 3865:9812
+    - 3865:9822
+    - 3865:9847
     noneIds: []
   settings:
     mainSettings:
@@ -8692,7 +8057,23 @@ MonoBehaviour:
     prefabsPath: Assets/Prefabs
     pstructs: []
   inspectorDrawer:
-    _selectableHambItems: []
+    _selectableHambItems:
+    - id: 0:0
+      fade:
+        m_Target: 0
+        speed: 4
+        m_Value: 0
+      checkBoxValue:
+        _value: 1
+        _temp: 1
+      guiContent:
+        m_Text: FRAMES TO IMPORT (655/655)
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      buttonGuiContent:
+        m_Text: 
+        m_Image: {fileID: 0}
+        m_Tooltip: 
     _doc:
       selected: 1
       childs:
@@ -9194,6 +8575,8 @@ MonoBehaviour:
           childs: []
         - selected: 1
           childs: []
+        - selected: 1
+          childs: []
       - selected: 1
         childs:
         - selected: 1
@@ -9570,6 +8953,98 @@ MonoBehaviour:
           childs: []
         - selected: 1
           childs: []
+        - selected: 1
+          childs: []
+      - selected: 1
+        childs:
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+      - selected: 1
+        childs:
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+      - selected: 1
+        childs:
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
+        - selected: 1
+          childs: []
       - selected: 1
         childs:
         - selected: 1
@@ -9606,48 +9081,6 @@ MonoBehaviour:
           childs: []
         - selected: 1
           childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-      - selected: 1
-        childs:
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-        - selected: 1
-          childs: []
-      - selected: 1
-        childs: []
-      - selected: 1
-        childs: []
       - selected: 1
         childs:
         - selected: 1
@@ -10499,7 +9932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 806043634}
+  mTarget: {fileID: 405467284}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -10538,6 +9971,17 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &971659364 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6863579452614916464, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &972734713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10637,17 +10081,6 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
---- !u!114 &984027200 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4769881898219500579, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &986802001 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8587946042826547938, guid: 9b906c6dce135054ea630543d2c7eddd, type: 3}
@@ -10744,11 +10177,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 3801364}
+  mTarget: {fileID: 480614867}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+<<<<<<< Updated upstream
 --- !u!21 &1009343600
 Material:
   serializedVersion: 8
@@ -10790,6 +10224,8 @@ Material:
     - _r: {r: 20, g: 20, b: 20, a: 20}
     - _rect2props: {r: 0.000030517578, g: -0.000030517578, b: 247.4874, a: 247.4874}
   m_BuildTextureStacks: []
+=======
+>>>>>>> Stashed changes
 --- !u!114 &1011877800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11031,6 +10467,17 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &1033427568 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5147911119204237720, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1036034105 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8587946042826547938, guid: e3124d7631ba5324cb0d009f8d0c9fcc, type: 3}
@@ -11303,10 +10750,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1063543237 stripped
+--- !u!114 &1063807114
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3665230069692775589, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1442543861}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+--- !u!114 &1069266914 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3554485099735750016, guid: 99fd794a0d9c263419e14059b3e200eb, type: 3}
+  m_PrefabInstance: {fileID: 2068385513}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -11318,6 +10782,17 @@ MonoBehaviour:
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2746062134031116287, guid: 613911f14c58f6a43bfca806314b158e, type: 3}
   m_PrefabInstance: {fileID: 2074843312}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1071508723 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 355945415782438695, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -11454,6 +10929,7 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+<<<<<<< Updated upstream
 --- !u!114 &1086589997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11482,6 +10958,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> Stashed changes
 --- !u!114 &1094685271 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8621153310830471028, guid: 8d3d7dd06b6d45b4f8b139c501653d9e, type: 3}
@@ -11753,7 +11231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 781635613}
+  mTarget: {fileID: 1033427568}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -11790,6 +11268,23 @@ MonoBehaviour:
   mTarget: {fileID: 1143554026}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+--- !u!114 &1155002572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1220064668}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
 --- !u!114 &1164453832
@@ -11927,6 +11422,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1183568975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 384023970}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &1185631882 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1881572200025607930, guid: 9b906c6dce135054ea630543d2c7eddd, type: 3}
@@ -11989,6 +11501,17 @@ MonoBehaviour:
   mAlignment_LTR: 513
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &1191859107 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4487392546348811399, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1192708124 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2746062134031116287, guid: 9b906c6dce135054ea630543d2c7eddd, type: 3}
@@ -12176,7 +11699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1602301776}
+  mTarget: {fileID: 1611071820}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -12185,17 +11708,6 @@ MonoBehaviour:
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 687596951389055840, guid: 8d3d7dd06b6d45b4f8b139c501653d9e, type: 3}
   m_PrefabInstance: {fileID: 1619734393}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1216984885 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1582025077798453842, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -12324,6 +11836,17 @@ MonoBehaviour:
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6751899808868221202, guid: 99fd794a0d9c263419e14059b3e200eb, type: 3}
   m_PrefabInstance: {fileID: 2068385513}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1249549325 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 334831287129620575, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -12467,7 +11990,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   mTarget: {fileID: 984027200}
+=======
+  mTarget: {fileID: 1656363614}
+>>>>>>> Stashed changes
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -12550,17 +12077,6 @@ MonoBehaviour:
   mAlignment_LTR: 513
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
---- !u!114 &1285298200 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7722421073032733946, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1295439404 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4447608061534714737, guid: 9b906c6dce135054ea630543d2c7eddd, type: 3}
@@ -12799,7 +12315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 177421716}
+  mTarget: {fileID: 1688106218}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -12938,6 +12454,17 @@ MonoBehaviour:
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 164047020366124789, guid: 9b906c6dce135054ea630543d2c7eddd, type: 3}
   m_PrefabInstance: {fileID: 944150109}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1332248814 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3908766566835228136, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -13175,6 +12702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!114 &1354354005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13192,6 +12720,8 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+=======
+>>>>>>> Stashed changes
 --- !u!114 &1356199950 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7866810712632627557, guid: 7c5ba61ab7aeeaa4b9e5055ec762154b, type: 3}
@@ -13215,11 +12745,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1988892293}
+  mTarget: {fileID: 135797094}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &1373756028 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1618963783635907982, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1376808951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13254,17 +12795,6 @@ MonoBehaviour:
   mAlignment_LTR: 513
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
---- !u!114 &1379654971 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8560623047029818155, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1383026538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13297,6 +12827,17 @@ MonoBehaviour:
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2260310546060582761, guid: 6046727ebec66a142b837f26b980333c, type: 3}
   m_PrefabInstance: {fileID: 154143176}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1392521254 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2859856350560796150, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -13478,7 +13019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1063543237}
+  mTarget: {fileID: 92168660}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -13494,6 +13035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!21 &1409674855
 Material:
   serializedVersion: 8
@@ -13546,6 +13088,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> Stashed changes
 --- !u!114 &1410237724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13576,6 +13120,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTarget: {fileID: 1947791610}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+--- !u!114 &1411958227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 110050419}
   mAlignment_RTL: 260
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
@@ -13637,6 +13198,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 607238254}
   - {fileID: 1625638198}
   - {fileID: 2010501169}
   - {fileID: 859513580}
@@ -13848,7 +13410,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!114 &1476820625
+=======
+--- !u!114 &1477466899
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13860,9 +13426,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   mTarget: {fileID: 1442543861}
   mAlignment_RTL: 516
   mAlignment_LTR: 513
+=======
+  mTarget: {fileID: 14462226}
+  mAlignment_RTL: 514
+  mAlignment_LTR: 514
+>>>>>>> Stashed changes
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
 --- !u!114 &1482626468
@@ -14274,6 +13846,23 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &1524717362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 230118282}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &1533878618 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 188429918973551009, guid: 6046727ebec66a142b837f26b980333c, type: 3}
@@ -14352,6 +13941,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1540405892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1858393323}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &1541036024 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2882412019976421969, guid: 6e73331f43fc9e4438a90cbe4848b1a4, type: 3}
@@ -14475,6 +14081,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1554717916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 821962523}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &1557252970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14565,6 +14188,17 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &1570179511 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6137136152037968754, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1573943652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14647,6 +14281,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1419590981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1588129102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1225182997}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+>>>>>>> Stashed changes
 --- !u!114 &1592275105 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2846548614732718473, guid: 6046727ebec66a142b837f26b980333c, type: 3}
@@ -14720,6 +14374,7 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+<<<<<<< Updated upstream
 --- !u!114 &1600197119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14738,8 +14393,11 @@ MonoBehaviour:
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
 --- !u!114 &1602301776 stripped
+=======
+--- !u!114 &1611071820 stripped
+>>>>>>> Stashed changes
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6839150680501338575, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6400082855222774672, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
   m_PrefabInstance: {fileID: 623375056}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -14776,6 +14434,17 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &1615205415 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1252729829747624621, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1616842996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15288,6 +14957,102 @@ MonoBehaviour:
       - "$20.00\_(Free when you purchase $70.00 or more)"
       Flags: 00
       Languages_Touch: []
+    - Term: _20.00
+      TermType: 0
+      Description: 
+      Languages:
+      - "$20.00\_(Free when you purchase $70.00 or more)"
+      Flags: 00
+      Languages_Touch: []
+    - Term: specialized moisturizing
+      TermType: 0
+      Description: 
+      Languages:
+      - "Specialized moisturizing and calming effect belly patch\Lthat solves skin
+        dryness during pregnancy\n\nA 32cm x 32cm wide sheet with a cute \"Beary\"
+        design\L\_\_for the body shape of pregnant women (the \"Beary\" is a\L\_\_baby
+        bear persona of tntnmom's)\n\nEWG ALL GREEN, uses clean & safe vegan ingredients,\L\_\_Paraben
+        FREE\nDermatology tested\nContains decoration stickers for precious memories\L\_\_with
+        your baby"
+      Flags: 00
+      Languages_Touch: []
+    - Term: bear belly patch
+      TermType: 0
+      Description: 
+      Languages:
+      - Bear Belly Patch (Bearly)
+      Flags: 00
+      Languages_Touch: []
+    - Term: weight - 55ml x 7ea faci
+      TermType: 0
+      Description: 
+      Languages:
+      - "Weight : 55ml x 7ea\LFacility : CGMP Certified\LISO 9001, 14001, 22716 Certified"
+      Flags: 00
+      Languages_Touch: []
+    - Term: map off
+      TermType: 0
+      Description: 
+      Languages:
+      - Map off
+      Flags: 00
+      Languages_Touch: []
+    - Term: _20.00
+      TermType: 0
+      Description: 
+      Languages:
+      - "$20.00\_(Free when you purchase $70.00 or more)"
+      Flags: 00
+      Languages_Touch: []
+    - Term: bear belly patch
+      TermType: 0
+      Description: 
+      Languages:
+      - Bear Belly Patch (Bearly)
+      Flags: 00
+      Languages_Touch: []
+    - Term: _20.00
+      TermType: 0
+      Description: 
+      Languages:
+      - "$20.00\_(Free when you purchase $70.00 or more)"
+      Flags: 00
+      Languages_Touch: []
+    - Term: bear belly patch
+      TermType: 0
+      Description: 
+      Languages:
+      - Bear Belly Patch (Bearly)
+      Flags: 00
+      Languages_Touch: []
+    - Term: _20.00
+      TermType: 0
+      Description: 
+      Languages:
+      - "$20.00\_(Free when you purchase $70.00 or more)"
+      Flags: 00
+      Languages_Touch: []
+    - Term: bear belly patch
+      TermType: 0
+      Description: 
+      Languages:
+      - Bear Belly Patch (Bearly)
+      Flags: 00
+      Languages_Touch: []
+    - Term: _20.00
+      TermType: 0
+      Description: 
+      Languages:
+      - "$20.00\_(Free when you purchase $70.00 or more)"
+      Flags: 00
+      Languages_Touch: []
+    - Term: bear belly patch
+      TermType: 0
+      Description: 
+      Languages:
+      - Bear Belly Patch (Bearly)
+      Flags: 00
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
@@ -15778,6 +15543,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1419590981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1631905184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1758441775}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+>>>>>>> Stashed changes
 --- !u!1 &1632213851
 GameObject:
   m_ObjectHideFlags: 0
@@ -15855,6 +15640,23 @@ MonoBehaviour:
   mTarget: {fileID: 1120213836}
   mAlignment_RTL: 516
   mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+--- !u!114 &1640237439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 620472818}
+  mAlignment_RTL: 514
+  mAlignment_LTR: 514
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
 --- !u!114 &1644218664 stripped
@@ -15945,10 +15747,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1647657756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 2128125750}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &1647873774 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4859907331759931146, guid: 99fd794a0d9c263419e14059b3e200eb, type: 3}
   m_PrefabInstance: {fileID: 2068385513}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1648247173 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2411679355378168790, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -15984,20 +15814,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1656887802 stripped
+--- !u!114 &1656363614 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5050593236642013206, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1659125940 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3063145478861685894, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 9055953306398535504, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
   m_PrefabInstance: {fileID: 623375056}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -16158,7 +15977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 22745209}
+  mTarget: {fileID: 432067313}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -16185,6 +16004,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1680714662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 8470499}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &1681814757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16202,6 +16038,34 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &1687679113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 212499137}
+  mAlignment_RTL: 514
+  mAlignment_LTR: 514
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+--- !u!114 &1688106218 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8098405267332910409, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1689124625 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4275177320550189797, guid: 7c5ba61ab7aeeaa4b9e5055ec762154b, type: 3}
@@ -16264,6 +16128,67 @@ MonoBehaviour:
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1703213831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 429237883}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+--- !u!21 &1704452519
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/RoundedCorners/CornerRounder
+  m_Shader: {fileID: 4800000, guid: d3beb88e61f88ca4393acdefb005fa70, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _halfSize: {r: 320, g: 50, b: 0, a: 0}
+    - _r: {r: 20, g: 20, b: 20, a: 20}
+    - _rect2props: {r: 0.000030517578, g: -0.000030517578, b: 247.4874, a: 247.4874}
+  m_BuildTextureStacks: []
+>>>>>>> Stashed changes
 --- !u!114 &1705046022 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7434577580548476416, guid: e3124d7631ba5324cb0d009f8d0c9fcc, type: 3}
@@ -16287,7 +16212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 2059102602}
+  mTarget: {fileID: 1332248814}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -16313,17 +16238,6 @@ MonoBehaviour:
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3278781748093026028, guid: e3124d7631ba5324cb0d009f8d0c9fcc, type: 3}
   m_PrefabInstance: {fileID: 2134499282}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1719910945 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1639910976290133765, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -16437,6 +16351,23 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &1743226197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 2126033478}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &1743344379 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2846548614732718473, guid: 9b906c6dce135054ea630543d2c7eddd, type: 3}
@@ -16487,6 +16418,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1752811429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 25802127}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &1754281965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16500,6 +16448,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTarget: {fileID: 124310858}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+--- !u!114 &1755517568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1534119497}
   mAlignment_RTL: 260
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
@@ -16630,7 +16595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1719910945}
+  mTarget: {fileID: 1993269660}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -16882,6 +16847,34 @@ MonoBehaviour:
   mAlignment_LTR: 513
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &1801552942 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1217625310740704236, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1801573712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1040383846}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!114 &1804721980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17104,7 +17097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 159594962}
+  mTarget: {fileID: 1896484212}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -17121,7 +17114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 751157602}
+  mTarget: {fileID: 1071508723}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -17194,7 +17187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 575302040}
+  mTarget: {fileID: 1191859107}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -17624,6 +17617,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1886965287 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1894602586466593708, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1887656275 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7960939468642071859, guid: 7c5ba61ab7aeeaa4b9e5055ec762154b, type: 3}
@@ -17647,7 +17651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 2026752411}
+  mTarget: {fileID: 1392521254}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -17669,6 +17673,34 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+--- !u!114 &1894018817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1915486458}
+  mAlignment_RTL: 514
+  mAlignment_LTR: 514
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+--- !u!114 &1896484212 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1854990079420073318, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1900287928 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6913632900582240480, guid: 9b906c6dce135054ea630543d2c7eddd, type: 3}
@@ -18367,17 +18399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1988892293 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2772823742616397164, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1989069726 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1950829177616433444, guid: 7c5ba61ab7aeeaa4b9e5055ec762154b, type: 3}
@@ -18393,6 +18414,17 @@ MonoBehaviour:
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4447608061534714737, guid: 613911f14c58f6a43bfca806314b158e, type: 3}
   m_PrefabInstance: {fileID: 2074843312}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1993269660 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5231515069511995105, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
+  m_PrefabInstance: {fileID: 623375056}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -18499,7 +18531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1659125940}
+  mTarget: {fileID: 697041649}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -18566,6 +18598,7 @@ MonoBehaviour:
   mAlignment_LTR: 513
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+<<<<<<< Updated upstream
 --- !u!114 &2026752411 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7213326941142976991, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
@@ -18594,6 +18627,8 @@ MonoBehaviour:
   mAlignment_LTR: 513
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+=======
+>>>>>>> Stashed changes
 --- !u!114 &2028578201 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6751899808868221202, guid: 7c5ba61ab7aeeaa4b9e5055ec762154b, type: 3}
@@ -18634,7 +18669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1409675026}
+  mTarget: {fileID: 971659364}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -18650,7 +18685,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!114 &2038372082
+=======
+--- !u!114 &2037748658
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18662,9 +18701,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   mTarget: {fileID: 1933674015}
   mAlignment_RTL: 260
   mAlignment_LTR: 257
+=======
+  mTarget: {fileID: 1223469246}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+>>>>>>> Stashed changes
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
 --- !u!114 &2041876575 stripped
@@ -18782,17 +18827,6 @@ MonoBehaviour:
   mAlignment_LTR: 257
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
---- !u!114 &2059102602 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 431141763087812700, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2064059967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19427,7 +19461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1091823047}
+  mTarget: {fileID: 1249549325}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -19500,7 +19534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 456220286}
+  mTarget: {fileID: 540785854}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -19562,37 +19596,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 438644680}
+  mTarget: {fileID: 1801552942}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
   mInitializeAlignment: 0
+<<<<<<< Updated upstream
 --- !u!114 &2114123022 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5795003109731613267, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
   m_PrefabInstance: {fileID: 623375056}
+=======
+--- !u!114 &2113337584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+>>>>>>> Stashed changes
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 44547968}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
+>>>>>>> Stashed changes
 --- !u!114 &2114820918 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8587946042826547938, guid: 9e5e6a89ad8a77a4fbb8a5951ac02c70, type: 3}
   m_PrefabInstance: {fileID: 1663376708}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2118601083 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 475546203631671336, guid: 5322aa077e2aa5442bd0db9510cecb1c, type: 3}
-  m_PrefabInstance: {fileID: 623375056}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -19690,7 +19732,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   mTarget: {fileID: 784139854}
+=======
+  mTarget: {fileID: 97692720}
+>>>>>>> Stashed changes
   mAlignment_RTL: 516
   mAlignment_LTR: 513
   mAlignmentWasRTL: 0
@@ -20001,7 +20047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 2118601083}
+  mTarget: {fileID: 390692661}
   mAlignment_RTL: 514
   mAlignment_LTR: 514
   mAlignmentWasRTL: 0
@@ -20017,6 +20063,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2146438666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1315303409}
+  mAlignment_RTL: 260
+  mAlignment_LTR: 257
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 0
 --- !u!1001 &1554877553454856813
 PrefabInstance:
   m_ObjectHideFlags: 0
