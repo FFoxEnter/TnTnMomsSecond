@@ -54,7 +54,7 @@ public class UIRoot : MonoBehaviour
         MobileRotatePanel.SetActive(false);
         IntroVideo.SetActive(false);
         isIntroVideoPlay = false;
-        SetNavigationAni();
+        //SetNavigationAni();
     }
 
     void ButtonClickEvent()
@@ -122,7 +122,8 @@ public class UIRoot : MonoBehaviour
         curCoroutine = null;
 
         // 내비 UI 애니 시작.
-        NavigationUIAni.PlayUp();
+        //NavigationUIAni.PlayUp();
+        NavigationManager.instance.ShowNaviMap(true);
     }
      
     public void SetNavigationAni()

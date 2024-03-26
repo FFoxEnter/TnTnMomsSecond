@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 public class NavigationManager : Singleton<NavigationManager>
 {
@@ -16,9 +17,43 @@ public class NavigationManager : Singleton<NavigationManager>
 
     public Coroutine zoneUICo;
 
+    [Header("-----NaviMap-----")]
+    public GameObject MapOnText;
+    public GameObject MapOffText;
+    public Button ViewAllButton;
+    public Button ViewBackButton;
+    public Toggle mapToggle;
+    Animator naviMapAnim;       
+
     public void InnerAwake()
     {
         Instance = this;
+        naviMapAnim = GetComponent<Animator>();
+        mapToggle.onValueChanged.AddListener(delegate { OnMapStateChanged(mapToggle); }) ;
+        ViewAllButton.onClick.AddListener(ViewAllButtonClick);
+        ViewBackButton.onClick.AddListener(ViewBackButtonClick);
+        ViewBackButton.gameObject.SetActive(false);
+        mapToggle.isOn = false;
+        SpecialButtonView(false);
+    }
+
+    public void SpecialButtonView(bool value)
+    {
+        if (ViewAllButton.gameObject.activeSelf != value && mapToggle.gameObject.activeSelf != value)
+        {
+            ViewAllButton.gameObject.SetActive(value);
+            mapToggle.gameObject.SetActive(value);
+        }        
+    }
+
+    public void ShowNaviMap(bool value)
+    {
+        mapToggle.isOn = value;
+
+        MapOnText.SetActive(value);
+        MapOffText.SetActive(!value);
+
+        naviMapAnim.SetBool("isMapOn", value);
     }
 
     public void AddButton(NavigationButton button)
@@ -70,7 +105,7 @@ public class NavigationManager : Singleton<NavigationManager>
             zoneUICo = null;
         }
         zoneUICo = StartCoroutine(UIZoneActivateCo(navButton));
-    }
+    }    
 
     IEnumerator UIZoneActivateCo(NavigationButton navButton)
     {
@@ -80,5 +115,50 @@ public class NavigationManager : Singleton<NavigationManager>
         {
             panel.SetActive(true);
         }
+    }
+
+    public void ActiviateZoneObj(string curZoneName)
+    {
+        if (zoneUICo != null)
+        {
+            StopCoroutine(zoneUICo);
+            zoneUICo = null;
+        }
+        zoneUICo = StartCoroutine(UIZoneActivateCo(curZoneName));
+    }
+
+    IEnumerator UIZoneActivateCo(string curZoneName)
+    {
+        yield return new WaitUntil(() => MovingLineManager.instance.isMoving == false);
+        GameObject panel = null;
+        if (zoneDic.TryGetValue(curZoneName, out panel) == true)
+        {
+            panel.SetActive(true);
+        }
+    }
+
+    void OnMapStateChanged(Toggle toggle)
+    {
+        MapOnText.SetActive(toggle.isOn);
+        MapOffText.SetActive(!toggle.isOn);
+
+        naviMapAnim.SetBool("isMapOn", toggle.isOn);
+    }
+
+    void ViewAllButtonClick()
+    {     
+        MovingLineManager.instance.StopAllCamCo();
+        MovingLineManager.instance.AllVideoOff();
+        MovingLineManager.instance.CameraMove(curZoneName, false);
+        ViewAllButton.gameObject.SetActive(false);
+        ViewBackButton.gameObject.SetActive(true);
+    }
+
+    void ViewBackButtonClick()
+    {
+        MovingLineManager.instance.AllVideoOff();
+        MovingLineManager.instance.CameraMove(curZoneName, true);
+        ViewAllButton.gameObject.SetActive(true);
+        ViewBackButton.gameObject.SetActive(false);       
     }
 }
