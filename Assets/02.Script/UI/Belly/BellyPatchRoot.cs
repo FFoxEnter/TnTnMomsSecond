@@ -30,7 +30,7 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
         State4,
         State5
     }
-    private GameState currentState;
+    public GameState currentState;
 
     private void Start()
     {
@@ -49,7 +49,7 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
     {
         // State2 진입 시 실행될 코드.
         BellyPackObject.SetActive(true);
-        Statue.RotateNegative10Degrees();
+        Statue.RotatePositiveDegreesCoroutine();
     }
 
     void OnState3Enter()
