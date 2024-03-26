@@ -12,22 +12,11 @@ public class BearPack : MonoBehaviour
         boxCollider.isTrigger = isTriggerCollider;
     }
 
-    // 충돌이 발생했을 때 호출되는 메서드
-    void OnTriggerEnter(Collider other)
-    {
-        // 오브젝트의 태그가 "BearPack"인 경우에만 실행
-        if (other.CompareTag("BearPack"))
-        {
-            BellyPackOn();
-        }
-    }
-
-    // 특정 메서드
-    void BellyPackOn()
+    // Raycast로 충돌이 발생했을 때 호출되는 메서드
+    public void BellyPackOn()
     {
         // 특정 작업을 수행하는 코드를 작성합니다.
         Debug.Log("BearPack을 클릭했습니다!");
         BellyPatchRoot.instance.ChangeState(BellyPatchRoot.GameState.State3);
-
     }
 }

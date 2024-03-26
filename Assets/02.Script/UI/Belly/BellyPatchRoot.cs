@@ -28,7 +28,7 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
         State2,// 카메라 진입 시.
         State3,// 팩 클릭 시.
         State4,
-        State5
+        State5// 초기화.
     }
     public GameState currentState;
 
@@ -55,19 +55,23 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
     void OnState3Enter()
     {
         // State3 진입 시 실행될 코드.
+        BellyPackObject.SetActive(false);
         Tutorial.SetActive(true);
-        StickerCollider(0, true);
+        BellyPackOfStatue.SetActive(true);
     }
 
     void OnState4Enter()
     {
         // State4 진입 시 실행될 코드.
-        BellyPackOfStatue.SetActive(true);
+        Tutorial.SetActive(false);
+        StickerCollider(0, true);
     }
 
     void OnState5Enter()
     {
         // State5 진입 시 실행될 코드
+        Tutorial.SetActive(false);
+
     }
 
     private void StateUpdate()
@@ -114,7 +118,7 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
         switch (currentState)
         {
             case GameState.State1:
-            case GameState.State3:
+            case GameState.State4:
                 for (int i = 0; i < BellyPatchStickerCollider.Length; i++)
                 {
                     BellyPatchStickerCollider[i].enabled = flag;

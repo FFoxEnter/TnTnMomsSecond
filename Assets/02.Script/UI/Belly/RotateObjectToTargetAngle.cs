@@ -16,7 +16,7 @@ public class RotateObjectToTargetAngle : MonoBehaviour
     public float rotationAccuracy = 0.1f;
 
     // 회전 대기 시간
-    public float rotationWaitTime = 0.1f;
+    public float rotationWaitTime = 2.1f;
 
     // 회전하는 각도
     private Quaternion targetRotation;
