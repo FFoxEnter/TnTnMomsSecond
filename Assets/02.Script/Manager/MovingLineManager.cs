@@ -204,7 +204,9 @@ public class MovingLineManager : Singleton<MovingLineManager>
                     desiredRotation = tr.localRotation;
                 }
             }
-        }        
+        }
+
+        Invoke("InvokeStateCall", 2.0f);
 
         while (mainCam.transform.localPosition != desiredPosition)
         {           
@@ -262,5 +264,10 @@ public class MovingLineManager : Singleton<MovingLineManager>
             if (MovingLine[i].activeSelf)
                 MovingLine[i].SetActive(false);
         }
+    }
+
+    private void InvokeStateCall()
+    {
+        BellyPatchRoot.instance.ChangeState(BellyPatchRoot.GameState.State2);
     }
 }
