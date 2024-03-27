@@ -9,11 +9,12 @@ public class NavigationManager : Singleton<NavigationManager>
 {
     public static NavigationManager Instance;
 
-    [SerializeField] Transform SpecialFeatureParentTransform;
+    public Transform SpecialFeatureParentTransform;
     public string curZoneName = "Main_Zone";
     public string preZoneName = string.Empty;
     [SerializeField] List<NavigationButton> navigationButtons = new List<NavigationButton>();
     public SerializedDictionary<string, GameObject> zoneDic = new SerializedDictionary<string, GameObject>();
+    public SerializedDictionary<string, GameObject> UIZoneDic = new SerializedDictionary<string, GameObject>();
 
     public Coroutine zoneUICo;
 
@@ -35,15 +36,22 @@ public class NavigationManager : Singleton<NavigationManager>
         ViewBackButton.gameObject.SetActive(false);
         mapToggle.isOn = false;
         SpecialButtonView(false);
+        SpecialFeatureParentTransform = GameObject.Find("SpecialFeature").transform;
     }
 
     public void SpecialButtonView(bool value)
     {
-        if (ViewAllButton.gameObject.activeSelf != value && mapToggle.gameObject.activeSelf != value)
+        if (ViewAllButton.gameObject.activeSelf != value || mapToggle.gameObject.activeSelf != value)
         {
             ViewAllButton.gameObject.SetActive(value);
             mapToggle.gameObject.SetActive(value);
         }        
+    }
+
+    public void InitViewAllButtonSetting()
+    {
+        ViewAllButton.gameObject.SetActive(true);
+        ViewBackButton.gameObject.SetActive(false);
     }
 
     public void ShowNaviMap(bool value)
@@ -63,9 +71,9 @@ public class NavigationManager : Singleton<NavigationManager>
         if (SpecialFeatureParentTransform == null)
             SpecialFeatureParentTransform = GameObject.Find("SpecialFeature").transform;
 
-        foreach (Transform tr in SpecialFeatureParentTransform)
+        foreach (Transform specialFeatureTr in SpecialFeatureParentTransform)
         {
-            AddZoneDic(tr, button);
+            AddZoneDic(specialFeatureTr, button);
         }
     }
 
@@ -81,11 +89,11 @@ public class NavigationManager : Singleton<NavigationManager>
         }
     }
 
-    void AddZoneDic(Transform tr, NavigationButton button)
+    void AddZoneDic(Transform specialFeatureTr, NavigationButton button)
     {
-        string[] strings = tr.gameObject.name.Split('_');
+        string[] strings = specialFeatureTr.gameObject.name.Split('_');
         if (strings[0].Equals(button.zone.ToString()))
-            zoneDic.Add(button.name, tr.gameObject);
+            zoneDic.Add(button.name, specialFeatureTr.gameObject);        
     }
 
     public void InActivateZoneUI()
@@ -113,6 +121,7 @@ public class NavigationManager : Singleton<NavigationManager>
         GameObject panel = null;
         if (zoneDic.TryGetValue(navButton.name.ToString(), out panel) == true)
         {
+            UIRoot.Instance.curUIZone = panel;
             panel.SetActive(true);
         }
     }
@@ -130,11 +139,17 @@ public class NavigationManager : Singleton<NavigationManager>
     IEnumerator UIZoneActivateCo(string curZoneName)
     {
         yield return new WaitUntil(() => MovingLineManager.instance.isMoving == false);
-        GameObject panel = null;
-        if (zoneDic.TryGetValue(curZoneName, out panel) == true)
+        foreach (Transform tr in SpecialFeatureParentTransform)
         {
-            panel.SetActive(true);
+            if (tr.gameObject.name.Equals(curZoneName))
+            {
+                UIRoot.Instance.curUIZone = tr.gameObject;
+                tr.gameObject.SetActive(true);
+            }
+                
         }
+
+        MovingLineManager.instance.MovingLineCheck();
     }
 
     void OnMapStateChanged(Toggle toggle)
@@ -156,6 +171,7 @@ public class NavigationManager : Singleton<NavigationManager>
 
     void ViewBackButtonClick()
     {
+        MovingLineManager.instance.StopAllCamCo();
         MovingLineManager.instance.AllVideoOff();
         MovingLineManager.instance.CameraMove(curZoneName, true);
         ViewAllButton.gameObject.SetActive(true);

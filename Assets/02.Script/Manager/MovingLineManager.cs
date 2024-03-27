@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
 
@@ -38,6 +39,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
 
     [Header("-----ETC-----")]
     Camera mainCam;
+    public GameObject curPlayingVideo;
     public Coroutine mainCamMoveCo;
     public Coroutine CamZoomCo;
 
@@ -138,11 +140,15 @@ public class MovingLineManager : Singleton<MovingLineManager>
             }
         }
 
-        StartFadeOut();
-        if (button.name.Equals("btn - main"))
+        NavigationManager.instance.InitViewAllButtonSetting();
+
+        if (button.zone == NavigationButton.Zone.Main)
             NavigationManager.instance.SpecialButtonView(false);
         else
             NavigationManager.instance.SpecialButtonView(true);
+
+        StartFadeOut();
+        
         CamZoomCo = StartCoroutine(CameraZoom(button));
     }
 
@@ -208,25 +214,29 @@ public class MovingLineManager : Singleton<MovingLineManager>
                 {
                     desiredPosition = tr.localPosition;
                     desiredRotation = tr.localRotation;
+                    break;
                 }
             }
         }
 
         Invoke("InvokeStateCall", 2.0f);
-
-        while (mainCam.transform.localPosition != desiredPosition)
+   
+        while (mainCam.transform.localPosition != desiredPosition || mainCam.transform.localRotation != desiredRotation)
         {
             mainCam.transform.localPosition = Vector3.MoveTowards(mainCam.transform.localPosition, desiredPosition, smoothSpeed * Time.deltaTime); // 카메라의 위치를 부드럽게 이동된 위치로 설정
-            mainCam.transform.localRotation = Quaternion.Lerp(mainCam.transform.localRotation, desiredRotation, (smoothSpeed + 0.1f) * Time.deltaTime);
+            mainCam.transform.localRotation = Quaternion.Lerp(mainCam.transform.localRotation, desiredRotation, (smoothSpeed+0.6f) * Time.deltaTime);
 
             yield return null;
         }
+
         mainCam.transform.localPosition = desiredPosition;
+        mainCam.transform.localRotation = desiredRotation;
         isMoving = false;
+        
         MovingLineCheck();
     }    
 
-    void MovingLineCheck()
+    public void MovingLineCheck()
     {
         switch (NavigationManager.instance.curZoneName)
         {
@@ -259,6 +269,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
         GameObject video = null;
         if (MovingLineVideoDic.TryGetValue(eMovingLineVideo, out video) == true)
         {
+            curPlayingVideo = video;
             video.SetActive(true);
         }
     }
@@ -275,12 +286,13 @@ public class MovingLineManager : Singleton<MovingLineManager>
         if (isZoom)
         {
             list = zoomPosionTransformList;
-            NavigationManager.instance.InActivateZoneUI();
+            NavigationManager.instance.ActiviateZoneObj(curZoneName);
+            
         }
         else
         {
             list = initPosionTransformList;
-            NavigationManager.instance.ActiviateZoneObj(curZoneName);
+            NavigationManager.instance.InActivateZoneUI();
         }
 
         foreach (Transform tr in list)
@@ -292,14 +304,15 @@ public class MovingLineManager : Singleton<MovingLineManager>
             }
         }        
 
-        while (mainCam.transform.localPosition != desiredPosition)
+        while (mainCam.transform.localPosition != desiredPosition || mainCam.transform.localRotation != desiredRotation)
         {
             mainCam.transform.localPosition = Vector3.MoveTowards(mainCam.transform.localPosition, desiredPosition, smoothSpeed * Time.deltaTime); // 카메라의 위치를 부드럽게 이동된 위치로 설정
-            mainCam.transform.localRotation = Quaternion.Lerp(mainCam.transform.localRotation, desiredRotation, (smoothSpeed + 0.05f) * Time.deltaTime);
+            mainCam.transform.localRotation = Quaternion.Lerp(mainCam.transform.localRotation, desiredRotation, (smoothSpeed + 0.6f) * Time.deltaTime);
 
             yield return null;
         }
         mainCam.transform.localPosition = desiredPosition;
+        mainCam.transform.localRotation = desiredRotation;
         isMoving = false;
     }
 
@@ -312,8 +325,33 @@ public class MovingLineManager : Singleton<MovingLineManager>
         }
     }
 
+    public void BellyZone2FStart()
+    {
+        StartCoroutine(BellyZone2FStartCo());
+    }
+
+    IEnumerator BellyZone2FStartCo()
+    {
+        UIRoot.Instance.curUIZone.SetActive(false);
+        PlayMovingLine(EMovingLineVideo.V_Bearbelly);
+
+        GameObject curVideo = curPlayingVideo;
+        PlayableDirector playableDirector = curVideo.GetComponent<PlayableDirector>();
+
+        yield return new WaitUntil(() => playableDirector.state == PlayState.Paused);
+
+        GameObject panel = null;
+        if (NavigationManager.instance.zoneDic.TryGetValue("btn - 2F Belly Zone", out panel) == true)
+        {
+            UIRoot.Instance.curUIZone = panel;
+            panel.SetActive(true);
+        }
+    }
+
     private void InvokeStateCall()
     {
         BellyPatchRoot.instance.ChangeState(BellyPatchRoot.GameState.State2);
     }
+
+
 }
