@@ -39,11 +39,14 @@ public class NavigationButton : MonoBehaviour
     public GameObject Hover;
     public GameObject Selected;
 
+    [SerializeField] NavigationManager naviManager;
+
     private void Start()
     {
         SetButton();
         SetNavigationManager();
         SetButtonFunction();
+        NaviButtonAddDic();
     }
 
     private void SetButton()
@@ -52,12 +55,28 @@ public class NavigationButton : MonoBehaviour
         Hover = FindChildWithTag(this.gameObject, HoverTag);
         Selected = FindChildWithTag(this.gameObject, SelectedTag);
     }
+
+    void NaviButtonAddDic()
+    {
+        // 흠냥 : 임시
+        Transform specialFeatureParentTr = naviManager.SpecialFeatureParentTransform;
+        foreach (Transform uiZoneTr in specialFeatureParentTr)
+        {
+            string[] strings = uiZoneTr.gameObject.name.Split('_');
+            if (strings[0].Equals(zone.ToString()))
+            {
+                naviManager.UIZoneDic.Add(zone.ToString(), uiZoneTr.gameObject);
+                break;
+            }
+        }
+    }
     
     private void SetNavigationManager()
     {
         if (NavigationManager.Instance != null)
         {
-            NavigationManager.instance.AddButton(this);
+            naviManager = NavigationManager.Instance;
+            naviManager.AddButton(this);                 
         }
         else
         {
@@ -140,10 +159,10 @@ public class NavigationButton : MonoBehaviour
     {       
         SetCurZone();
 
-        if (NavigationManager.Instance.preZoneName.Equals(NavigationManager.instance.curZoneName))
+        if (naviManager.preZoneName.Equals(naviManager.curZoneName))
             return;
 
-        NavigationManager.instance.InActivateZoneUI();
+        naviManager.InActivateZoneUI();
         MovingLineManager.instance.MoveZone(this);
 
         UIZoneActivate();
@@ -151,12 +170,12 @@ public class NavigationButton : MonoBehaviour
 
     void SetCurZone()
     {
-        NavigationManager.instance.preZoneName = NavigationManager.instance.curZoneName;
-        NavigationManager.instance.curZoneName = $"{zone}_Zone";
+        naviManager.preZoneName = naviManager.curZoneName;
+        naviManager.curZoneName = $"{zone}_Zone";
     }
 
     void UIZoneActivate()
     {        
-        NavigationManager.instance.ActiviateZoneObj(this);
+        naviManager.ActiviateZoneObj(this);
     }
 }

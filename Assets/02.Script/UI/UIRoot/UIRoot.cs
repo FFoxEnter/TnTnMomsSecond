@@ -39,6 +39,7 @@ public class UIRoot : MonoBehaviour
     [Header("-----Temp-----")]
     public Image FadeInOutBg;
     public NavigationUIAni NavigationUIAni;
+    public GameObject curUIZone;
 
 
     private void Awake()
