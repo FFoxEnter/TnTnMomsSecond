@@ -2,19 +2,24 @@ using UnityEngine;
 
 public class Draggable : MonoBehaviour
 {
-    public Camera targetCamera;
+    public Camera MainCamera;
     public GameObject stopDragObject; // 드래그를 멈출 오브젝트
     private GameObject objectToDrag;
     private bool isDragging = false;
     private Vector3 originalPosition; // 이전 드래그 위치 저장 변수
-     
+
+    private void Awake()
+    {
+        SetMainCamera();
+    }
+
     void Update()
     {
         // 마우스 왼쪽 버튼을 클릭했을 때 오브젝트가 있으면 해당 오브젝트를 드래그 대상으로 설정
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
-            Ray ray = targetCamera.ScreenPointToRay(Input.mousePosition);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(ray, out hit))
             {
@@ -34,7 +39,7 @@ public class Draggable : MonoBehaviour
         {
             // 마우스 커서의 현재 위치를 세계 좌표로 변환
             Plane plane = new Plane(Vector3.forward, objectToDrag.transform.position);
-            Ray ray = targetCamera.ScreenPointToRay(Input.mousePosition);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             float distance;
 
             // 마우스 커서와 평면 간의 교차점을 계산하여 오브젝트를 해당 위치로 이동
@@ -66,7 +71,12 @@ public class Draggable : MonoBehaviour
     bool IsMouseOverObject(GameObject gameObject)
     {
         RaycastHit hit;
-        Ray ray = targetCamera.ScreenPointToRay(Input.mousePosition);
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         return Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject;
+    }
+
+    void SetMainCamera()
+    {
+        MainCamera = Camera.main;
     }
 }
