@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.UI;
 
 public class BellyZone : MonoBehaviour
@@ -125,6 +126,6 @@ public class BellyZone : MonoBehaviour
         NavigationManager.instance.preZoneName = "Belly_Zone";
         NavigationManager.instance.curZoneName = "Belly2F_Zone";
         NavigationManager.instance.InActivateZoneUI();
-        MovingLineManager.instance.PlayMovingLine(EMovingLineVideo.V_Bearbelly);
-    }
+        MovingLineManager.instance.BellyZone2FStart();
+    }    
 }
