@@ -235,7 +235,6 @@ Transform:
   - {fileID: 8364486266424963117}
   - {fileID: 4091647858767975103}
   - {fileID: 4029894469168259998}
-  - {fileID: 2678540785378247544}
   - {fileID: 2287201079647738744}
   - {fileID: 480759789881952456}
   - {fileID: 3839811503401962711}
@@ -254,7 +253,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BellyPackObject: {fileID: 2050915355907414584}
-  BellyPackOfStatue: {fileID: 6034020861406597686}
+  BellyPackOfStatue: {fileID: 5445990903879055326}
+  Sticker1OfStatue: {fileID: 1279702213035635485}
+  Sticker2OfStatue: {fileID: 873187588144774155}
   Bubble: {fileID: 41810256179029632}
   Tutorial: {fileID: 8520930904633142199}
   BearPack: {fileID: 7026808633362650651}
@@ -579,37 +580,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stickerActive001: {fileID: 1279702213035635485}
   stickerActive002: {fileID: 873187588144774155}
---- !u!1 &6034020861406597686
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2678540785378247544}
-  m_Layer: 0
-  m_Name: BellyPackOfStatue
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2678540785378247544
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6034020861406597686}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3170330660484394753}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7873107699107296827
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,6 +748,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   stopDragObject: {fileID: 4037474115658059048}
+  bellyPatchRoot: {fileID: 8154883846136766003}
+  isBearPatch01: 0
 --- !u!23 &5177851767420405721
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -931,6 +903,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   stopDragObject: {fileID: 4037474115658059048}
+  bellyPatchRoot: {fileID: 8154883846136766003}
+  isBearPatch01: 0
 --- !u!23 &8364224993520802937
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1314,6 +1288,11 @@ GameObject:
 --- !u!4 &2628157360139413825 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1401929611643489108, guid: c63de956e3a9be5428038cf12c3849b9, type: 3}
+  m_PrefabInstance: {fileID: 3967021168802439701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5445990903879055326 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8978413367715993035, guid: c63de956e3a9be5428038cf12c3849b9, type: 3}
   m_PrefabInstance: {fileID: 3967021168802439701}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5043629958399723225

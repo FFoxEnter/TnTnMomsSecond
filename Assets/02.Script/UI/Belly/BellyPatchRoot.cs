@@ -1,11 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BellyPatchRoot : Singleton<BellyPatchRoot>
 {
     public GameObject BellyPackObject;
     public GameObject BellyPackOfStatue;
+    public GameObject Sticker1OfStatue;
+    public GameObject Sticker2OfStatue;
     public GameObject Bubble;
 
     public GameObject Tutorial;
@@ -29,7 +29,7 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
         State2,// 카메라 진입 시.
         State3,// 팩 클릭 시.
         State4,// 스티커 가능.
-        State5// 초기화.
+        State5 // 초기화.
     }
     public GameState currentState;
 
@@ -141,4 +141,19 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
         }
     }
 
+    // Sticker1OfStatue를 활성화/비활성화하는 메서드.
+    public void SetStickerActive(bool active)
+    {
+        if (active)
+        {
+            Sticker1OfStatue.SetActive(true);
+            Sticker2OfStatue.SetActive(false);
+        }
+        else
+        {
+            Sticker1OfStatue.SetActive(false);
+            Sticker2OfStatue.SetActive(true);
+        }
+    }
 }
+
