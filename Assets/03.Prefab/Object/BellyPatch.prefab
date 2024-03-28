@@ -51,7 +51,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41810256179029632}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421fc2eb9750b594a8184865d53ced68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCamera: {fileID: 0}
+  MainCamera: {fileID: 0}
 --- !u!1 &330871901839012452
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,6 +255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BellyPackObject: {fileID: 2050915355907414584}
   BellyPackOfStatue: {fileID: 6034020861406597686}
+  Bubble: {fileID: 41810256179029632}
   Tutorial: {fileID: 8520930904633142199}
   BearPack: {fileID: 7026808633362650651}
   BellyPack: {fileID: 2800000, guid: 858130fbdf8059a4085fc24d8e625c34, type: 3}
@@ -341,7 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421fc2eb9750b594a8184865d53ced68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCamera: {fileID: 0}
+  MainCamera: {fileID: 0}
 --- !u!114 &7026808633362650651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -741,7 +742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421fc2eb9750b594a8184865d53ced68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCamera: {fileID: 0}
+  MainCamera: {fileID: 0}
 --- !u!65 &7053078381584881626
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -775,7 +776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0764fd2be0ce11418b4df1e10b35f2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCamera: {fileID: 0}
+  MainCamera: {fileID: 0}
   stopDragObject: {fileID: 4037474115658059048}
 --- !u!23 &5177851767420405721
 MeshRenderer:
@@ -894,7 +895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421fc2eb9750b594a8184865d53ced68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCamera: {fileID: 0}
+  MainCamera: {fileID: 0}
 --- !u!65 &6458691439490699140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -928,7 +929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0764fd2be0ce11418b4df1e10b35f2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCamera: {fileID: 0}
+  MainCamera: {fileID: 0}
   stopDragObject: {fileID: 4037474115658059048}
 --- !u!23 &8364224993520802937
 MeshRenderer:
@@ -1025,8 +1026,8 @@ Transform:
   m_GameObject: {fileID: 8973449952575783823}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.021, z: -0.0023}
-  m_LocalScale: {x: 1.9, y: 1.87, z: 0.05}
+  m_LocalPosition: {x: 0, y: -0.021, z: 0.0008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8483845540193097747}
@@ -1038,7 +1039,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8973449952575783823}
-  m_Mesh: {fileID: -257278029260952120, guid: e38a79f060421ca4ab888676d1a4e57c, type: 3}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &5632857358689678277
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1059,7 +1060,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a263cad2066bb746accacf89ab0ad5d, type: 2}
+  - {fileID: 2100000, guid: d8de450586669c74e909308bca794395, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
