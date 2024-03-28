@@ -17,6 +17,9 @@ public enum EMovingLineVideo
     Egg_EV_right,
     V_Newitem,
     V_Bearbelly,
+    V_Breast,
+    V_Skincare,
+    V_Outro
 }
 
 public class MovingLineManager : Singleton<MovingLineManager>
@@ -252,6 +255,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
             case "Breast2_Zone":
                 break;
             case "SkinCare_Zone":
+                PlayMovingLine(EMovingLineVideo.V_Skincare);
                 break;
             case "OralCare_Zone":
                 break;

@@ -19,7 +19,7 @@ public class Draggable : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = MainCamera.ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(ray, out hit))
             {
@@ -39,7 +39,7 @@ public class Draggable : MonoBehaviour
         {
             // 마우스 커서의 현재 위치를 세계 좌표로 변환
             Plane plane = new Plane(Vector3.forward, objectToDrag.transform.position);
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = MainCamera.ScreenPointToRay(Input.mousePosition);
             float distance;
 
             // 마우스 커서와 평면 간의 교차점을 계산하여 오브젝트를 해당 위치로 이동
@@ -71,7 +71,7 @@ public class Draggable : MonoBehaviour
     bool IsMouseOverObject(GameObject gameObject)
     {
         RaycastHit hit;
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Ray ray = MainCamera.ScreenPointToRay(Input.mousePosition);
         return Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject;
     }
 

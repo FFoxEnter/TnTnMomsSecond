@@ -876,6 +876,8 @@ MonoBehaviour:
     m_Values: []
   MapOnText: {fileID: 6467861074949009371}
   MapOffText: {fileID: 223162148672862306}
+  MapOnImage: {fileID: 4420212825476591557}
+  MapOffImage: {fileID: 3736452199838354870}
   ViewAllButton: {fileID: 2398751326792035045}
   ViewBackButton: {fileID: 1851219997927023550}
   mapToggle: {fileID: 5894159185995184520}
@@ -3021,7 +3023,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3001633751073446879}
   - {fileID: 1729411485034197960}
   - {fileID: 4572177320334521253}
   - {fileID: 6441224217370473941}
@@ -4265,7 +4266,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3001633751073446879}
   m_Father: {fileID: 8087858993248991308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
@@ -10142,7 +10144,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8087858993248991308}
+  m_Father: {fileID: 1729411485034197960}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10169,7 +10171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 247a70b73b0128e4cb5eb17ebaa70469, type: 2}
+  m_Material: {fileID: 2100000, guid: 13b3cb4c8efa87a4eac5282b135579cb, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
