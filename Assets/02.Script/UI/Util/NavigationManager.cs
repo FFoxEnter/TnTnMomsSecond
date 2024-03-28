@@ -13,7 +13,6 @@ public class NavigationManager : Singleton<NavigationManager>
     public string curZoneName = "Main_Zone";
     public string preZoneName = string.Empty;
     [SerializeField] List<NavigationButton> navigationButtons = new List<NavigationButton>();
-    public SerializedDictionary<string, GameObject> zoneDic = new SerializedDictionary<string, GameObject>();
     public SerializedDictionary<string, GameObject> UIZoneDic = new SerializedDictionary<string, GameObject>();
 
     public Coroutine zoneUICo;
@@ -67,14 +66,6 @@ public class NavigationManager : Singleton<NavigationManager>
     public void AddButton(NavigationButton button)
     {
         navigationButtons.Add(button);
-
-        if (SpecialFeatureParentTransform == null)
-            SpecialFeatureParentTransform = GameObject.Find("SpecialFeature").transform;
-
-        foreach (Transform specialFeatureTr in SpecialFeatureParentTransform)
-        {
-            AddZoneDic(specialFeatureTr, button);
-        }
     }
 
     public void DeselectAllButtonsExcept(NavigationButton selectedButton)
@@ -87,13 +78,6 @@ public class NavigationManager : Singleton<NavigationManager>
                 Debug.Log(button.name + " is Deselected");
             }
         }
-    }
-
-    void AddZoneDic(Transform specialFeatureTr, NavigationButton button)
-    {
-        string[] strings = specialFeatureTr.gameObject.name.Split('_');
-        if (strings[0].Equals(button.zone.ToString()))
-            zoneDic.Add(button.name, specialFeatureTr.gameObject);        
     }
 
     public void InActivateZoneUI()
@@ -119,7 +103,8 @@ public class NavigationManager : Singleton<NavigationManager>
     {
         yield return new WaitUntil(() => MovingLineManager.instance.isMoving == false);
         GameObject panel = null;
-        if (zoneDic.TryGetValue(navButton.name.ToString(), out panel) == true)
+        //if (zoneDic.TryGetValue(navButton.name.ToString(), out panel) == true)
+        if (UIZoneDic.TryGetValue(navButton.zone.ToString(), out panel) == true)
         {
             UIRoot.Instance.curUIZone = panel;
             panel.SetActive(true);

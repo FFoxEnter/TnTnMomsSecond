@@ -1,10 +1,8 @@
-using DA_Assets.Shared.Extensions;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Playables;
 using UnityEngine.UI;
 
 public class BellyZone : MonoBehaviour
@@ -111,12 +109,13 @@ public class BellyZone : MonoBehaviour
 
     void Belly2FDicAdd()
     {
-        Transform sFTransform = GameObject.Find("SpecialFeature").transform;
+        Transform sFTransform = NavigationManager.instance.SpecialFeatureParentTransform;
         foreach (Transform tr in sFTransform)
         {
-            if (tr.gameObject.name.Contains("Belly2F"))
+            if (tr.gameObject.name.Contains(Zone.Belly2f.ToString()))
             {
-                NavigationManager.instance.zoneDic.Add(BellyZone2FMoveButton.name, tr.gameObject);
+                NavigationManager.instance.UIZoneDic.Add(Zone.Belly2f.ToString(), tr.gameObject);
+                break;
             }
         }
     }
