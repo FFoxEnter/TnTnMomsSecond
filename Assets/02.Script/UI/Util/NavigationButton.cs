@@ -3,21 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[System.Serializable]
+public enum Zone
+{
+    Main = 1,
+    NewItem,
+    Belly,
+    Breast,
+    SkinCare,
+    OralCare,
+    Bath,
+    Fabric,
+    Food,
+    Belly2f,
+}
+
 public class NavigationButton : MonoBehaviour
 {
-    public enum Zone
-    {
-        Main = 1,
-        NewItem,
-        Belly,
-        Breast,
-        SkinCare,
-        OralCare,
-        Bath,
-        Fabric,
-        Food,
-        Belly2f,
-    }public Zone zone;
+    public Zone zone;
 
     /// <summary>
     /// 0: Default, 1: Hover, 2: Selected.

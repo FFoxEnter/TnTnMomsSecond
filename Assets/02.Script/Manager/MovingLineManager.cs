@@ -129,7 +129,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
         yield return new WaitUntil(() => isFading == false);
 
         GameObject uIZone = null;
-        if (NavigationManager.instance.zoneDic.TryGetValue(button.name, out uIZone))
+        if (NavigationManager.instance.UIZoneDic.TryGetValue(button.zone.ToString(), out uIZone))
         {
             foreach (Transform tr in initPosionTransformList)
             {
@@ -142,7 +142,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
 
         NavigationManager.instance.InitViewAllButtonSetting();
 
-        if (button.zone == NavigationButton.Zone.Main)
+        if (button.zone == Zone.Main)
             NavigationManager.instance.SpecialButtonView(false);
         else
             NavigationManager.instance.SpecialButtonView(true);
@@ -206,7 +206,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
     IEnumerator CameraZoom(NavigationButton button)
     {
         GameObject uIZone = null;
-        if (NavigationManager.instance.zoneDic.TryGetValue(button.name, out uIZone))
+        if (NavigationManager.instance.UIZoneDic.TryGetValue(button.zone.ToString(), out uIZone))
         {
             foreach (Transform tr in zoomPosionTransformList)
             {
@@ -341,7 +341,7 @@ public class MovingLineManager : Singleton<MovingLineManager>
         yield return new WaitUntil(() => playableDirector.state == PlayState.Paused);
 
         GameObject panel = null;
-        if (NavigationManager.instance.zoneDic.TryGetValue("btn - 2F Belly Zone", out panel) == true)
+        if (NavigationManager.instance.UIZoneDic.TryGetValue(Zone.Belly2f.ToString(), out panel))
         {
             UIRoot.Instance.curUIZone = panel;
             panel.SetActive(true);
