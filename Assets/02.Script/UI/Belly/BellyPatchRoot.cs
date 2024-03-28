@@ -6,6 +6,7 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
 {
     public GameObject BellyPackObject;
     public GameObject BellyPackOfStatue;
+    public GameObject Bubble;
 
     public GameObject Tutorial;
 
@@ -27,7 +28,7 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
         State1,// Scene 시작 시.
         State2,// 카메라 진입 시.
         State3,// 팩 클릭 시.
-        State4,
+        State4,// 스티커 가능.
         State5// 초기화.
     }
     public GameState currentState;
@@ -42,12 +43,15 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
     void OnState1Enter()
     {
         // State1 진입 시 실행될 코드.
+
+        // 스티커 비활성화
         StickerCollider(0, false);
     }
 
     void OnState2Enter()
     {
         // State2 진입 시 실행될 코드.
+
         BellyPackObject.SetActive(true);
         Statue.RotatePositiveDegreesCoroutine();
     }
@@ -55,15 +59,25 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
     void OnState3Enter()
     {
         // State3 진입 시 실행될 코드.
+
+        // 팩 비활성화.
         BellyPackObject.SetActive(false);
+        // 말풍선 비활성화.
+        Bubble.SetActive(false);
+        // 튜토리얼 활성화.
         Tutorial.SetActive(true);
+        // 석상의 팩 활성화.
         BellyPackOfStatue.SetActive(true);
     }
 
     void OnState4Enter()
     {
         // State4 진입 시 실행될 코드.
+
+        // 튜토리얼 비활성화.
         Tutorial.SetActive(false);
+
+        // 스티커 클릭 가능 Collider 활성화.
         StickerCollider(0, true);
     }
 
@@ -124,10 +138,6 @@ public class BellyPatchRoot : Singleton<BellyPatchRoot>
                     BellyPatchStickerCollider[i].enabled = flag;
                 }
                 break;
-            case GameState.State2:
-                BellyPatchStickerCollider[index].enabled = flag;
-                break;
-
         }
     }
 
