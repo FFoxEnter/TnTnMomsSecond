@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
 
@@ -20,6 +21,8 @@ public class NavigationManager : Singleton<NavigationManager>
     [Header("-----NaviMap-----")]
     public GameObject MapOnText;
     public GameObject MapOffText;
+    public Image MapOnImage;
+    public Image MapOffImage;
     public Button ViewAllButton;
     public Button ViewBackButton;
     public Toggle mapToggle;
@@ -102,8 +105,14 @@ public class NavigationManager : Singleton<NavigationManager>
     IEnumerator UIZoneActivateCo(NavigationButton navButton)
     {
         yield return new WaitUntil(() => MovingLineManager.instance.isMoving == false);
+
+        if (navButton.zone == Zone.SkinCare)
+        {
+            PlayableDirector playableDirector = MovingLineManager.instance.curPlayingVideo.GetComponent<PlayableDirector>();            
+            yield return new WaitUntil(() => playableDirector.time > 6.3d);
+        }   
+
         GameObject panel = null;
-        //if (zoneDic.TryGetValue(navButton.name.ToString(), out panel) == true)
         if (UIZoneDic.TryGetValue(navButton.zone.ToString(), out panel) == true)
         {
             UIRoot.Instance.curUIZone = panel;
@@ -141,6 +150,8 @@ public class NavigationManager : Singleton<NavigationManager>
     {
         MapOnText.SetActive(toggle.isOn);
         MapOffText.SetActive(!toggle.isOn);
+        MapOnImage.enabled = toggle.isOn;
+        MapOffImage.enabled = !toggle.isOn;
 
         naviMapAnim.SetBool("isMapOn", toggle.isOn);
     }
